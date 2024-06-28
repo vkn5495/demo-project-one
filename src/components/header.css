@@ -413,7 +413,7 @@
   color: #0079b5;
 }
 .social_media_icon_box:hover:nth-child(3) {
-  color: radial-gradient(
+  background: radial-gradient(
     circle at 30% 107%,
     #fdf497 0%,
     #fdf497 5%,
