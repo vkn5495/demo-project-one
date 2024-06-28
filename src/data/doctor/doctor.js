@@ -4,6 +4,7 @@ import Satyajit from "../../images/new/Picsart_24-06-16_23-08-52-110.jpg";
 export const Doctors = [
   {
     name: " Dr Sthita Gurrala",
+    degree: "BDS, MDS, AOCMF",
     subTitle:
       "Dr. Gurrala received her Bachelor of Dental Surgery degree from Goa Dental College & Hospital, Goa University scoring the highest marks in Oral & Maxillofacial Surgery. ",
     img: sthita,
@@ -16,9 +17,12 @@ export const Doctors = [
   },
   {
     name: " Dr Satyajit",
+    degree: "BDS",
     img: Satyajit,
+    subTitle:
+      "Dr. Satyajit holds a Bachelor of Dental Surgery degree from Goa Dental College & Hospital, Goa University.",
     des: [
-      "Dr. Satyajit holds a Bachelor of Dental Surgery degree from Goa Dental College & Hospital, Goa University. He worked as a junior resident for a year in the Department of Oral & Maxillofacial Surgery at Goa Dental College & Hospital after completing his studies.",
+      "He worked as a junior resident for a year in the Department of Oral & Maxillofacial Surgery at Goa Dental College & Hospital after completing his studies.",
       "With 8 years of experience in operating his dental practice, Dr. Satyajit is eager to share his expertise and knowledge at Face Multispecialty Clinic, showcasing exceptional skills in the field of dentistry.",
       "Dr. Satyajit is proficient in aesthetic rehabilitation of endodontically treated teeth, aesthetic composite restoration, nitrous oxide sedation analgesia, and anterior & posterior indirect restorations of teeth. He demonstrates astute clinical skills in re-treating cases and excels in overcoming endodontic errors.",
       "During his leisure time, Dr. Satyajit is an enthusiastic trekker, often embarking on challenging expeditions to scale the heights of the Western Ghats or the Himalayas.",

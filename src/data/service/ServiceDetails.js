@@ -296,14 +296,14 @@ export const servicesDoc = [
             ],
           },
           {
-            heading: "Step 3:",
+            heading: "Step 4:",
             des: [
               "Your Invisible aligners will be worn after your initial session. Except when you eat, drink, or brush your teeth, invisible aligners are worn all the time.",
               "Two weeks are spent wearing each tray. Your orthodontist or dentists will likely check in with you every six weeks to make sure your treatment is progressing as planned.",
             ],
           },
           {
-            heading: "Step 4:",
+            heading: "Step 5:",
             des: [
               "Around twelve to eighteen months are required for the entire Invisible Aligners treatment process. Some patients may finish their therapy sooner.",
             ],

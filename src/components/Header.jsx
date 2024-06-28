@@ -22,6 +22,7 @@ import { FaCog } from 'react-icons/fa'
 import { Doctors } from '../data/doctor/doctor';
 
 
+
 const ThemeColor = () => {
     const themes = [
         {
@@ -276,14 +277,20 @@ const SocialIcon = () => {
     )
 }
 const Branding = () => {
-
+    const navigate = useNavigate()
     const doctorName = [`${i18n.t("dr")} ${i18n.t("Sthita Gurrala")}`, 'dr Satyajit']
 
     return (
         <>
             <div className="branding">
                 <div className="branding_content container">
-                    <div className="branding_left">
+                    <div className="branding_left"
+                        style={{
+                            cursor: "pointer"
+                        }}
+                        onClick={() => navigate('/')
+                        }
+                    >
                         <div className="logo_img">
                             <img src={Logo} alt="" />
                         </div>
@@ -380,7 +387,8 @@ const Navbar = () => {
         <div className={`navabar ${stickyHeader ? "active" : ""}`} ref={stickyDivRef}>
             <div className={`nav-links container ${stickyHeader ? "p-0" : "margin_bottom"}`}>
                 {
-                    stickyHeader && <div className="navbar_logo">
+                    stickyHeader && <div className="navbar_logo"
+                        onClick={() => navigator('/')}>
                         <div className="logo_img">
                             <img src={image} className='color-filter' alt="" />
                         </div>

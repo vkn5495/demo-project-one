@@ -41,11 +41,7 @@ const FooterTwo = () => {
                     name: "7972749303",
                     icon: <IoCall />
                 },
-                {
-                    name: "facemultispecialtyclinic@gmail.com",
-                    link: 'mailto:facemultispecialtyclinic@gmail.com',
-                    icon: <IoIosMail />
-                },
+
             ]
         },
         {
@@ -66,6 +62,11 @@ const FooterTwo = () => {
                     link: 'https://www.linkedin.com/in/dr-sthita-gurrala',
                     target: '_blank',
                     icon: <FaLinkedin />
+                },
+                {
+                    name: "facemultispecialtyclinic@gmail.com",
+                    link: 'mailto:facemultispecialtyclinic@gmail.com',
+                    icon: <IoIosMail />
                 },
             ]
         }
@@ -88,7 +89,7 @@ const FooterTwo = () => {
                                                         <div key={i} className="FooterTwo_des_box"
                                                             onClick={id === 0 ? () => context.handleClickDoctor(prodt) :
                                                                 id === 1 ? () => context.handleServiceDeatil(prodt, setUp) :
-                                                                    () => handleClick(prodt?.link)
+                                                                    prodt?.link ? () => handleClick(prodt?.link) : null
                                                             }>
                                                             <span>{prodt?.icon}</span>
                                                             <span>{prodt?.name}</span>

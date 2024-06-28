@@ -29,26 +29,29 @@ const Meet = () => {
               <div className="meet_us_des_title">Meet Your Oral Surgeon, {doctor.name}</div>
               <div className="meet_us_des_sub_title">{doctor?.subTitle}</div>
               <div className="meet_us_des_details">
-                {
-                  doctor?.des?.map((item, id) => {
-                    return (
-                      <p className="meet_us_des_details_box">
+                <div className="meet_us_des_details_des">
+                  {
+                    doctor?.des?.map((item, id) => {
+                      return (
+                        <>
+                          <li className="meet_us_des_details_box">
+                            {item}
+                          </li>
 
-                        {id === 0 &&
-                          <div className="meet_us_des_details_box_img">
-                            <img src={doctor?.img} />
-                            <div className="doctor_name">
-                              <span>{doctor?.name}</span>
-                              <span>Oral Surgeon</span>
-                            </div>
-                          </div>
+                        </>
+                      )
+                    })
+                  }
+                </div>
 
-                        }
-                        {item}
-                      </p>
-                    )
-                  })
-                }
+                <div className="meet_us_des_details_box_img">
+                  <img src={doctor?.img} />
+                  <div className="doctor_name">
+                    <span>{doctor?.name}</span>
+                    <span>{doctor?.degree}</span>
+                    <span>Oral & Maxillofacial Surgeon</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

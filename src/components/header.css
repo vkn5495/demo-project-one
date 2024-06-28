@@ -181,6 +181,7 @@
 .navbar_logo {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .navbar_logo .logo_img img {
   width: 5rem;
@@ -335,7 +336,7 @@
   padding: 10px 12px;
   border-radius: 8px;
   border: 1px solid #d9d9d9;
-  background-color: #ffffff79;
+  background-color: #fff;
   box-shadow: rgba(0 0 0 /0.2) 0 0 0.5rem;
   display: flex;
   flex-direction: column;

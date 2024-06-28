@@ -29,6 +29,7 @@ import Slider from 'react-slick'
 import { GrNext, GrPrevious } from 'react-icons/gr'
 import { AppContext } from '../../Context/Context';
 import { servicesDoc } from '../../data/service/ServiceDetails';
+import { BiSolidQuoteAltRight } from "react-icons/bi";
 
 const NextArrow = (props) => {
   const { onClick } = props
@@ -489,6 +490,10 @@ const PatientSpeak = () => {
                   <div key={id} className="patient_speak_box">
                     <div className="patient_speak_box_des">{item?.des}</div>
                     <div className="patient_speak_box_doc">{item?.doc}</div>
+                    <div className="patient_speak_box_icon">
+                      <span><BiSolidQuoteAltRight /></span>
+                      <span><BiSolidQuoteAltRight /></span>
+                    </div>
                   </div>
                 )
               })
