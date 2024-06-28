@@ -13,7 +13,7 @@
 .meet_us_details {
   height: 100%;
   width: 100%;
-  margin-top: -7rem;
+  margin-top: -8rem;
   display: flex;
   gap: 3rem;
 }
@@ -26,7 +26,7 @@
     var(--main-color)
   );
   padding-left: 1rem;
-  padding-top: 7rem;
+  padding-top: 8rem;
 }
 .meet_us_list_name {
   padding: 8px;
@@ -40,10 +40,10 @@
   background: var(--secondary-color);
 }
 .meet_us_des {
-  padding-top: 9rem;
+  padding-top: 10rem;
   margin-right: 5rem;
   flex-grow: 1;
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
   flex-shrink: 1;
 }
 .meet_us_des_title {
@@ -56,6 +56,11 @@
   font-weight: 700;
   font-family: var(--ff-heading);
   margin: 1rem 0;
+  color: var(--secondary-color);
+  filter: brightness(0.5);
+}
+.meet_us_des_details {
+  margin-top: 2rem;
 }
 .meet_us_des_details_box_img img {
   width: 25rem;
@@ -71,7 +76,7 @@
   position: relative;
   float: right;
   margin-left: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   border-radius: 1rem 1rem 0 0;
   /* border: 1px solid var(--secondary-color); */
   /* box-shadow: rgba(0 0 0/0.2) 0.3rem 0 0.5rem; */
