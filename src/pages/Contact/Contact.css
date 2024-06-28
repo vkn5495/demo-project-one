@@ -1,0 +1,50 @@
+:root {
+  --main-color: #7b1fa2;
+  --light-color: #7b1fa237;
+  --secondary-color: #ab47bc;
+  --white-color: #fff;
+  --black-color: #000;
+  --ff-normal: "Nunito", sans-serif;
+  --ff-height: "Oswald", sans-serif;
+  --ff-italic: "Pinyon Script", cursive;
+  --ff-heading: "Kurale", serif;
+}
+
+.contact_page_details {
+  margin: 1rem 0 3rem;
+}
+.contact_page_title {
+  font-size: 4.2rem;
+  color: var(--main-color);
+  font-family: var(--ff-height);
+  text-transform: capitalize;
+  /* text-align: center; */
+  padding: 2rem 0;
+  border-bottom: 4px double var(--secondary-color);
+  /* filter: hue-rotate(50deg); */
+}
+.contact_page_des {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0;
+}
+.second_row img {
+  width: 50rem;
+  height: 30rem;
+  object-fit: cover;
+}
+.first_row_details {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.first_row_details_box_head {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  font-family: var(--ff-heading);
+  filter: brightness(0.5);
+}
+.first_row_details_box_des_item {
+  font-size: 18px;
+}
