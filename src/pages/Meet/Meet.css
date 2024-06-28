@@ -57,12 +57,43 @@
   font-family: var(--ff-heading);
   margin: 1rem 0;
 }
-.meet_us_des_details img {
+.meet_us_des_details_box_img img {
   width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid var(--secondary-color);
   /* margin-left: 30px; */
-  float: right;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px;*/
   /* vertical-align: middle; */
+}
+.meet_us_des_details_box_img {
+  position: relative;
+  float: right;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem 1rem 0 0;
+  /* border: 1px solid var(--secondary-color); */
+  /* box-shadow: rgba(0 0 0/0.2) 0.3rem 0 0.5rem; */
+}
+.doctor_name {
+  position: absolute;
+  background-color: var(--main-color);
+  width: 100%;
+  bottom: -5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.doctor_name span:first-child {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--white-color);
+}
+.doctor_name span:last-child {
+  font-size: 22px;
+  opacity: 0.7;
+  color: var(--white-color);
 }
 .meet_us_des_details_box {
   font-size: 20px;

@@ -180,6 +180,7 @@ const Service = () => {
                         <div className="service_page_list">
                             {
                                 servicesDoc?.map((item, id) => {
+                                    const child = (id === 0 ? "one" : id === 1 ? "two" : id === 2 ? "three" : "four")
                                     const SubTitleCom = ({ subTitle }) => {
                                         return (
                                             <div className="service_page_list_sub_title_name">
@@ -199,7 +200,7 @@ const Service = () => {
                                         <div className="service_page_list_box" key={id}>
                                             <div className={`service_page_list_name ${context.serviceMainHead?.title === item?.title ? "active" : ""}`}
                                                 onClick={() => context.handleServiceDeatil(item, null)}>{item?.title}</div>
-                                            <div className={`service_page_list_sub_title hello ${context.serviceMainHead?.title === item?.title ? "drop_down" : ""}`}>
+                                            <div className={`service_page_list_sub_title hello ${child} ${context.serviceMainHead?.title === item?.title ? "drop_down" : ""}`}>
                                                 {
                                                     item?.subHead ?
                                                         <>
@@ -268,7 +269,7 @@ const Service = () => {
                                                     null :
                                                     <ComTwo item={service?.materials} main={service} />
                                             )
-                                        },
+                                        }
                                         {
                                             service?.type &&
                                             <ComTwo item={service?.type} main={service} />

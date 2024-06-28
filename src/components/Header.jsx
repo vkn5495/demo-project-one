@@ -14,7 +14,7 @@ import france from '../images/flag/fr.png'
 import china from '../images/flag/cn.png'
 import { RiInstagramFill } from "react-icons/ri";
 import { FaFacebook, FaLinkedin, FaTwitter, FaYoutube, FaWhatsappSquare } from 'react-icons/fa';
-import { IoLogoWhatsapp } from "react-icons/io";
+import { IoIosMail, IoLogoWhatsapp } from "react-icons/io";
 import { servicesDoc } from '../data/service/ServiceDetails';
 import { AppContext } from '../Context/Context';
 
@@ -223,25 +223,40 @@ const SocialIcon = () => {
         // },
         {
             name: "whatApp",
+            link: 'https://api.whatsapp.com/send?phone=9021594170',
             icon: <IoLogoWhatsapp />,
         },
         {
-            name: "FaceBook",
-            icon: <FaFacebook />
+            name: "Gmail",
+            link: 'mailto:facemultispecialtyclinic@gmail.com',
+            icon: <IoIosMail />
         },
+        // {
+        //     name: "FaceBook",
+        //     icon: <FaFacebook />
+        // },
         // {
         //     name: "Twitter",
         //     icon: <FaTwitter />
         // },
         {
             name: "Instagram",
+            link: 'https://www.instagram.com/facemultispecialtyclinic',
+            target: '_blank',
             icon: <RiInstagramFill />
         },
         {
             name: "LinkedIn",
+            link: 'https://www.linkedin.com/in/dr-sthita-gurrala',
+            target: '_blank',
             icon: <FaLinkedin />
         },
+
     ]
+
+    const handleClick = (item) => {
+        window.location.href = item
+    };
     return (
         <div className="social_icon">
             <div className="social_icon_content">
@@ -249,7 +264,9 @@ const SocialIcon = () => {
                     {
                         socialMedia.map((item, idx) => {
                             return (
-                                <div key={idx} className="social_media_icon_box">{item?.icon}</div>
+                                <div key={idx} className="social_media_icon_box"
+                                    onClick={() => handleClick(item?.link)}
+                                >{item?.icon}</div>
                             )
                         })
                     }

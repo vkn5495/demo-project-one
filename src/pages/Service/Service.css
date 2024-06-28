@@ -60,6 +60,18 @@
 .service_page_list_sub_title.drop_down {
   height: 500px;
 }
+.service_page_list_sub_title.one.drop_down {
+  height: 482px;
+}
+.service_page_list_sub_title.two.drop_down {
+  height: 486px;
+}
+.service_page_list_sub_title.three.drop_down {
+  height: 448px;
+}
+.service_page_list_sub_title.four.drop_down {
+  height: 664px;
+}
 .service_page_list_sub_title_name_box {
   padding: 8px 1rem;
   font-size: 16px;
@@ -101,6 +113,7 @@
 }
 .service_page_list_sub_head {
   padding: 8px;
+  text-transform: capitalize;
   text-align: center;
   font-size: 18px;
   background-color: var(--white-color);
@@ -110,6 +123,7 @@
 .service_page_des_content_details_heading {
   font-size: 32px;
   margin: 2rem 0;
+  text-transform: capitalize;
   font-weight: 700;
 }
 .service_page_des_content_details_des {
@@ -129,6 +143,7 @@
 .title_style {
   font-size: 32px;
   font-weight: 700;
+  text-transform: capitalize;
 }
 .des_style {
   font-size: 18px;
@@ -149,11 +164,13 @@
 .sub_title_style {
   /* list-style-type: disc; */
   font-size: 22px;
+  text-transform: capitalize;
   font-weight: 700;
 }
 .sub_title_style_two {
   font-size: 20px;
-  font-weight: 600;
+  text-transform: capitalize;
+  font-weight: 700;
   color: var(--main-color);
 }
 .normal_text,

@@ -422,7 +422,6 @@
     #285aeb 90%
   );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .social_media_icon_box::before {
   content: "";

@@ -35,7 +35,15 @@ const Meet = () => {
                       <p className="meet_us_des_details_box">
 
                         {id === 0 &&
-                          <img src={doctor?.img} />}
+                          <div className="meet_us_des_details_box_img">
+                            <img src={doctor?.img} />
+                            <div className="doctor_name">
+                              <span>{doctor?.name}</span>
+                              <span>Oral Surgeon</span>
+                            </div>
+                          </div>
+
+                        }
                         {item}
                       </p>
                     )
