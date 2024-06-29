@@ -119,7 +119,7 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Root canals",
+        name: "Root Canals Therapy",
         img: RootCanals,
         head: {
           heading: "What is Root Canal Treatment?",
@@ -262,7 +262,7 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Aligners",
+        name: "Invisalign Braces (invisible braces)",
         img: Aligners,
         head: {
           heading: "Invisible Tooth Aligners",
@@ -477,32 +477,32 @@ export const servicesDoc = [
           },
         ],
       },
-      {
-        name: "Extraction of teeth",
-        img: Extraction,
-        head: {
-          heading: "What is Tooth Extraction?",
-          des: [
-            "Tooth extraction is a dental procedure where a tooth is removed from its socket in the bone. It is typically performed by a dentist or oral surgeon under local or general anesthesia.",
-            "Extractions are necessary for several reasons, including severe tooth decay, advanced gum disease, crowding, trauma, or when a tooth cannot be saved by other treatments like root canal therapy.",
-            "The procedure aims to alleviate pain, prevent the spread of infection, and preserve overall oral health.",
-          ],
-        },
-        procedure: [
-          "Examination: The dentist or oral surgeon examines your mouth, reviews your dental and medical history, and takes X-rays to understand the position of the tooth and surrounding bone.",
-          "Anesthesia: Local anesthesia is administered to numb the area around the tooth. In some cases, general anesthesia or sedation may be used.",
-          "Loosening the Tooth: The dentist or oral surgeon uses an instrument called an elevator to loosen the tooth from the gums and jawbone.",
-          "Extraction: Once loosened, forceps are used to remove the tooth from the socket.",
-          "Post-Extraction Care: Gauze is placed over the extraction site to control bleeding. The patient is given instructions for home care, including pain management, swelling reduction, and diet restrictions.",
-        ],
-        purpose: [
-          "Remove Damaged Tooth: Extraction removes teeth that are severely decayed, broken, or damaged beyond repair.",
-          "Prevent Infection: Removing infected teeth prevents the spread of infection to other teeth and areas of the mouth.",
-          "Alleviate Pain: Extraction can relieve pain caused by problematic teeth, such as impacted wisdom teeth.",
-          "Prepare for Orthodontics: Sometimes teeth are extracted to make room for proper alignment during orthodontic treatment.",
-          "Resolve Overcrowding: Extraction can address overcrowding issues, allowing for better oral hygiene and overall dental health.",
-        ],
-      },
+      // {
+      //   name: "Extraction of teeth",
+      //   img: Extraction,
+      //   head: {
+      //     heading: "What is Tooth Extraction?",
+      //     des: [
+      //       "Tooth extraction is a dental procedure where a tooth is removed from its socket in the bone. It is typically performed by a dentist or oral surgeon under local or general anesthesia.",
+      //       "Extractions are necessary for several reasons, including severe tooth decay, advanced gum disease, crowding, trauma, or when a tooth cannot be saved by other treatments like root canal therapy.",
+      //       "The procedure aims to alleviate pain, prevent the spread of infection, and preserve overall oral health.",
+      //     ],
+      //   },
+      //   procedure: [
+      //     "Examination: The dentist or oral surgeon examines your mouth, reviews your dental and medical history, and takes X-rays to understand the position of the tooth and surrounding bone.",
+      //     "Anesthesia: Local anesthesia is administered to numb the area around the tooth. In some cases, general anesthesia or sedation may be used.",
+      //     "Loosening the Tooth: The dentist or oral surgeon uses an instrument called an elevator to loosen the tooth from the gums and jawbone.",
+      //     "Extraction: Once loosened, forceps are used to remove the tooth from the socket.",
+      //     "Post-Extraction Care: Gauze is placed over the extraction site to control bleeding. The patient is given instructions for home care, including pain management, swelling reduction, and diet restrictions.",
+      //   ],
+      //   purpose: [
+      //     "Remove Damaged Tooth: Extraction removes teeth that are severely decayed, broken, or damaged beyond repair.",
+      //     "Prevent Infection: Removing infected teeth prevents the spread of infection to other teeth and areas of the mouth.",
+      //     "Alleviate Pain: Extraction can relieve pain caused by problematic teeth, such as impacted wisdom teeth.",
+      //     "Prepare for Orthodontics: Sometimes teeth are extracted to make room for proper alignment during orthodontic treatment.",
+      //     "Resolve Overcrowding: Extraction can address overcrowding issues, allowing for better oral hygiene and overall dental health.",
+      //   ],
+      // },
       {
         name: "Teeth whitening",
         img: demoImage,
@@ -663,34 +663,34 @@ export const servicesDoc = [
       {
         name: "Dental Implants",
         subTitle: [
-          {
-            name: "Advanced implantology",
-            img: AdvancedImplantology,
-            head: {
-              heading: "What is Advanced Implantology?",
-              des: [
-                "Advanced implantology refers to the specialized field of dentistry focused on the placement and restoration of dental implants.",
-                "It involves complex procedures and techniques aimed at providing solutions for patients with challenging cases or specific needs.",
-                "Advanced implantology combines advanced surgical techniques, cutting-edge materials, and digital technologies to achieve optimal outcomes.",
-              ],
-            },
-            procedure: [
-              "Initial Consultation: The dentist evaluates the patient's oral health, takes X-rays or 3D scans, and discusses treatment options.",
-              "Treatment Planning: A detailed treatment plan is created, often using computer-aided design (CAD) software to plan the placement of the implants.",
-              "Bone Grafting (if necessary): If there is insufficient bone, a bone graft may be performed to provide a stable foundation for the implants.",
-              "Implant Placement: Titanium implants are surgically placed into the jawbone. This may involve multiple stages, such as placing the implant and then attaching an abutment after healing.",
-              "Osseointegration: The implants are left to integrate with the jawbone over a period of several months, ensuring stability.",
-              "Abutment Placement: After osseointegration, an abutment is attached to the implant, which will hold the final restoration.",
-              "Crown Placement: Finally, a custom-made crown, bridge, or denture is attached to the abutment, restoring the function and appearance of the teeth.",
-            ],
-            purpose: [
-              "Replace Missing Teeth: Implants provide a permanent solution for replacing one or more missing teeth.",
-              "Preserve Jawbone: Implants help maintain the jawbone's structure and prevent bone loss that occurs with missing teeth.",
-              "Restore Function: Implants restore the ability to chew and speak effectively, improving overall oral function.",
-              "Enhance Aesthetics: Dental implants look and feel like natural teeth, improving the appearance of the smile.",
-              "Support Oral Health: Implants do not affect adjacent teeth, preserving natural tooth structure and promoting overall oral health.",
-            ],
-          },
+          // {
+          //   name: "Advanced implantology",
+          //   img: AdvancedImplantology,
+          //   head: {
+          //     heading: "What is Advanced Implantology?",
+          //     des: [
+          //       "Advanced implantology refers to the specialized field of dentistry focused on the placement and restoration of dental implants.",
+          //       "It involves complex procedures and techniques aimed at providing solutions for patients with challenging cases or specific needs.",
+          //       "Advanced implantology combines advanced surgical techniques, cutting-edge materials, and digital technologies to achieve optimal outcomes.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     "Initial Consultation: The dentist evaluates the patient's oral health, takes X-rays or 3D scans, and discusses treatment options.",
+          //     "Treatment Planning: A detailed treatment plan is created, often using computer-aided design (CAD) software to plan the placement of the implants.",
+          //     "Bone Grafting (if necessary): If there is insufficient bone, a bone graft may be performed to provide a stable foundation for the implants.",
+          //     "Implant Placement: Titanium implants are surgically placed into the jawbone. This may involve multiple stages, such as placing the implant and then attaching an abutment after healing.",
+          //     "Osseointegration: The implants are left to integrate with the jawbone over a period of several months, ensuring stability.",
+          //     "Abutment Placement: After osseointegration, an abutment is attached to the implant, which will hold the final restoration.",
+          //     "Crown Placement: Finally, a custom-made crown, bridge, or denture is attached to the abutment, restoring the function and appearance of the teeth.",
+          //   ],
+          //   purpose: [
+          //     "Replace Missing Teeth: Implants provide a permanent solution for replacing one or more missing teeth.",
+          //     "Preserve Jawbone: Implants help maintain the jawbone's structure and prevent bone loss that occurs with missing teeth.",
+          //     "Restore Function: Implants restore the ability to chew and speak effectively, improving overall oral function.",
+          //     "Enhance Aesthetics: Dental implants look and feel like natural teeth, improving the appearance of the smile.",
+          //     "Support Oral Health: Implants do not affect adjacent teeth, preserving natural tooth structure and promoting overall oral health.",
+          //   ],
+          // },
           {
             name: "Implant-supported dentures",
             img: ImplantSupported,
@@ -804,6 +804,10 @@ export const servicesDoc = [
       {
         name: "Oral Surgery",
         subTitle: [
+          {
+            name: "Removing (extracting) teeth",
+            img: Extraction,
+          },
           {
             name: "Wisdom tooth extractions",
             img: WisdomTooth,

@@ -30,6 +30,9 @@ import { GrNext, GrPrevious } from 'react-icons/gr'
 import { AppContext } from '../../Context/Context';
 import { servicesDoc } from '../../data/service/ServiceDetails';
 import { BiSolidQuoteAltRight } from "react-icons/bi";
+import docSerOne from '../../images/convenient.svg'
+import docSerTwo from '../../images/service.svg'
+import docSerThree from '../../images/tooth.svg'
 
 const NextArrow = (props) => {
   const { onClick } = props
@@ -68,25 +71,20 @@ const OurStory = () => {
 
   const docSer = [
     {
-      logo: <FaBusinessTime />,
-      title: '24 hours service',
-      des: 'providing unwavering support around the clock.our 24 hours services ensure'
+      img: docSerOne,
+      title: 'All-Around Comfort',
+      des: 'That wasn’t painful at all!” is one of our favorite things to hear. We’ll make sure you feel completely comfortable with our virtually painless injections and calming nitrous options.'
     },
     {
-      logo: <FaUserDoctor />,
-      title: 'qualified doctor',
-      des: 'a qualified doctor prossesses comprehensive understanding the medical services'
+      img: docSerTwo,
+      title: 'Just Like Home',
+      des: 'We’re a family dental office — and we mean that in more ways than one. Our friendly staff is committed to making you feel like part of our family from day one.'
     },
     {
-      logo: <FaSuitcaseMedical />,
-      title: 'emergency care',
-      des: 'it is timily intervetion plays a crucial role in stabling patients saving lives'
+      img: docSerThree,
+      title: 'Highest Quality Treatment',
+      des: 'You deserve a smile that lasts forever. We stand behind our work by providing the highest-quality treatments and a 3-year warranty.'
     },
-    {
-      logo: <TbToolsOff />,
-      title: 'operation treater',
-      des: 'it is equipped with specialized tools and technology to ensure the safety'
-    }
   ]
 
   return (
@@ -173,12 +171,12 @@ const OurStory = () => {
         {/* <div className="bio_of_doc_services">
           <div className="bio_of_doc_services_content">
             {
-              servicesDoc.map((item, id) => {
+              docSer.map((item, id) => {
                 return (
                   <div key={id} className="bio_of_doc_services_box">
-                    <div className="bio_of_doc_services_box_icon">{item?.logo}</div>
+                    <img src={item?.img} alt="" className="bio_of_doc_services_box_img" />
                     <div className="bio_of_doc_services_box_title">{item?.title}</div>
-                    <div className="bio_of_doc_services_box_des">providing unwavering support around the clock.our 24 hours services ensure</div>
+                    <div className="bio_of_doc_services_box_des">{item?.des}</div>
                   </div>
                 )
               })

@@ -563,7 +563,8 @@
 }
 .bio_of_doc_services_box {
   display: flex;
-  background-color: #d9eae9;
+  background-color: var(--secondary-color);
+  filter: saturate(0.5);
   border-radius: 8px;
   box-shadow: rgba(0 0 0 /0.2) 2px 2px 12px;
   flex-direction: column;
@@ -877,6 +878,9 @@
   text-align: center;
   font-weight: 700;
   text-transform: capitalize;
+}
+.bio_of_doc_services_box_img svg path {
+  fill: #000;
 }
 .patient_speak_details {
   /* display: flex; */

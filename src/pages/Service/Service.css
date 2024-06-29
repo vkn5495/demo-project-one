@@ -75,6 +75,7 @@
 .service_page_list_sub_title_name_box {
   padding: 8px 1rem;
   font-size: 16px;
+  list-style: disc;
 }
 .service_page_list_sub_title_name_box.active {
   background-color: var(--main-color);
@@ -91,12 +92,42 @@
 .service_page_des_content_details {
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
   gap: 3rem;
+}
+.first_col {
+  flex: 1;
+  order: -2;
+}
+.second_col {
+  order: 1;
+}
+.second_col_content {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 1px solid rgb(199, 199, 199);
+}
+.second_col_name {
+  font-size: 24px;
+  width: 25rem;
+  font-weight: 700;
+  padding: 1rem 8px;
+  text-align: center;
+}
+.second_col_content:hover {
+  /* border: none; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0 0 1rem;
+  transform: scale(1.01);
 }
 .second_col img {
   width: 25rem;
-  height: 25rem;
-  border-radius: 50%;
+  height: 23rem;
+  border-radius: 8px;
+  object-fit: cover;
+
+  /* padding: 1rem; */
+  box-shadow: rgba(0 0 0 /1%) 0 0 1rem;
+  /* border-radius: 50%; */
 }
 .service_page_des_title {
   color: var(--white-color);
@@ -114,7 +145,7 @@
 .service_page_list_sub_head {
   padding: 8px;
   text-transform: capitalize;
-  text-align: center;
+  /* text-align: center; */
   font-size: 18px;
   background-color: var(--white-color);
   color: var(--black-color);

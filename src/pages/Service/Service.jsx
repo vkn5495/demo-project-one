@@ -166,7 +166,22 @@ const ComFive = (props) => {
         </div>
     )
 }
-
+const SubTitleCom = ({ subTitle }) => {
+    const context = useContext(AppContext)
+    return (
+        <div className="service_page_list_sub_title_name">
+            {
+                subTitle?.map((u, i) => {
+                    return (
+                        <li className={`service_page_list_sub_title_name_box 
+                            ${context.servicePerDetail.name === u.name ? "active" : ""}`}
+                            onClick={() => context.handleServiceDeatil(null, u)} key={i}>{u?.name}</li>
+                    )
+                })
+            }
+        </div>
+    )
+}
 
 const Service = () => {
     const context = useContext(AppContext)
@@ -181,26 +196,12 @@ const Service = () => {
                             {
                                 servicesDoc?.map((item, id) => {
                                     const child = (id === 0 ? "one" : id === 1 ? "two" : id === 2 ? "three" : "four")
-                                    const SubTitleCom = ({ subTitle }) => {
-                                        return (
-                                            <div className="service_page_list_sub_title_name">
-                                                {
-                                                    subTitle?.map((u, i) => {
-                                                        return (
-                                                            <div className={`service_page_list_sub_title_name_box 
-                                                                ${context.servicePerDetail.name === u.name ? "active" : ""}`}
-                                                                onClick={() => context.handleServiceDeatil(null, u)} key={i}>{u?.name}</div>
-                                                        )
-                                                    })
-                                                }
-                                            </div>
-                                        )
-                                    }
+                                    const setUp = () => id === 1 ? item?.subHead[0]?.subTitle[0] : item?.subTitle[0]
                                     return (
                                         <div className="service_page_list_box" key={id}>
                                             <div className={`service_page_list_name ${context.serviceMainHead?.title === item?.title ? "active" : ""}`}
-                                                onClick={() => context.handleServiceDeatil(item, null)}>{item?.title}</div>
-                                            <div className={`service_page_list_sub_title hello ${child} ${context.serviceMainHead?.title === item?.title ? "drop_down" : ""}`}>
+                                                onClick={() => context.handleServiceDeatil(item, setUp)}>{item?.title}</div>
+                                            {/* <div className={`service_page_list_sub_title hello ${child} ${context.serviceMainHead?.title === item?.title ? "drop_down" : ""}`}>
                                                 {
                                                     item?.subHead ?
                                                         <>
@@ -219,7 +220,7 @@ const Service = () => {
                                                             <SubTitleCom subTitle={item?.subTitle} />
                                                         </>
                                                 }
-                                            </div>
+                                            </div> */}
                                         </div>
                                     )
                                 })
@@ -227,25 +228,40 @@ const Service = () => {
                         </div>
                         <div className="service_page_des">
                             <div className="service_page_des_content">
-                                <div className="service_page_des_title">{service?.name}</div>
+                                <div className="service_page_des_title">{context.serviceMainHead?.title}</div>
                                 <div className="service_page_des_content_details">
                                     <div className="first_col">
-                                        <div className='service_page_des_content_details_heading'>{context.servicePerDetail?.head?.heading}</div>
+                                        {/* <div className='service_page_des_content_details_heading'>{context.servicePerDetail?.head?.heading}</div> */}
                                         <div className="service_page_des_content_details_des">
                                             {
-                                                context.servicePerDetail?.head?.des?.map((item, id) => {
-                                                    return (
-                                                        <p key={id}>{item}</p>
-                                                    )
-                                                })
+                                                context.serviceMainHead?.subHead ?
+                                                    <>
+                                                        {
+                                                            context.serviceMainHead?.subHead?.map((product, idx) => {
+                                                                return (
+                                                                    <React.Fragment key={idx}>
+                                                                        <div className="service_page_list_sub_head">{product?.name}</div>
+                                                                        <SubTitleCom subTitle={product?.subTitle} />
+                                                                    </React.Fragment>
+                                                                )
+                                                            })
+                                                        }
+                                                    </> :
+                                                    <>
+                                                        <SubTitleCom subTitle={context.serviceMainHead?.subTitle} />
+                                                    </>
                                             }
                                         </div>
                                     </div>
                                     <div className="second_col">
-                                        <img src={context.servicePerDetail?.img} alt="" />
+
+                                        <div className="second_col_content">
+                                            <img src={context.servicePerDetail?.img} alt="" />
+                                            <div className="second_col_name">{context.servicePerDetail?.name}</div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="service_page_des_content_sub_details">
+                                {/* <div className="service_page_des_content_sub_details">
                                     <div className="service_page_des_content_sub_details_box">
                                         {
                                             service?.need &&
@@ -289,7 +305,7 @@ const Service = () => {
                                             <ComOne item={service?.post} />
                                         }
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

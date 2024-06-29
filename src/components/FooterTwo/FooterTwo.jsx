@@ -30,17 +30,18 @@ const FooterTwo = () => {
             heading: "Connect With Us!",
             sub_head: [
                 {
-                    name: "9552399760",
+                    name: "9021594170",
                     link: 'https://api.whatsapp.com/send?phone=9021594170',
                     icon: <FaWhatsapp />
                 },
                 {
                     name: " 9021594170",
                     icon: <IoCall />
-                }, {
-                    name: "7972749303",
-                    icon: <IoCall />
                 },
+                //  {
+                //     name: "7972749303",
+                //     icon: <IoCall />
+                // },
 
             ]
         },

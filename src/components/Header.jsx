@@ -395,7 +395,7 @@ const Navbar = () => {
                         <div className="logo_content_two">
                             <div className="logo_name">face</div>
                             <div className="logo_name_two">
-                                <span>{i18n.t("hospital_type")}</span>
+                                <span>multispecialty clinic</span>
                             </div>
                         </div>
                     </div>
