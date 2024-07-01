@@ -86,6 +86,7 @@
 .hero_banner_des {
   font-size: 60px;
   color: var(--white-color);
+  text-transform: uppercase;
   /* font-family: "Oswald", sans-serif !important; */
   font-family: "Kurale", serif;
   z-index: 2;
@@ -203,6 +204,8 @@
   display: flex;
   color: var(--white-color) !important;
   gap: 3px;
+  text-transform: uppercase;
+  font-family: var(--ff-heading);
   font-weight: 300;
 }
 
