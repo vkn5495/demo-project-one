@@ -174,7 +174,7 @@ const SubTitleCom = ({ subTitle }) => {
                 subTitle?.map((u, i) => {
                     return (
                         <li className={`service_page_list_sub_title_name_box 
-                            ${context.servicePerDetail.name === u.name ? "active" : ""}`}
+                            `}
                             onClick={() => context.handleServiceDeatil(null, u)} key={i}>{u?.name}</li>
                     )
                 })
@@ -182,6 +182,63 @@ const SubTitleCom = ({ subTitle }) => {
         </div>
     )
 }
+
+const SubTitleComTwo = ({ subTitle }) => {
+    const context = useContext(AppContext)
+    return (
+        <div className="service_page_list_sub_title_two">
+            {
+                subTitle?.map((u, i) => {
+                    return (
+                        <div className={`service_page_list_sub_title_two_box 
+                            ${context.servicePerDetail?.name === u?.name ? "active" : ""}
+                            `}
+                            onClick={() => context.handleServiceDeatil(null, u)} key={i}>
+
+                            <div className="service_page_list_sub_title_two_img">
+                                <img src={u?.img}
+                                    className={`${context.servicePerDetail?.name === u?.name ? "active" : ""}`} alt="" />
+                            </div>
+                            <div className={`service_page_list_sub_title_two_box_content 
+                                ${context.servicePerDetail?.name === u?.name ? "active" : ""}`}>
+                                <div className="service_page_list_sub_title_two_name">{u?.name}</div>
+
+                                <div className={`service_page_list_sub_title_two_des 
+                                     `}>
+                                    {
+                                        u?.mainDes?.map((item, id) => {
+                                            return (
+                                                <div key={id} className="service_page_list_sub_title_two_des_box">{item}</div>
+                                            )
+                                        })
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })
+            }
+        </div>
+    )
+}
+
+// const SubTitleCom = ({ subTitle }) => {
+//     const context = useContext(AppContext)
+//     return (
+//         <div className="service_page_list_sub_title_name">
+//             {
+//                 subTitle?.map((u, i) => {
+//                     return (
+//                         <li className={`service_page_list_sub_title_name_box 
+//                             ${context.servicePerDetail.name === u.name ? "active" : ""}
+//                             `}
+//                             onClick={() => context.handleServiceDeatil(null, u)} key={i}>{u?.name}</li>
+//                     )
+//                 })
+//             }
+//         </div>
+//     )
+// }
 
 const Service = () => {
     const context = useContext(AppContext)
@@ -233,6 +290,7 @@ const Service = () => {
                                     <div className="first_col">
                                         {/* <div className='service_page_des_content_details_heading'>{context.servicePerDetail?.head?.heading}</div> */}
                                         <div className="service_page_des_content_details_des">
+                                            <div className="service_page_des_content_details_des_details">{context.serviceMainHead?.mainDes}</div>
                                             {
                                                 context.serviceMainHead?.subHead ?
                                                     <>
@@ -253,13 +311,13 @@ const Service = () => {
                                             }
                                         </div>
                                     </div>
-                                    <div className="second_col">
+                                    {/* <div className="second_col">
 
                                         <div className="second_col_content">
                                             <img src={context.servicePerDetail?.img} alt="" />
                                             <div className="second_col_name">{context.servicePerDetail?.name}</div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 {/* <div className="service_page_des_content_sub_details">
                                     <div className="service_page_des_content_sub_details_box">
@@ -306,6 +364,15 @@ const Service = () => {
                                         }
                                     </div>
                                 </div> */}
+                                <div className="second_row">
+                                    <div className="service_page_des_all_service">
+                                        <div className="service_page_des_all_service_content">
+                                            {
+                                                <SubTitleComTwo subTitle={context.serviceMainHead?.subTitle} />
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

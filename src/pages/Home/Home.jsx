@@ -294,6 +294,60 @@ const ServiceSectionOne = (props) => {
   )
 }
 
+const ServiceSectionThree = (props) => {
+  const [click, setClick] = useState(null)
+  const { servicesDoc } = props
+  const handleClick = (id) => {
+    if (click === id) {
+      setClick(null)
+    }
+    else {
+      setClick(id)
+    }
+  }
+  var settings = {
+    dots: false,
+    infinite: true,
+    // autoplay: true,
+    speed: 700,
+    // arrows: false,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />
+  };
+
+  const context = useContext(AppContext)
+
+  return (
+    <div className="service_section container">
+      <div className="service_section_content accordion" id="accordionExample">
+        <HeadingDesign part1={"our"} part2={"services"} />
+        <div className="service_details">
+          <div className="service_details_content">
+            {
+              <Slider {...settings}>
+                {
+                  servicesDoc?.map((product, idx) => {
+                    return (
+                      <div className="service_details_des_box"
+                        key={idx}
+                        onClick={() => context.handleServiceDeatil(null, product)}>
+                        <img src={product?.mainImg} className='product_img' alt="" />
+                        <div className="service_details_des_box_name">{product?.title}</div>
+                      </div>
+                    )
+                  })
+                }
+              </Slider>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 const ServiceSectionTwo = (props) => {
   const { servicesDoc } = props
   return (
@@ -556,7 +610,7 @@ const Home = () => {
         <OurStory />
 
         {/* service section  */}
-        <ServiceSectionOne servicesDoc={servicesDoc} />
+        <ServiceSectionThree servicesDoc={servicesDoc} />
         {/* <ServiceSectionTwo servicesDoc={servicesDoc} /> */}
 
         {/* doctors details section  */}

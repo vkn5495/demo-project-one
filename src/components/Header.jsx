@@ -514,7 +514,7 @@ const Navbar = () => {
 }
 
 const Header = () => {
-    const { t } = useTranslation();
+    const { t } = useTranslation(); 
 
     return (
         <>

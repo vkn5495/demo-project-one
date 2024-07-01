@@ -72,6 +72,10 @@
 .service_page_list_sub_title.four.drop_down {
   height: 664px;
 }
+.service_page_list_sub_title_name {
+  column-count: 2;
+  column-gap: 2rem;
+}
 .service_page_list_sub_title_name_box {
   padding: 8px 1rem;
   font-size: 16px;
@@ -88,15 +92,15 @@
 }
 .service_page_des {
   padding-top: 9rem;
-  margin-right: 5rem;
+  margin-right: 2rem;
   flex-grow: 1;
   flex-shrink: 1;
 }
 .service_page_des_content_details {
   display: flex;
   /* align-items: center; */
-  flex-direction: row-reverse;
-  gap: 5rem;
+  flex-direction: column;
+  gap: 3rem;
   /* justify-content: space-around; */
 }
 .first_col {
@@ -165,6 +169,9 @@
 }
 .service_page_des_content_details_des {
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 .service_page_des_content_sub_details {
   column-count: 2;
@@ -213,4 +220,57 @@
 .normal_text,
 .subDes {
   font-size: 18px;
+}
+
+.service_page_des_content_details_des_details {
+  font-size: 28px;
+  font-weight: 700;
+}
+.service_page_list_sub_title_two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.service_page_list_sub_title_two_img img {
+  width: 100%;
+  transition: all 0.3s ease;
+  height: 332px;
+  object-fit: cover;
+}
+.service_page_list_sub_title_two_img img.active {
+  filter: brightness(0.5);
+}
+.service_page_list_sub_title_two_des_box {
+  max-width: 22rem;
+}
+
+.service_page_list_sub_title_two_box {
+  box-shadow: rgba(0 0 0 /0.2) 5px 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(230, 230, 230);
+  transition: all 0.5s ease;
+  overflow: hidden;
+  height: 380px;
+  position: relative;
+}
+.service_page_list_sub_title_two_name {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 5px 1rem;
+}
+.service_page_list_sub_title_two_box_content {
+  transform: translateY(0);
+  background-color: var(--white-color);
+  /* overflow: hidden; */
+  max-height: 332px;
+  /* overflow-y: scroll; */
+  transition: all 0.3s ease;
+}
+.service_page_list_sub_title_two_box_content.active {
+  transform: translateY(-99%);
+  overflow-y: scroll;
+}
+.service_page_list_sub_title_two_des {
+  padding: 5px 1rem;
 }

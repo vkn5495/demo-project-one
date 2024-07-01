@@ -53,12 +53,27 @@ import HairPRP from "../../images/services/PRP-Hair-Treatment-In-Roorkee.jpg";
 import LipNeutralisation from "../../images/services/dark-lip-treatment-before-and-after.jpg";
 import LipColour from "../../images/services/lipsticks_blog_copy_1200x.webp";
 import Microblading from "../../images/services/Microblading_Eyebrow_Shapes_The_Fundamental.webp";
+import serviceMainOne from "../../images/service-one/dental-implant-treatment-in-kochi.jpg";
+import serviceMainTwo from "../../images/service-one/bigstock-Teeth-and-dental-implant-isola-202798507.jpg";
+import serviceMainThree from "../../images/service-one/All-Blog-Cover-4-1080x675.png";
+import serviceMainFour from "../../images/service-one/Why-Choose-a-Certified-Cosmetic-Surgeon-For-Cosmetic-Surgery-Procedures-IAAPS-011.jpg";
+import seserviceMainFive from "../../images/service-one/glowing_skin_898.jpg";
+import DentalVeneers from "../../images/services/dental-laminates-2107.jpg";
+import ToothJewellery from "../../images/services/images (2).jfif";
+import DentalImplants from "../../images/services/388058c6-6104-449e-8653-0129952eae67.png";
+import ChronicDental from "../../images/services/head-jaw-pain-tooth-against-blue-backdrop-mouth-problem-tooth-pain-jaw-tooth-d-illustration-150656204 (1).webp";
+import WrinkleTreatment from "../../images/services/Wrinkles-Treatment-1024x652.jpg";
+import BrowLift from "../../images/services/DENVER-EYELID-LIFTS-AND-BROW-LIFTS-1024x683-1.jpeg";
+import Rhinoplasty from "../../images/services/rhinoplasty-nose-surgery-rhinoplasty-surgeon-bhopal.jpg";
 
 export const servicesDoc = [
   {
     logo: <FaBusinessTime />,
     title: "Dental treatment",
     img: serviceOne,
+    mainImg: serviceMainOne,
+    mainDes:
+      "We operate as a specialist-based clinic where all procedures are performed by highly skilled professionals with extensive experience",
     des: [
       "Dental procedures can help you with pain, infection, an injury or other problems with your teeth or gums. Dental procedures include: a filling or crown for your tooth, treatment for gum disease, straightening crowded teeth, dental surgery or having dentures made.",
       "Specialist dentist at the clinic include Orthodontist (braces & aligners), Endodontists (root canals), Prosthodontist (crown, bridge & dentures), Paediatric dentists (dental services for children), Periodontists (gum disease).",
@@ -66,8 +81,11 @@ export const servicesDoc = [
 
     subTitle: [
       {
-        name: "Tooth filling",
+        name: "Tooth Filling & Root Canals",
         img: ToothFilling,
+        mainDes: [
+          "Tooth fillings are a type of treatment used to replace tooth structure that has been lost due to decay or trauma.",
+        ],
         head: {
           heading: "What is tooth filling?",
           des: [
@@ -118,41 +136,44 @@ export const servicesDoc = [
           "In cases of tooth-colored fillings, the filling material is applied in layers. A special light that cures or hardens each layer is applied. When the filling is done, we will shape the filling material to the desired result",
         ],
       },
+      // {
+      //   name: "Root Canals Therapy",
+      //   img: RootCanals,
+      //   head: {
+      //     heading: "What is Root Canal Treatment?",
+      //     des: [
+      //       "A root canal is a dental procedure used to treat an infected or inflamed tooth. It involves removing the damaged or infected pulp from the tooth, cleaning and disinfecting the inside of the tooth, and filling it with a material called gutta-percha. The tooth is then sealed with a filling or crown to prevent further infection. The procedure is typically done to save a damaged or infected tooth from extraction.",
+      //       "With the first incidence of pain root canal treatment will give a better result to retain the teeth for a longer period of time and prevent the infection from spreading further.",
+      //     ],
+      //   },
+      //   need: {
+      //     heading: "Who needs Root canal treatment?",
+      //     des: "Root canal treatment is done to relieve the pain.Toothache or pain occurs when there is a tooth infection brought on by decay, trauma, and Gum diseases This ranges from mild to severe. As you ignore it, it gets worse.",
+      //   },
+      //   procedure: [
+      //     "To determine the extent of inflammation and tooth decay, we may perform one or two X-rays.",
+      //     "The Endodontist anaesthetizes the tooth of interest and the surrounding area.",
+      //     "The root canals and pulp chamber are cleaned using instruments. Cleaning and disinfecting the canals involves using antibacterial and antiseptic solutions. This gets rid of the bacteria and treats the canal infection.",
+      //     "Next, the pulp canals are shaped using instruments so that they will be ready to receive the filling material.",
+      //     "The pulp canals are filled using a rubber-like material called gutta-percha which is compressed against the canal walls, so it fits snuggly and avoids the entry of microorganisms.",
+      //     "The treated tooth is enclosed with a crown, which provides additional strength and stability. The permanent crown is made to look exactly like the natural teeth.",
+      //   ],
+      //   post: {
+      //     heading: "Post treatment protocol:",
+      //     des: [
+      //       "After the procedure, you will experience some pain and discomfort. So your dentist will recommend medication.",
+      //       "Avoid smoking, alcohol, hot drinks, drinking with straws. These promote inflammation.",
+      //       "Brush and floss normally, it’s important to keep the area clean.",
+      //       "If you experience any complications, consult your dentist.",
+      //     ],
+      //   },
+      // },
       {
-        name: "Root Canals Therapy",
-        img: RootCanals,
-        head: {
-          heading: "What is Root Canal Treatment?",
-          des: [
-            "A root canal is a dental procedure used to treat an infected or inflamed tooth. It involves removing the damaged or infected pulp from the tooth, cleaning and disinfecting the inside of the tooth, and filling it with a material called gutta-percha. The tooth is then sealed with a filling or crown to prevent further infection. The procedure is typically done to save a damaged or infected tooth from extraction.",
-            "With the first incidence of pain root canal treatment will give a better result to retain the teeth for a longer period of time and prevent the infection from spreading further.",
-          ],
-        },
-        need: {
-          heading: "Who needs Root canal treatment?",
-          des: "Root canal treatment is done to relieve the pain.Toothache or pain occurs when there is a tooth infection brought on by decay, trauma, and Gum diseases This ranges from mild to severe. As you ignore it, it gets worse.",
-        },
-        procedure: [
-          "To determine the extent of inflammation and tooth decay, we may perform one or two X-rays.",
-          "The Endodontist anaesthetizes the tooth of interest and the surrounding area.",
-          "The root canals and pulp chamber are cleaned using instruments. Cleaning and disinfecting the canals involves using antibacterial and antiseptic solutions. This gets rid of the bacteria and treats the canal infection.",
-          "Next, the pulp canals are shaped using instruments so that they will be ready to receive the filling material.",
-          "The pulp canals are filled using a rubber-like material called gutta-percha which is compressed against the canal walls, so it fits snuggly and avoids the entry of microorganisms.",
-          "The treated tooth is enclosed with a crown, which provides additional strength and stability. The permanent crown is made to look exactly like the natural teeth.",
-        ],
-        post: {
-          heading: "Post treatment protocol:",
-          des: [
-            "After the procedure, you will experience some pain and discomfort. So your dentist will recommend medication.",
-            "Avoid smoking, alcohol, hot drinks, drinking with straws. These promote inflammation.",
-            "Brush and floss normally, it’s important to keep the area clean.",
-            "If you experience any complications, consult your dentist.",
-          ],
-        },
-      },
-      {
-        name: "Braces",
+        name: "Braces & Aligners",
         img: Braces,
+        mainDes: [
+          "Braces use brackets and wires to gradually align teeth, while aligners are clear, removable trays that gently shift teeth into place without metal components.",
+        ],
         head: {
           heading: "What are Braces?",
           des: [
@@ -261,69 +282,73 @@ export const servicesDoc = [
           },
         ],
       },
-      {
-        name: "Invisalign Braces (invisible braces)",
-        img: Aligners,
-        head: {
-          heading: "Invisible Tooth Aligners",
-          des: [
-            "Invisible Tooth Aligners / Clear Aligners / transparent aligners are present advanced digitalized appliance which actively regulates the tooth movement and finishes the treatment in short time. Invisalign Aligners cost/ teeth aligner price depends mainly on the brand of the aligners used & no of trays taken for desired results of confident smile.",
-            "Invisible Aligners are a type of clear orthodontic appliance that corrects your smile, without the need for messy wires. Aligners are custom-made for each patient starting off with a digital scan of your teeth and transferring the scans onto the digital memory trays.",
-            "These are better than braces as invisible braces are almost undetectable and can be taken off, which is useful when eating or snacking. You won't get stuck with sticky food anymore, so relax! Simply take out your invisible braces, chew food, brush and floss your teeth, and then put them back on.",
-            "Every couple of weeks, you'll get new clear braces. Together, each tray helps to gradually improve your smile.",
-          ],
-        },
-        procedure: [
-          {
-            heading: "step 1:",
-            des: [
-              "A patient will first consult with an orthodontist.",
-              "A treatment plan will be decided upon during the initial appointment, and bite impressions will also be taken.",
-            ],
-          },
-          {
-            heading: "Step 2:",
-            des: [
-              "Your bite impressions will be used to create personalized aligners using 3D imaging technology.",
-              "Twelve to forty-eight aligners will be created for you to straighten your teeth, depending on your specific needs.",
-            ],
-          },
-          {
-            heading: "Step 3:",
-            des: [
-              "Your Invisible aligners will be worn after your initial session. Except when you eat, drink, or brush your teeth, invisible aligners are worn all the time.",
-              "Two weeks are spent wearing each tray. Your orthodontist or dentists will likely check in with you every six weeks to make sure your treatment is progressing as planned.",
-            ],
-          },
-          {
-            heading: "Step 4:",
-            des: [
-              "Your Invisible aligners will be worn after your initial session. Except when you eat, drink, or brush your teeth, invisible aligners are worn all the time.",
-              "Two weeks are spent wearing each tray. Your orthodontist or dentists will likely check in with you every six weeks to make sure your treatment is progressing as planned.",
-            ],
-          },
-          {
-            heading: "Step 5:",
-            des: [
-              "Around twelve to eighteen months are required for the entire Invisible Aligners treatment process. Some patients may finish their therapy sooner.",
-            ],
-          },
-        ],
-        advantages: {
-          heading: "Advantages of invisible aligners:",
-          des: [
-            "Aligners are more comfortable than braces as they are custom-made.",
-            "Since clear aligners are almost invisible, most people won't even realize you're undergoing treatment while you wear them.",
-            "As invisible aligners are removable, it is easier to maintain your dental health throughout treatment and keep your teeth clean.",
-            "You might see results as early as the first month of therapy with invisible braces.",
-            "Using your invisible aligners, you may whiten your teeth and prevent them from grinding at sleep or when participating in sports (such as weightlifting and mountain riding).",
-            "Appointments with the dentist are usually simpler and, in certain situations, can even be fewer overall because the tooth movement is pre-planned by your orthodontist.",
-          ],
-        },
-      },
+      // {
+      //   name: "Invisalign Braces (invisible braces)",
+      //   img: Aligners,
+      //   head: {
+      //     heading: "Invisible Tooth Aligners",
+      //     des: [
+      //       "Invisible Tooth Aligners / Clear Aligners / transparent aligners are present advanced digitalized appliance which actively regulates the tooth movement and finishes the treatment in short time. Invisalign Aligners cost/ teeth aligner price depends mainly on the brand of the aligners used & no of trays taken for desired results of confident smile.",
+      //       "Invisible Aligners are a type of clear orthodontic appliance that corrects your smile, without the need for messy wires. Aligners are custom-made for each patient starting off with a digital scan of your teeth and transferring the scans onto the digital memory trays.",
+      //       "These are better than braces as invisible braces are almost undetectable and can be taken off, which is useful when eating or snacking. You won't get stuck with sticky food anymore, so relax! Simply take out your invisible braces, chew food, brush and floss your teeth, and then put them back on.",
+      //       "Every couple of weeks, you'll get new clear braces. Together, each tray helps to gradually improve your smile.",
+      //     ],
+      //   },
+      //   procedure: [
+      //     {
+      //       heading: "step 1:",
+      //       des: [
+      //         "A patient will first consult with an orthodontist.",
+      //         "A treatment plan will be decided upon during the initial appointment, and bite impressions will also be taken.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Step 2:",
+      //       des: [
+      //         "Your bite impressions will be used to create personalized aligners using 3D imaging technology.",
+      //         "Twelve to forty-eight aligners will be created for you to straighten your teeth, depending on your specific needs.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Step 3:",
+      //       des: [
+      //         "Your Invisible aligners will be worn after your initial session. Except when you eat, drink, or brush your teeth, invisible aligners are worn all the time.",
+      //         "Two weeks are spent wearing each tray. Your orthodontist or dentists will likely check in with you every six weeks to make sure your treatment is progressing as planned.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Step 4:",
+      //       des: [
+      //         "Your Invisible aligners will be worn after your initial session. Except when you eat, drink, or brush your teeth, invisible aligners are worn all the time.",
+      //         "Two weeks are spent wearing each tray. Your orthodontist or dentists will likely check in with you every six weeks to make sure your treatment is progressing as planned.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Step 5:",
+      //       des: [
+      //         "Around twelve to eighteen months are required for the entire Invisible Aligners treatment process. Some patients may finish their therapy sooner.",
+      //       ],
+      //     },
+      //   ],
+      //   advantages: {
+      //     heading: "Advantages of invisible aligners:",
+      //     des: [
+      //       "Aligners are more comfortable than braces as they are custom-made.",
+      //       "Since clear aligners are almost invisible, most people won't even realize you're undergoing treatment while you wear them.",
+      //       "As invisible aligners are removable, it is easier to maintain your dental health throughout treatment and keep your teeth clean.",
+      //       "You might see results as early as the first month of therapy with invisible braces.",
+      //       "Using your invisible aligners, you may whiten your teeth and prevent them from grinding at sleep or when participating in sports (such as weightlifting and mountain riding).",
+      //       "Appointments with the dentist are usually simpler and, in certain situations, can even be fewer overall because the tooth movement is pre-planned by your orthodontist.",
+      //     ],
+      //   },
+      // },
       {
         name: "Tooth crowns & bridges",
         img: bridges,
+        mainDes: [
+          "Crowns are custom-made caps that cover damaged teeth, ",
+          "while bridges replace missing teeth by anchoring artificial teeth to neighboring natural teeth or implants.",
+        ],
         head: {
           heading: "Dental Crown",
           des: [
@@ -363,6 +388,9 @@ export const servicesDoc = [
       {
         name: "Dentures",
         img: Dentures,
+        mainDes: [
+          "Removable prosthetic devices that replace missing teeth and surrounding tissues, providing functional and aesthetic restoration to the mouth.",
+        ],
         head: {
           heading: "What are Dentures?",
           des: [
@@ -418,6 +446,10 @@ export const servicesDoc = [
       {
         name: "Tooth cleaning & Gum disease",
         img: disease,
+        mainDes: [
+          "Professional removal of plaque and tartar from teeth surfaces to prevent cavities and maintain oral health.",
+          "Treatment involves scaling and root planing to remove bacteria and tartar from below the gum line, promoting gum tissue healing and preventing further damage.",
+        ],
         head: {
           heading: "What is Tooth Cleaning?",
           des: [
@@ -504,8 +536,41 @@ export const servicesDoc = [
       //   ],
       // },
       {
+        name: "Child dental treatment",
+        img: Child,
+        mainDes: [
+          "Focuses on preventive care, including regular check-ups, fluoride treatments,",
+          "sealants, and education on proper oral hygiene habits to ensure healthy teeth and gums from an early age.",
+        ],
+        head: {
+          heading: "What is Teeth Whitening?",
+          des: [
+            "Teeth whitening is a cosmetic dental procedure that lightens and brightens the color of your teeth.",
+            "It is typically done to remove stains and discoloration caused by aging, smoking, certain foods and drinks, or poor dental hygiene.",
+            "Teeth whitening can be performed by a dentist in-office or at home using whitening kits prescribed by a dentist.",
+          ],
+        },
+        procedure: [
+          "Examination: The dentist examines the child's mouth, teeth, and gums, and may take X-rays to check for cavities and other issues.",
+          "Cleaning: A dental hygienist cleans the child's teeth, removing plaque and tartar, and polishes the teeth.",
+          "Fluoride Treatment: A fluoride varnish or gel is applied to the child's teeth to strengthen enamel and help prevent cavities.",
+          "Sealants: If necessary, dental sealants are applied to the chewing surfaces of the back teeth to protect them from decay.",
+          "Education: The dentist and hygienist educate the child and parents about proper brushing, flossing, and diet to maintain good oral health.",
+        ],
+        purpose: [
+          "Prevent Cavities: Regular cleanings and fluoride treatments help prevent cavities in children’s teeth.",
+          "Promote Good Oral Hygiene: Education on proper brushing and flossing techniques helps children develop good oral hygiene habits.",
+          "Monitor Development: Regular dental visits allow the dentist to monitor the growth and development of the child's teeth and jaw.",
+          "Early Detection: Regular check-ups enable early detection of dental issues such as cavities, misalignment, and gum problems.",
+          "Build Positive Attitude: Routine visits to the dentist help children become comfortable with dental care and reduce dental anxiety.",
+        ],
+      },
+      {
         name: "Teeth whitening",
         img: demoImage,
+        mainDes: [
+          "Involves bleaching the teeth to lighten discoloration and stains, enhancing the overall appearance of the smile.",
+        ],
         head: {
           heading: "What is teeth whitening?",
           des: [
@@ -554,6 +619,9 @@ export const servicesDoc = [
       {
         name: "Cosmetic dentistry",
         img: dentistry,
+        mainDes: [
+          "Focuses on improving the aesthetic appearance of teeth, gums, and smile through procedures such as teeth whitening, veneers, crowns, and dental implants.",
+        ],
         head: {
           des: [
             "Cosmetic dentistry is the branch of dentistry that aims to improve the color, shape, alignment, and overall appearance of your teeth.",
@@ -595,34 +663,25 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Child dental treatment",
-        img: Child,
-        head: {
-          heading: "What is Teeth Whitening?",
-          des: [
-            "Teeth whitening is a cosmetic dental procedure that lightens and brightens the color of your teeth.",
-            "It is typically done to remove stains and discoloration caused by aging, smoking, certain foods and drinks, or poor dental hygiene.",
-            "Teeth whitening can be performed by a dentist in-office or at home using whitening kits prescribed by a dentist.",
-          ],
-        },
-        procedure: [
-          "Examination: The dentist examines the child's mouth, teeth, and gums, and may take X-rays to check for cavities and other issues.",
-          "Cleaning: A dental hygienist cleans the child's teeth, removing plaque and tartar, and polishes the teeth.",
-          "Fluoride Treatment: A fluoride varnish or gel is applied to the child's teeth to strengthen enamel and help prevent cavities.",
-          "Sealants: If necessary, dental sealants are applied to the chewing surfaces of the back teeth to protect them from decay.",
-          "Education: The dentist and hygienist educate the child and parents about proper brushing, flossing, and diet to maintain good oral health.",
+        name: "Dental Veneers & Laminates",
+        img: DentalVeneers,
+        mainDes: [
+          "Thin, custom-made shells of tooth-colored materials that cover the front surface of teeth to improve appearance by addressing issues like discoloration, chips, or gaps.",
         ],
-        purpose: [
-          "Prevent Cavities: Regular cleanings and fluoride treatments help prevent cavities in children’s teeth.",
-          "Promote Good Oral Hygiene: Education on proper brushing and flossing techniques helps children develop good oral hygiene habits.",
-          "Monitor Development: Regular dental visits allow the dentist to monitor the growth and development of the child's teeth and jaw.",
-          "Early Detection: Regular check-ups enable early detection of dental issues such as cavities, misalignment, and gum problems.",
-          "Build Positive Attitude: Routine visits to the dentist help children become comfortable with dental care and reduce dental anxiety.",
+      },
+      {
+        name: "Tooth Jewellery",
+        img: ToothJewellery,
+        mainDes: [
+          "Decorative gems or ornaments bonded to the surface of teeth for cosmetic enhancement, often using safe dental adhesive methods.",
         ],
       },
       {
         name: "Dental X- Ray",
         img: XRay,
+        mainDes: [
+          "Diagnostic imaging technique used to capture detailed images of teeth, gums, and jawbones to assess oral health and detect dental issues such as cavities, infections, and bone loss.",
+        ],
         head: {
           heading: "What are Dental X-Rays?",
           des: [
@@ -655,6 +714,14 @@ export const servicesDoc = [
     logo: <FaUserDoctor />,
     title: "Dental Implants & Oral Surgery",
     img: serviceTwo,
+    mainImg: serviceMainTwo,
+    mainDes:
+      "Dental Implants are now the preferred choice for restoring missing teeth.",
+    mainSubDes: [
+      "Helps keep the jawbone from shrinking due to bone loss.",
+      "Preserves the health of the surrounding bone and gums.",
+      "Helps keep adjacent (nearby) teeth stable",
+    ],
     des: [
       "Dental procedures can help you with pain, infection, an injury or other problems with your teeth or gums. Dental procedures include: a filling or crown for your tooth, treatment for gum disease, straightening crowded teeth, dental surgery or having dentures made.",
       "Specialist dentist at the clinic include Orthodontist (braces & aligners), Endodontists (root canals), Prosthodontist (crown, bridge & dentures), Paediatric dentists (dental services for children), Periodontists (gum disease).",
@@ -692,8 +759,20 @@ export const servicesDoc = [
           //   ],
           // },
           {
+            name: "Dental Implants",
+            img: DentalImplants,
+            mainDes: [
+              "Titanium screw-like metal is placed in the jaw bone",
+              "They act like tooth roots to support one or more false teeth",
+            ],
+          },
+          {
             name: "Implant-supported dentures",
             img: ImplantSupported,
+            mainDes: [
+              "If you don’t like removable dentures, Implant Supported Dentures is a convenient alternative.",
+              "Dentures are held in place by 2 or more implants",
+            ],
             head: {
               heading: "What are Implant-Supported Dentures?",
               des: [
@@ -723,6 +802,10 @@ export const servicesDoc = [
           {
             name: "Zygomatic implants",
             img: Zygomatic,
+            mainDes: [
+              "When the quality or quantity of the maxillary bone is inadequate for implant placement,",
+              "Implants are anchored into the zygomatic bone.",
+            ],
             head: {
               heading: "what is Zygomatic implants",
               des: [
@@ -749,6 +832,9 @@ export const servicesDoc = [
           {
             name: "Bone grafting",
             img: BoneGrafting,
+            mainDes: [
+              "Procedure performed to increase the amount of bone in any part of the jaw where bone has been lost or where additional support is needed",
+            ],
             head: {
               heading: "what is Bone grafting",
               des: [
@@ -775,6 +861,10 @@ export const servicesDoc = [
           {
             name: "Sinus lift",
             img: Sinus,
+            mainDes: [
+              "When you desire dental implants but the quantity of the upper jaw bone is inadequate to secure the implant,",
+              "sinus lift procedure increases the level of the bone",
+            ],
             head: {
               heading: "what is Sinus lift?",
               des: [
@@ -807,10 +897,15 @@ export const servicesDoc = [
           {
             name: "Removing (extracting) teeth",
             img: Extraction,
+            mainDes: [
+              "The procedure for extracting teeth typically involves numbing the area with local anesthesia,",
+              "loosening the tooth with specialized instruments, and then carefully removing it from the socket.",
+            ],
           },
           {
             name: "Wisdom tooth extractions",
             img: WisdomTooth,
+            mainDes: ["Surgical procedure to remove one or more wisdom teeth"],
             head: {
               heading: "What is Wisdom Tooth Extraction?",
               des: [
@@ -846,176 +941,188 @@ export const servicesDoc = [
             ],
           },
           {
-            name: "Abscess drainage",
+            name: "Chronic dental pain",
+            img: ChronicDental,
+          },
+          {
+            name: "Oral diseases",
             img: AbscessDrainage,
-            head: {
-              heading: "What is Abscess Drainage?",
-              des: [
-                "Abscess drainage is a medical procedure used to treat an abscess, which is a collection of pus caused by a bacterial infection.",
-                "The procedure involves draining the pus from the abscess to relieve pain, reduce swelling, and prevent the spread of infection.",
-                "Abscesses can occur in various parts of the body, including the skin, gums, and internal organs.",
-              ],
-            },
-            procedure: [
-              {
-                heading: "Preparation",
-                des: [
-                  "Patient Evaluation: The healthcare provider evaluates the abscess location, size, and severity.",
-                  "Anesthesia: Local anesthesia or sedation may be administered to numb the area and minimize discomfort.",
-                ],
-              },
-              {
-                heading: "Drainage Procedure",
-                des: [
-                  "Incision: A small incision is made in the abscess to allow drainage of pus.",
-                  "Pus Removal: The healthcare provider gently squeezes or uses suction to remove the pus.",
-                  "Cleaning and Packing: The abscess cavity may be cleaned with saline solution and packed with gauze to absorb any remaining fluid.",
-                ],
-              },
-              {
-                heading: "Post-Procedure Care",
-                des: [
-                  "Antibiotics: Antibiotics may be prescribed to treat the underlying infection.",
-                  "Wound Care: Instructions are provided for caring for the incision site and changing dressings.",
-                  "Follow-Up: Follow-up appointments may be scheduled to monitor healing and ensure the infection has resolved.",
-                ],
-              },
-            ],
-            purpose: [
-              "Relieve Symptoms: Draining the abscess reduces pain, swelling, and pressure caused by the buildup of pus.",
-              "Promote Healing: Removing pus helps the body's natural healing process to close the abscess cavity.",
-              "Prevent Complications: By removing the infection source, abscess drainage helps prevent the spread of infection to surrounding tissues or bloodstream.",
-              "Restore Function: Successful treatment restores normal function to the affected area once the infection has resolved.",
+            mainDes: [
+              "Remove decayed tissue, clean the cavity, and fill it with dental material.",
+              "Perform scaling and root planing to remove plaque and tartar, followed by proper oral hygiene practices.",
             ],
           },
-          {
-            name: "Cyst removal",
-            img: CystRemoval,
-            head: {
-              heading: "What is Cyst Removal?",
-              des: [
-                "Cyst removal is a surgical procedure used to excise or drain abnormal fluid-filled sacs (cysts) from the body.",
-                "Cysts can develop in various tissues and organs, including the skin, bones, and internal organs.",
-                "The procedure aims to remove the cyst completely to alleviate symptoms, prevent complications, and reduce the risk of recurrence.",
-              ],
-            },
-            procedure: [
-              {
-                heading: "Preparation",
-                des: [
-                  "Patient Evaluation: The healthcare provider evaluates the cyst location, size, and characteristics.",
-                  "Anesthesia: Local anesthesia or sedation may be administered to numb the area and minimize discomfort.",
-                ],
-              },
-              {
-                heading: "Removal Procedure",
-                des: [
-                  "Incision: A surgical incision is made to access the cyst.",
-                  "Cyst Excision: The cyst is carefully excised or removed intact from surrounding tissues.",
-                  "Closure: Stitches or sutures may be used to close the surgical wound.",
-                ],
-              },
-              {
-                heading: "Post-Procedure Care",
-                des: [
-                  "Wound Care: Instructions are provided for caring for the surgical incision.",
-                  "Pain Management: Pain medications may be prescribed to manage post-operative discomfort.",
-                  "Follow-Up: Follow-up appointments may be scheduled to monitor healing and ensure the cyst has been completely removed.",
-                ],
-              },
-            ],
-            purpose: [
-              "Symptom Relief: Removal of the cyst alleviates symptoms such as pain, discomfort, or aesthetic concerns.",
-              "Prevent Complications: Eliminating the cyst reduces the risk of infection, rupture, or compression of nearby structures.",
-              "Pathological Examination: In some cases, the removed cyst tissue is sent for laboratory analysis to confirm diagnosis or rule out underlying conditions.",
-              "Prevent Recurrence: Complete removal of the cyst aims to prevent recurrence and future health complications.",
-            ],
-          },
-          {
-            name: "Tongue tie release",
-            img: TongueTie,
-            head: {
-              heading: "What is Tongue Tie Release?",
-              des: [
-                "Tongue tie release, or frenotomy, is a minor surgical procedure to correct tongue tie (ankyloglossia).",
-                "Ankyloglossia occurs when the lingual frenulum, a band of tissue connecting the tongue to the floor of the mouth, is too tight or short.",
-                "The procedure involves cutting or releasing the frenulum to improve tongue movement and function.",
-              ],
-            },
-            procedure: [
-              {
-                heading: "Preparation",
-                des: [
-                  "Patient Evaluation: The healthcare provider evaluates the extent of tongue tie and its impact on speech or feeding.",
-                  "Anesthesia: Local anesthesia or topical numbing agents may be used to minimize discomfort.",
-                ],
-              },
-              {
-                heading: "Frenotomy Procedure",
-                des: [
-                  "Frenulum Assessment: The lingual frenulum is assessed to determine the site and extent of the release.",
-                  "Frenulum Release: Using sterile scissors or a laser, the frenulum is cut or released to allow greater tongue mobility.",
-                  "Post-Procedure Assessment: The healthcare provider checks for bleeding and ensures proper wound closure.",
-                ],
-              },
-              {
-                heading: "Post-Procedure Care",
-                des: [
-                  "Recovery Instructions: Instructions are provided for caring for the surgical site and managing any discomfort.",
-                  "Feeding Guidance: If the procedure was done for infants, guidance on feeding techniques may be provided to support breastfeeding.",
-                  "Follow-Up: Follow-up appointments may be scheduled to monitor healing and assess tongue function.",
-                ],
-              },
-            ],
-            purpose: [
-              "Improve Tongue Mobility: Release of the frenulum improves tongue movement, allowing for better speech and feeding.",
-              "Reduce Symptoms: Correcting tongue tie can alleviate issues such as difficulty breastfeeding or speaking.",
-              "Facilitate Oral Health: Improved tongue function contributes to better oral hygiene and overall oral health.",
-              "Enhance Quality of Life: Addressing tongue tie early can improve quality of life by preventing feeding difficulties and promoting proper speech development.",
-            ],
-          },
-          {
-            name: "Frenum release",
-            img: FrenumRelease,
-            head: {
-              heading: "What is Frenum Release?",
-              des: [
-                "Frenum release, also known as frenectomy or frenotomy, is a surgical procedure to release or remove a frenum.",
-                "A frenum is a small fold or band of tissue that connects two parts of the body and restricts movement.",
-                "The procedure aims to improve mobility and function in areas where the frenum causes restriction or discomfort.",
-              ],
-            },
-            procedure: [
-              {
-                heading: "Preparation",
-                des: [
-                  "Patient Evaluation: The healthcare provider evaluates the location, size, and impact of the frenum.",
-                  "Anesthesia: Local anesthesia or topical numbing agents may be used to minimize discomfort.",
-                ],
-              },
-              {
-                heading: "Frenum Release Procedure",
-                des: [
-                  "Incision or Removal: Depending on the type of frenum and its location, it may be cut with scissors or removed with a laser.",
-                  "Closure: Stitches or sutures may be used to close the incision if necessary.",
-                ],
-              },
-              {
-                heading: "Post-Procedure Care",
-                des: [
-                  "Wound Care: Instructions are provided for caring for the surgical site and managing any discomfort.",
-                  "Recovery: Recovery time varies depending on the location and extent of the frenum release.",
-                  "Follow-Up: Follow-up appointments may be scheduled to monitor healing and assess function.",
-                ],
-              },
-            ],
-            purpose: [
-              "Improve Mobility: Frenum release aims to improve range of motion and function in areas affected by restrictive frenum.",
-              "Relieve Symptoms: Addressing tight or restrictive frenum can alleviate discomfort, irritation, or speech issues.",
-              "Facilitate Oral Health: In oral procedures, releasing frenum can improve oral hygiene and prevent dental complications.",
-              "Enhance Quality of Life: Improving function and reducing discomfort can enhance overall quality of life.",
-            ],
-          },
+          // {
+          //   name: "Abscess drainage",
+          //   img: AbscessDrainage,
+          //   head: {
+          //     heading: "What is Abscess Drainage?",
+          //     des: [
+          //       "Abscess drainage is a medical procedure used to treat an abscess, which is a collection of pus caused by a bacterial infection.",
+          //       "The procedure involves draining the pus from the abscess to relieve pain, reduce swelling, and prevent the spread of infection.",
+          //       "Abscesses can occur in various parts of the body, including the skin, gums, and internal organs.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     {
+          //       heading: "Preparation",
+          //       des: [
+          //         "Patient Evaluation: The healthcare provider evaluates the abscess location, size, and severity.",
+          //         "Anesthesia: Local anesthesia or sedation may be administered to numb the area and minimize discomfort.",
+          //       ],
+          //     },
+          //     {
+          //       heading: "Drainage Procedure",
+          //       des: [
+          //         "Incision: A small incision is made in the abscess to allow drainage of pus.",
+          //         "Pus Removal: The healthcare provider gently squeezes or uses suction to remove the pus.",
+          //         "Cleaning and Packing: The abscess cavity may be cleaned with saline solution and packed with gauze to absorb any remaining fluid.",
+          //       ],
+          //     },
+          //     {
+          //       heading: "Post-Procedure Care",
+          //       des: [
+          //         "Antibiotics: Antibiotics may be prescribed to treat the underlying infection.",
+          //         "Wound Care: Instructions are provided for caring for the incision site and changing dressings.",
+          //         "Follow-Up: Follow-up appointments may be scheduled to monitor healing and ensure the infection has resolved.",
+          //       ],
+          //     },
+          //   ],
+          //   purpose: [
+          //     "Relieve Symptoms: Draining the abscess reduces pain, swelling, and pressure caused by the buildup of pus.",
+          //     "Promote Healing: Removing pus helps the body's natural healing process to close the abscess cavity.",
+          //     "Prevent Complications: By removing the infection source, abscess drainage helps prevent the spread of infection to surrounding tissues or bloodstream.",
+          //     "Restore Function: Successful treatment restores normal function to the affected area once the infection has resolved.",
+          //   ],
+          // },
+          // {
+          //   name: "Cyst removal",
+          //   img: CystRemoval,
+          //   head: {
+          //     heading: "What is Cyst Removal?",
+          //     des: [
+          //       "Cyst removal is a surgical procedure used to excise or drain abnormal fluid-filled sacs (cysts) from the body.",
+          //       "Cysts can develop in various tissues and organs, including the skin, bones, and internal organs.",
+          //       "The procedure aims to remove the cyst completely to alleviate symptoms, prevent complications, and reduce the risk of recurrence.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     {
+          //       heading: "Preparation",
+          //       des: [
+          //         "Patient Evaluation: The healthcare provider evaluates the cyst location, size, and characteristics.",
+          //         "Anesthesia: Local anesthesia or sedation may be administered to numb the area and minimize discomfort.",
+          //       ],
+          //     },
+          //     {
+          //       heading: "Removal Procedure",
+          //       des: [
+          //         "Incision: A surgical incision is made to access the cyst.",
+          //         "Cyst Excision: The cyst is carefully excised or removed intact from surrounding tissues.",
+          //         "Closure: Stitches or sutures may be used to close the surgical wound.",
+          //       ],
+          //     },
+          //     {
+          //       heading: "Post-Procedure Care",
+          //       des: [
+          //         "Wound Care: Instructions are provided for caring for the surgical incision.",
+          //         "Pain Management: Pain medications may be prescribed to manage post-operative discomfort.",
+          //         "Follow-Up: Follow-up appointments may be scheduled to monitor healing and ensure the cyst has been completely removed.",
+          //       ],
+          //     },
+          //   ],
+          //   purpose: [
+          //     "Symptom Relief: Removal of the cyst alleviates symptoms such as pain, discomfort, or aesthetic concerns.",
+          //     "Prevent Complications: Eliminating the cyst reduces the risk of infection, rupture, or compression of nearby structures.",
+          //     "Pathological Examination: In some cases, the removed cyst tissue is sent for laboratory analysis to confirm diagnosis or rule out underlying conditions.",
+          //     "Prevent Recurrence: Complete removal of the cyst aims to prevent recurrence and future health complications.",
+          //   ],
+          // },
+          // {
+          //   name: "Tongue tie release",
+          //   img: TongueTie,
+          //   head: {
+          //     heading: "What is Tongue Tie Release?",
+          //     des: [
+          //       "Tongue tie release, or frenotomy, is a minor surgical procedure to correct tongue tie (ankyloglossia).",
+          //       "Ankyloglossia occurs when the lingual frenulum, a band of tissue connecting the tongue to the floor of the mouth, is too tight or short.",
+          //       "The procedure involves cutting or releasing the frenulum to improve tongue movement and function.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     {
+          //       heading: "Preparation",
+          //       des: [
+          //         "Patient Evaluation: The healthcare provider evaluates the extent of tongue tie and its impact on speech or feeding.",
+          //         "Anesthesia: Local anesthesia or topical numbing agents may be used to minimize discomfort.",
+          //       ],
+          //     },
+          //     {
+          //       heading: "Frenotomy Procedure",
+          //       des: [
+          //         "Frenulum Assessment: The lingual frenulum is assessed to determine the site and extent of the release.",
+          //         "Frenulum Release: Using sterile scissors or a laser, the frenulum is cut or released to allow greater tongue mobility.",
+          //         "Post-Procedure Assessment: The healthcare provider checks for bleeding and ensures proper wound closure.",
+          //       ],
+          //     },
+          //     {
+          //       heading: "Post-Procedure Care",
+          //       des: [
+          //         "Recovery Instructions: Instructions are provided for caring for the surgical site and managing any discomfort.",
+          //         "Feeding Guidance: If the procedure was done for infants, guidance on feeding techniques may be provided to support breastfeeding.",
+          //         "Follow-Up: Follow-up appointments may be scheduled to monitor healing and assess tongue function.",
+          //       ],
+          //     },
+          //   ],
+          //   purpose: [
+          //     "Improve Tongue Mobility: Release of the frenulum improves tongue movement, allowing for better speech and feeding.",
+          //     "Reduce Symptoms: Correcting tongue tie can alleviate issues such as difficulty breastfeeding or speaking.",
+          //     "Facilitate Oral Health: Improved tongue function contributes to better oral hygiene and overall oral health.",
+          //     "Enhance Quality of Life: Addressing tongue tie early can improve quality of life by preventing feeding difficulties and promoting proper speech development.",
+          //   ],
+          // },
+          // {
+          //   name: "Frenum release",
+          //   img: FrenumRelease,
+          //   head: {
+          //     heading: "What is Frenum Release?",
+          //     des: [
+          //       "Frenum release, also known as frenectomy or frenotomy, is a surgical procedure to release or remove a frenum.",
+          //       "A frenum is a small fold or band of tissue that connects two parts of the body and restricts movement.",
+          //       "The procedure aims to improve mobility and function in areas where the frenum causes restriction or discomfort.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     {
+          //       heading: "Preparation",
+          //       des: [
+          //         "Patient Evaluation: The healthcare provider evaluates the location, size, and impact of the frenum.",
+          //         "Anesthesia: Local anesthesia or topical numbing agents may be used to minimize discomfort.",
+          //       ],
+          //     },
+          //     {
+          //       heading: "Frenum Release Procedure",
+          //       des: [
+          //         "Incision or Removal: Depending on the type of frenum and its location, it may be cut with scissors or removed with a laser.",
+          //         "Closure: Stitches or sutures may be used to close the incision if necessary.",
+          //       ],
+          //     },
+          //     {
+          //       heading: "Post-Procedure Care",
+          //       des: [
+          //         "Wound Care: Instructions are provided for caring for the surgical site and managing any discomfort.",
+          //         "Recovery: Recovery time varies depending on the location and extent of the frenum release.",
+          //         "Follow-Up: Follow-up appointments may be scheduled to monitor healing and assess function.",
+          //       ],
+          //     },
+          //   ],
+          //   purpose: [
+          //     "Improve Mobility: Frenum release aims to improve range of motion and function in areas affected by restrictive frenum.",
+          //     "Relieve Symptoms: Addressing tight or restrictive frenum can alleviate discomfort, irritation, or speech issues.",
+          //     "Facilitate Oral Health: In oral procedures, releasing frenum can improve oral hygiene and prevent dental complications.",
+          //     "Enhance Quality of Life: Improving function and reducing discomfort can enhance overall quality of life.",
+          //   ],
+          // },
         ],
       },
     ],
@@ -1024,7 +1131,9 @@ export const servicesDoc = [
     logo: <FaSuitcaseMedical />,
     title: "Maxillofacial Surgery",
     img: serviceThree,
-
+    mainImg: serviceMainThree,
+    mainDes:
+      '"For patients in need of surgical procedures and in-patient care, these essential services are offered at our affiliated hospitals, which are equipped with operating theatres."',
     des: [
       "Oral and maxillofacial surgery is a surgical specialty focusing on reconstructive surgery of the face, facial trauma surgery, the oral cavity, head and neck, mouth, and jaws, as well as facial cosmetic surgery. Dental implantology",
       "We provide out patient services at the clinic and in patient services at the nearby hospitals.",
@@ -1032,6 +1141,23 @@ export const servicesDoc = [
     subTitle: [
       {
         name: "Facial trauma",
+        subName: "(Facial Fractures or Damaged Maxillofacial Tissue)",
+        mainDes: [
+          "Maxillofacial trauma refers to any injury to the face or jaws.",
+          "This type of trauma can be caused by: motor vehicle accidents, falls, sports injuries, interpersonal violence, and work-related accidents.",
+        ],
+        mainDesTwo: [
+          {
+            heading: "Patients may exhibit symptoms such as:",
+            des: [
+              "Facial lacerations",
+              "Intra-oral lacerations",
+              "Avulsed (knocked out) teeth",
+              "Fractured facial bones (cheek, nose or eye socket)",
+              "Fractured jaws (upper and lower jaw)",
+            ],
+          },
+        ],
         img: FacialTrauma,
         head: {
           heading: "What is Facial Trauma?",
@@ -1074,8 +1200,15 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Temporomandibular Joint (Jaw joint) concerns",
+        name: "Temporomandibular Joint (TMJ) disorders",
+        subName: "(Jaw Joint problems)",
         img: Temporomandibular,
+        mainDes: [
+          "Temporomandibular joint (TMJ) concerns refer to problems affecting the jaw joint and the muscles that control jaw movement.",
+          "Symptoms: pain, discomfort, clicking or popping noises, and difficulty with jaw movement.",
+          "Cause: jaw injury, arthritis, teeth grinding (bruxism), or misalignment of the jaw or teeth.",
+          "To note: The TM Joint is very delicate and highly susceptible to stress. The pain can radiate to the neck and shoulder muscles in severe cases.",
+        ],
         head: {
           heading: "What are Temporomandibular Joint (Jaw Joint) Concerns?",
           des: [
@@ -1119,7 +1252,8 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Corrective jaw surgery",
+        name: "Corrective Jaw Surgery",
+        subName: "(Reconstructing the Jaw to correct an Abnormal Bite)",
         img: CorrectiveJaw,
         head: {
           heading: "What is Corrective Jaw Surgery?",
@@ -1164,7 +1298,13 @@ export const servicesDoc = [
       },
       {
         name: "Oral Cancer",
+        subName: "(Can develop in any part of the Mouth)",
         img: OralCancer,
+        mainDes: [
+          "Oral cancer may develop in any part of the mouth, including the lips, tongue, gums, floor of the mouth, and the roof of the mouth (palate).It can also affect the salivary glands",
+          "Early detection and treatment of oral cancer are crucial for improving outcomes and reducing complications.",
+          "To note: The presence of a non-healing ulcer or sharp tooth trauma/wound in the mouth requires immediate attention.",
+        ],
         head: {
           heading: "What is Oral Cancer?",
           des: [
@@ -1207,7 +1347,8 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Head and Neck Pathology/tumour",
+        name: "Cysts & Tumors",
+        subName: "(May present in any part of the Face, Jaw & Mouth)",
         img: PathologyTumour,
         head: {
           heading: "What is Head and Neck Pathology/Tumor?",
@@ -1296,97 +1437,354 @@ export const servicesDoc = [
           "Supportive Care: Providing comprehensive care to address physical, emotional, and social aspects of facial nerve concerns.",
         ],
       },
+      // {
+      //   name: "Scar revision/ correction",
+      //   img: ScarRevision,
+      //   head: {
+      //     heading: "What is Scar Revision/Correction?",
+      //     des: [
+      //       "Scar revision or correction refers to surgical or non-surgical procedures aimed at minimizing the appearance of scars and improving skin texture and appearance.",
+      //       "It is typically performed to reduce the visibility of scars resulting from injury, surgery, burns, or skin conditions.",
+      //       "Treatment options vary depending on the type, location, and severity of the scar.",
+      //     ],
+      //   },
+      //   procedure: [
+      //     {
+      //       heading: "Evaluation and Planning",
+      //       des: [
+      //         "Consultation: Assessment of the scar by a dermatologist or plastic surgeon to determine the best approach for treatment.",
+      //         "Skin Examination: Evaluation of scar characteristics, such as size, texture, color, and location.",
+      //         "Discussion of Options: Explanation of treatment options, including surgical revision, laser therapy, or topical treatments.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Treatment Options",
+      //       des: [
+      //         "Surgical Revision: Excision of the scar tissue followed by closure with techniques to minimize scar formation.",
+      //         "Laser Therapy: Use of laser devices to resurface the skin, reduce redness, and improve scar texture.",
+      //         "Dermal Fillers: Injection of fillers to raise depressed scars and improve skin contour.",
+      //         "Topical Treatments: Application of silicone gels, corticosteroid creams, or other medications to improve scar appearance.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Post-Treatment Care",
+      //       des: [
+      //         "Wound Care: Instructions for caring for the treated area to promote healing and minimize scar recurrence.",
+      //         "Scar Management: Techniques such as massage or silicone sheeting to improve scar flexibility and appearance.",
+      //         "Follow-Up Visits: Regular monitoring to assess scar healing and adjust treatment as needed.",
+      //       ],
+      //     },
+      //   ],
+      //   purpose: [
+      //     "Improve Aesthetic Appearance: Minimize the visibility of scars for improved skin aesthetics and self-confidence.",
+      //     "Restore Function: Address scars that restrict movement or cause discomfort.",
+      //     "Enhance Skin Texture: Smooth out irregularities in skin texture caused by scars.",
+      //     "Psychological Well-being: Boost self-esteem and reduce emotional distress associated with visible scars.",
+      //   ],
+      // },
+      // {
+      //   name: "Cosmetic surgery",
+      //   img: CosmeticSurgery,
+      //   head: {
+      //     heading: "What is Cosmetic Surgery?",
+      //     des: [
+      //       "Cosmetic surgery, also known as aesthetic surgery, refers to surgical procedures aimed at enhancing the appearance of a person.",
+      //       "It is typically elective and focuses on improving aesthetic appeal, symmetry, and proportion of facial and body features.",
+      //       "Cosmetic surgery can address areas such as the face, neck, breasts, body contouring, and skin.",
+      //     ],
+      //   },
+      //   procedure: [
+      //     {
+      //       heading: "Common Procedures",
+      //       des: [
+      //         "Facial Procedures: Facelift, rhinoplasty (nose surgery), eyelid surgery, brow lift, and chin augmentation.",
+      //         "Breast Procedures: Breast augmentation, breast lift, breast reduction, and nipple/areola surgery.",
+      //         "Body Contouring: Liposuction, tummy tuck (abdominoplasty), body lift, and thigh lift.",
+      //         "Skin Rejuvenation: Laser resurfacing, chemical peels, dermal fillers, and Botox injections.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Treatment Process",
+      //       des: [
+      //         "Consultation: Initial meeting with a cosmetic surgeon to discuss goals, expectations, and medical history.",
+      //         "Preparation: Pre-operative assessments, instructions, and planning for the procedure.",
+      //         "Surgery: Procedure performed under anesthesia with careful attention to cosmetic goals and patient safety.",
+      //         "Recovery: Post-operative care, monitoring, and instructions for optimal healing and results.",
+      //         "Follow-Up: Monitoring progress, managing any concerns, and assessing long-term outcomes.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Benefits and Considerations",
+      //       des: [
+      //         "Enhanced Appearance: Improves symmetry, proportion, and aesthetic appeal.",
+      //         "Boosted Confidence: Positive impact on self-esteem and body image.",
+      //         "Personalized Approach: Tailored treatments to achieve individual goals.",
+      //         "Risks and Recovery: Potential risks, recovery timeline, and realistic expectations.",
+      //       ],
+      //     },
+      //   ],
+      //   purpose: [
+      //     "Enhance Aesthetic Appeal: Improve facial and body features to achieve desired appearance.",
+      //     "Restore Youthful Appearance: Address signs of aging and enhance facial rejuvenation.",
+      //     "Correct Defects: Correct congenital deformities, injuries, or physical abnormalities.",
+      //     "Psychological Well-being: Boost self-confidence and improve overall quality of life.",
+      //   ],
+      // },
+      // {
+      //   name: "Dimploplasty (making a dimple on the cheek)",
+      //   img: Dimploplasty,
+      //   head: {
+      //     heading: "What is Dimpleplasty (Cheek Dimple Surgery)?",
+      //     des: [
+      //       "Dimpleplasty, also known as cheek dimple surgery, is a cosmetic procedure aimed at creating dimples on the cheeks.",
+      //       "Dimples are considered attractive facial features and are created by surgically forming a small depression in the cheek.",
+      //       "The procedure is typically elective and involves minimal risk with the goal of enhancing facial aesthetics.",
+      //     ],
+      //   },
+      //   procedure: [
+      //     {
+      //       heading: "Surgical Technique",
+      //       des: [
+      //         "Marking the Site: The surgeon marks the desired location on the cheek where the dimple will be created.",
+      //         "Local Anesthesia: Local anesthesia is administered to numb the area and minimize discomfort.",
+      //         "Creating the Dimple: A small incision is made on the inside of the cheek, and a suture is placed between the inner skin and muscle.",
+      //         "Securing the Dimple: The suture creates a small depression in the cheek, simulating a natural dimple.",
+      //         "Closing the Incision: The incision is closed with dissolvable stitches, and the procedure typically takes about 30 minutes.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Recovery and Results",
+      //       des: [
+      //         "Immediate Results: Dimples are visible immediately after surgery, though swelling and redness are normal and subside within a few days to weeks.",
+      //         "Post-Operative Care: Instructions include gentle cleaning of the incision site, avoiding strenuous activities, and taking prescribed pain medications as needed.",
+      //         "Long-Term Outcome: Dimpleplasty results are permanent, with the dimples becoming more defined as swelling resolves and tissues settle.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Considerations and Risks",
+      //       des: [
+      //         "Patient Selection: Candidates should have realistic expectations and understand the permanent nature of dimple creation.",
+      //         "Potential Risks: Risks include infection, asymmetry, scarring, or changes in sensation, though these are rare.",
+      //         "Alternative Options: Non-surgical dimple creation using temporary fillers may be considered for those unsure about permanent results.",
+      //       ],
+      //     },
+      //   ],
+      //   purpose: [
+      //     "Enhance Facial Aesthetics: Create natural-looking dimples that enhance facial features and smile aesthetics.",
+      //     "Boost Confidence: Improve self-esteem by achieving a desired facial appearance through elective cosmetic surgery.",
+      //     "Personalized Approach: Tailor dimple creation to complement individual facial structure and symmetry.",
+      //     "Safe and Effective: Achieve desired results with minimal risk and downtime under the care of a qualified cosmetic surgeon.",
+      //   ],
+      // },
+      // {
+      //   name: "Lobuloplasty (repair of ear lobe tear)",
+      //   img: Lobuloplasty,
+      //   head: {
+      //     heading: "What is Lobuloplasty (Repair of Ear Lobe Tear)?",
+      //     des: [
+      //       "Lobuloplasty, also known as ear lobe repair surgery, is a cosmetic procedure aimed at correcting torn or stretched earlobes.",
+      //       "Earlobe tears can result from trauma, heavy earrings, or prolonged wear, causing a split or elongation of the earlobe.",
+      //       "The procedure involves surgical techniques to restore the natural shape and contour of the earlobe.",
+      //     ],
+      //   },
+      //   procedure: [
+      //     {
+      //       heading: "Surgical Techniques",
+      //       des: [
+      //         "Evaluation: The surgeon assesses the extent and location of the earlobe tear to determine the best approach for repair.",
+      //         "Anesthesia: Local anesthesia is typically used to numb the earlobe and minimize discomfort during the procedure.",
+      //         "Repair Options: Depending on the tear, techniques may include direct closure with sutures, reconstruction with skin flaps, or tissue rearrangement.",
+      //         "Cosmetic Considerations: Careful attention is paid to ensure symmetry, natural contour, and minimal scarring.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Recovery and Aftercare",
+      //       des: [
+      //         "Immediate Care: Post-surgery, the earlobe is bandaged to protect the repair and minimize swelling.",
+      //         "Wound Healing: Instructions include gentle cleaning of the incision site, avoiding pressure or trauma to the earlobe, and applying prescribed ointments.",
+      //         "Stitch Removal: Sutures are typically removed within 7-10 days, depending on the healing progress.",
+      //         "Resuming Activities: Patients are advised to avoid strenuous activities or wearing earrings until the earlobe has fully healed.",
+      //       ],
+      //     },
+      //     {
+      //       heading: "Long-Term Results",
+      //       des: [
+      //         "Natural Appearance: The goal is to achieve a natural-looking earlobe with restored shape and symmetry.",
+      //         "Scar Management: Techniques such as scar massage or silicone sheets may be recommended to improve the appearance of scars over time.",
+      //         "Follow-Up Visits: Regular follow-up appointments allow the surgeon to monitor healing progress and address any concerns.",
+      //       ],
+      //     },
+      //   ],
+      //   purpose: [
+      //     "Restore Earlobe Integrity: Correct torn or stretched earlobes to restore their natural shape and function.",
+      //     "Improve Aesthetic Appearance: Enhance the appearance of the earlobes for improved symmetry and contour.",
+      //     "Functional Restoration: Enable comfortable wearing of earrings and restore confidence in appearance.",
+      //     "Personalized Care: Tailor surgical techniques to meet individual needs and achieve desired aesthetic outcomes.",
+      //   ],
+      // },
+    ],
+  },
+  {
+    logo: <TbToolsOff />,
+    title: "Cosmetic",
+    img: serviceFour,
+    mainImg: serviceMainFour,
+    mainDes: "Types of cosmetic surgery for the face",
+    des: [
+      "Cosmetic treatments designed to accentuate and enhance natural facial features through a non-surgical procedure. Some of the procedures are non- invasive procedures or minimally invasive procedure.",
+      "Permanent make up(PMU) techniques of Microblading and micro pigmentation.Hair treatments are an equally important part of aesthetics, an issue that plagues the current system of modern lifestyle.",
+    ],
+
+    subTitle: [
       {
-        name: "Scar revision/ correction",
-        img: ScarRevision,
+        name: "Botox",
+        img: Botox,
         head: {
-          heading: "What is Scar Revision/Correction?",
+          heading: "What is Botox?",
           des: [
-            "Scar revision or correction refers to surgical or non-surgical procedures aimed at minimizing the appearance of scars and improving skin texture and appearance.",
-            "It is typically performed to reduce the visibility of scars resulting from injury, surgery, burns, or skin conditions.",
-            "Treatment options vary depending on the type, location, and severity of the scar.",
+            "Botox is a cosmetic treatment that uses botulinum toxin to temporarily reduce or eliminate facial wrinkles and fine lines.",
+            "It is a popular non-surgical procedure for smoothing wrinkles by paralyzing facial muscles temporarily.",
+            "Botox injections are primarily used for cosmetic purposes but also have medical applications.",
           ],
         },
         procedure: [
-          {
-            heading: "Evaluation and Planning",
-            des: [
-              "Consultation: Assessment of the scar by a dermatologist or plastic surgeon to determine the best approach for treatment.",
-              "Skin Examination: Evaluation of scar characteristics, such as size, texture, color, and location.",
-              "Discussion of Options: Explanation of treatment options, including surgical revision, laser therapy, or topical treatments.",
-            ],
-          },
-          {
-            heading: "Treatment Options",
-            des: [
-              "Surgical Revision: Excision of the scar tissue followed by closure with techniques to minimize scar formation.",
-              "Laser Therapy: Use of laser devices to resurface the skin, reduce redness, and improve scar texture.",
-              "Dermal Fillers: Injection of fillers to raise depressed scars and improve skin contour.",
-              "Topical Treatments: Application of silicone gels, corticosteroid creams, or other medications to improve scar appearance.",
-            ],
-          },
-          {
-            heading: "Post-Treatment Care",
-            des: [
-              "Wound Care: Instructions for caring for the treated area to promote healing and minimize scar recurrence.",
-              "Scar Management: Techniques such as massage or silicone sheeting to improve scar flexibility and appearance.",
-              "Follow-Up Visits: Regular monitoring to assess scar healing and adjust treatment as needed.",
-            ],
-          },
+          "Consultation: Initial meeting with a qualified provider to discuss treatment goals, medical history, and expectations.",
+          "Injection Process: Botox is injected into targeted facial muscles using a fine needle to reduce muscle activity and smooth wrinkles.",
+          "Duration: The procedure typically takes about 10-15 minutes, depending on the areas treated.",
+          "Results: Initial effects may be visible within a few days, with full results appearing in about 1-2 weeks.",
+          "Maintenance: Results last for 3-6 months, after which follow-up treatments are needed to maintain results.",
         ],
         purpose: [
-          "Improve Aesthetic Appearance: Minimize the visibility of scars for improved skin aesthetics and self-confidence.",
-          "Restore Function: Address scars that restrict movement or cause discomfort.",
-          "Enhance Skin Texture: Smooth out irregularities in skin texture caused by scars.",
-          "Psychological Well-being: Boost self-esteem and reduce emotional distress associated with visible scars.",
+          "Reduce Wrinkles: Smooths out wrinkles and fine lines caused by facial expressions, such as frown lines and crow's feet.",
+          "Prevent New Wrinkles: By reducing muscle movement, Botox can help prevent the formation of new wrinkles.",
+          "Medical Uses: Treats conditions like excessive sweating (hyperhidrosis), migraines, and muscle spasms.",
+          "Enhance Appearance: Enhances facial aesthetics by providing a more youthful and relaxed appearance.",
         ],
       },
       {
-        name: "Cosmetic surgery",
-        img: CosmeticSurgery,
+        name: "Dermal fillers",
+        img: DermalFillers,
         head: {
-          heading: "What is Cosmetic Surgery?",
+          heading: "What are Dermal Fillers?",
           des: [
-            "Cosmetic surgery, also known as aesthetic surgery, refers to surgical procedures aimed at enhancing the appearance of a person.",
-            "It is typically elective and focuses on improving aesthetic appeal, symmetry, and proportion of facial and body features.",
-            "Cosmetic surgery can address areas such as the face, neck, breasts, body contouring, and skin.",
+            "Dermal fillers are injectable substances used to restore volume, smooth lines, and enhance facial contours.",
+            "They are commonly used in cosmetic procedures to reduce wrinkles, plump lips, and improve facial symmetry.",
+            "Various types of fillers are available, each with different compositions suited for specific areas of the face.",
+          ],
+        },
+        procedure: [
+          "Consultation: Initial assessment to discuss treatment goals, medical history, and options suitable for the desired outcome.",
+          "Injection Process: Dermal fillers are injected into targeted areas using fine needles or cannulas to add volume or fill lines.",
+          "Types of Fillers: Options include hyaluronic acid fillers (e.g., Juvederm, Restylane) and synthetic fillers (e.g., Radiesse, Sculptra).",
+          "Duration: Results are visible immediately, with full effects appearing within a few days to weeks.",
+          "Maintenance: Depending on the type of filler used, results can last from 6 months to 2 years, requiring periodic touch-ups.",
+        ],
+        purpose: [
+          "Reduce Wrinkles and Lines: Softens facial creases, wrinkles, and folds, particularly around the mouth, eyes, and forehead.",
+          "Restore Facial Volume: Adds volume to areas that have lost fullness due to aging or other factors.",
+          "Enhance Facial Contours: Defines and enhances features such as cheeks, chin, and jawline for improved facial symmetry.",
+          "Non-Surgical Lip Augmentation: Increases lip volume and reshapes lip contours for a fuller, more defined appearance.",
+        ],
+      },
+      {
+        name: "Wrinkle Treatment",
+        img: WrinkleTreatment,
+      },
+      {
+        name: "Chemical Peels",
+        img: ChemicalPeels,
+        head: {
+          heading: "What are Chemical Peels?",
+          des: [
+            "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+            "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+            "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+          ],
+        },
+        procedure: [
+          "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+          "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+          "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+          "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+          "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+        ],
+        purpose: [
+          "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+          "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+          "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+          "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+        ],
+      },
+      {
+        name: "Microderma abrasion",
+        img: MicrodermaAbrasion,
+        head: {
+          heading: "What are Chemical Peels?",
+          des: [
+            "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+            "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+            "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+          ],
+        },
+        procedure: [
+          "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+          "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+          "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+          "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+          "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+        ],
+        purpose: [
+          "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+          "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+          "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+          "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+        ],
+      },
+      {
+        name: "Scar Revision/ Correction",
+        img: ScarRemoval,
+        head: {
+          heading: "What is Scar Removal?",
+          des: [
+            "Scar removal refers to various treatments aimed at reducing the appearance of scars on the skin.",
+            "Scars can result from injuries, surgeries, acne, or other skin conditions and may vary in size, shape, and texture.",
+            "Different methods are used to improve scar appearance, depending on the type and severity of the scar.",
           ],
         },
         procedure: [
           {
-            heading: "Common Procedures",
+            heading: "Types of Scar Removal Treatments",
             des: [
-              "Facial Procedures: Facelift, rhinoplasty (nose surgery), eyelid surgery, brow lift, and chin augmentation.",
-              "Breast Procedures: Breast augmentation, breast lift, breast reduction, and nipple/areola surgery.",
-              "Body Contouring: Liposuction, tummy tuck (abdominoplasty), body lift, and thigh lift.",
-              "Skin Rejuvenation: Laser resurfacing, chemical peels, dermal fillers, and Botox injections.",
+              "Topical Treatments: Creams, gels, or ointments containing ingredients like silicone or corticosteroids to improve scar appearance.",
+              "Laser Therapy: Laser treatments target scar tissue to reduce redness, flatten raised scars, and improve skin texture.",
+              "Microdermabrasion: Exfoliation technique to remove the outer layer of skin, promoting new skin growth and reducing scar visibility.",
+              "Surgical Excision: Surgical removal of scar tissue followed by closure to minimize scar visibility.",
+              "Injectable Treatments: Fillers or collagen-stimulating injections to raise depressed scars or improve skin texture.",
+              "Chemical Peels: Chemical solutions applied to the skin to remove damaged outer layers and improve scar appearance.",
             ],
           },
           {
-            heading: "Treatment Process",
+            heading: "Recovery and Results",
             des: [
-              "Consultation: Initial meeting with a cosmetic surgeon to discuss goals, expectations, and medical history.",
-              "Preparation: Pre-operative assessments, instructions, and planning for the procedure.",
-              "Surgery: Procedure performed under anesthesia with careful attention to cosmetic goals and patient safety.",
-              "Recovery: Post-operative care, monitoring, and instructions for optimal healing and results.",
-              "Follow-Up: Monitoring progress, managing any concerns, and assessing long-term outcomes.",
+              "Varies by Treatment: Recovery time depends on the type of treatment, ranging from minimal downtime for topical treatments to longer recovery for surgical procedures.",
+              "Expected Results: Improvements in scar appearance, such as reduced size, smoother texture, and less noticeable coloration.",
+              "Follow-Up Care: Post-treatment care instructions include sun protection, moisturizing, and avoiding activities that could irritate healing skin.",
             ],
           },
           {
-            heading: "Benefits and Considerations",
+            heading: "Considerations",
             des: [
-              "Enhanced Appearance: Improves symmetry, proportion, and aesthetic appeal.",
-              "Boosted Confidence: Positive impact on self-esteem and body image.",
-              "Personalized Approach: Tailored treatments to achieve individual goals.",
-              "Risks and Recovery: Potential risks, recovery timeline, and realistic expectations.",
+              "Consultation: Initial assessment with a dermatologist or plastic surgeon to evaluate scar type, location, and treatment options.",
+              "Patient Expectations: Realistic expectations regarding scar improvement and potential limitations of treatment.",
+              "Multiple Treatments: Some scars may require multiple sessions or combination treatments for optimal results.",
             ],
           },
         ],
         purpose: [
-          "Enhance Aesthetic Appeal: Improve facial and body features to achieve desired appearance.",
-          "Restore Youthful Appearance: Address signs of aging and enhance facial rejuvenation.",
-          "Correct Defects: Correct congenital deformities, injuries, or physical abnormalities.",
-          "Psychological Well-being: Boost self-confidence and improve overall quality of life.",
+          "Improve Scar Appearance: Minimize scar visibility and enhance skin texture for improved aesthetics.",
+          "Boost Confidence: Address psychological impact by improving the appearance of visible scars.",
+          "Personalized Treatment: Tailor treatments to individual scar characteristics and patient preferences.",
+          "Functional Improvement: Enhance skin flexibility and reduce discomfort associated with scar tissue.",
         ],
       },
       {
@@ -1481,509 +1879,846 @@ export const servicesDoc = [
           "Personalized Care: Tailor surgical techniques to meet individual needs and achieve desired aesthetic outcomes.",
         ],
       },
+      {
+        name: "Brow lift (forehead lift)",
+        img: BrowLift,
+      },
+      {
+        name: "Rhinoplasty (nose surgery)",
+        img: Rhinoplasty,
+      },
     ],
   },
   {
     logo: <TbToolsOff />,
-    title: "Cosmetology, Skin, Hair",
+    title: "Skin, Hair",
     img: serviceFour,
+    mainImg: seserviceMainFive,
+    mainDes: "",
     des: [
       "Cosmetic treatments designed to accentuate and enhance natural facial features through a non-surgical procedure. Some of the procedures are non- invasive procedures or minimally invasive procedure.",
       "Permanent make up(PMU) techniques of Microblading and micro pigmentation.Hair treatments are an equally important part of aesthetics, an issue that plagues the current system of modern lifestyle.",
     ],
-
-    subTitle: [
+    subHead: [
       {
-        name: "Botox",
-        img: Botox,
-        head: {
-          heading: "What is Botox?",
-          des: [
-            "Botox is a cosmetic treatment that uses botulinum toxin to temporarily reduce or eliminate facial wrinkles and fine lines.",
-            "It is a popular non-surgical procedure for smoothing wrinkles by paralyzing facial muscles temporarily.",
-            "Botox injections are primarily used for cosmetic purposes but also have medical applications.",
-          ],
-        },
-        procedure: [
-          "Consultation: Initial meeting with a qualified provider to discuss treatment goals, medical history, and expectations.",
-          "Injection Process: Botox is injected into targeted facial muscles using a fine needle to reduce muscle activity and smooth wrinkles.",
-          "Duration: The procedure typically takes about 10-15 minutes, depending on the areas treated.",
-          "Results: Initial effects may be visible within a few days, with full results appearing in about 1-2 weeks.",
-          "Maintenance: Results last for 3-6 months, after which follow-up treatments are needed to maintain results.",
-        ],
-        purpose: [
-          "Reduce Wrinkles: Smooths out wrinkles and fine lines caused by facial expressions, such as frown lines and crow's feet.",
-          "Prevent New Wrinkles: By reducing muscle movement, Botox can help prevent the formation of new wrinkles.",
-          "Medical Uses: Treats conditions like excessive sweating (hyperhidrosis), migraines, and muscle spasms.",
-          "Enhance Appearance: Enhances facial aesthetics by providing a more youthful and relaxed appearance.",
-        ],
-      },
-      {
-        name: "Dermal fillers",
-        img: DermalFillers,
-        head: {
-          heading: "What are Dermal Fillers?",
-          des: [
-            "Dermal fillers are injectable substances used to restore volume, smooth lines, and enhance facial contours.",
-            "They are commonly used in cosmetic procedures to reduce wrinkles, plump lips, and improve facial symmetry.",
-            "Various types of fillers are available, each with different compositions suited for specific areas of the face.",
-          ],
-        },
-        procedure: [
-          "Consultation: Initial assessment to discuss treatment goals, medical history, and options suitable for the desired outcome.",
-          "Injection Process: Dermal fillers are injected into targeted areas using fine needles or cannulas to add volume or fill lines.",
-          "Types of Fillers: Options include hyaluronic acid fillers (e.g., Juvederm, Restylane) and synthetic fillers (e.g., Radiesse, Sculptra).",
-          "Duration: Results are visible immediately, with full effects appearing within a few days to weeks.",
-          "Maintenance: Depending on the type of filler used, results can last from 6 months to 2 years, requiring periodic touch-ups.",
-        ],
-        purpose: [
-          "Reduce Wrinkles and Lines: Softens facial creases, wrinkles, and folds, particularly around the mouth, eyes, and forehead.",
-          "Restore Facial Volume: Adds volume to areas that have lost fullness due to aging or other factors.",
-          "Enhance Facial Contours: Defines and enhances features such as cheeks, chin, and jawline for improved facial symmetry.",
-          "Non-Surgical Lip Augmentation: Increases lip volume and reshapes lip contours for a fuller, more defined appearance.",
-        ],
-      },
-      {
-        name: "Chemical Peels",
-        img: ChemicalPeels,
-        head: {
-          heading: "What are Chemical Peels?",
-          des: [
-            "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
-            "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
-            "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
-          ],
-        },
-        procedure: [
-          "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
-          "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
-          "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
-          "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
-          "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
-        ],
-        purpose: [
-          "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
-          "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
-          "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
-          "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
-        ],
-      },
-      {
-        name: "Microderma abrasion",
-        img: MicrodermaAbrasion,
-        head: {
-          heading: "What are Chemical Peels?",
-          des: [
-            "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
-            "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
-            "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
-          ],
-        },
-        procedure: [
-          "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
-          "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
-          "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
-          "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
-          "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
-        ],
-        purpose: [
-          "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
-          "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
-          "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
-          "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
-        ],
-      },
-      {
-        name: "Scar removal",
-        img: ScarRemoval,
-        head: {
-          heading: "What is Scar Removal?",
-          des: [
-            "Scar removal refers to various treatments aimed at reducing the appearance of scars on the skin.",
-            "Scars can result from injuries, surgeries, acne, or other skin conditions and may vary in size, shape, and texture.",
-            "Different methods are used to improve scar appearance, depending on the type and severity of the scar.",
-          ],
-        },
-        procedure: [
+        heading: "Skin Rejuvenation and Resurfacing:",
+        subTitle: [
           {
-            heading: "Types of Scar Removal Treatments",
-            des: [
-              "Topical Treatments: Creams, gels, or ointments containing ingredients like silicone or corticosteroids to improve scar appearance.",
-              "Laser Therapy: Laser treatments target scar tissue to reduce redness, flatten raised scars, and improve skin texture.",
-              "Microdermabrasion: Exfoliation technique to remove the outer layer of skin, promoting new skin growth and reducing scar visibility.",
-              "Surgical Excision: Surgical removal of scar tissue followed by closure to minimize scar visibility.",
-              "Injectable Treatments: Fillers or collagen-stimulating injections to raise depressed scars or improve skin texture.",
-              "Chemical Peels: Chemical solutions applied to the skin to remove damaged outer layers and improve scar appearance.",
+            name: "Chemical Peels",
+            img: ChemicalPeels,
+            head: {
+              heading: "What are Chemical Peels?",
+              des: [
+                "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+                "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+                "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+              ],
+            },
+            procedure: [
+              "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+              "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+              "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+              "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+              "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+            ],
+            purpose: [
+              "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+              "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+              "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+              "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
             ],
           },
           {
-            heading: "Recovery and Results",
-            des: [
-              "Varies by Treatment: Recovery time depends on the type of treatment, ranging from minimal downtime for topical treatments to longer recovery for surgical procedures.",
-              "Expected Results: Improvements in scar appearance, such as reduced size, smoother texture, and less noticeable coloration.",
-              "Follow-Up Care: Post-treatment care instructions include sun protection, moisturizing, and avoiding activities that could irritate healing skin.",
+            name: "Microderma abrasion",
+            img: MicrodermaAbrasion,
+            head: {
+              heading: "What are Chemical Peels?",
+              des: [
+                "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+                "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+                "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+              ],
+            },
+            procedure: [
+              "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+              "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+              "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+              "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+              "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+            ],
+            purpose: [
+              "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+              "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+              "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+              "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
             ],
           },
           {
-            heading: "Considerations",
-            des: [
-              "Consultation: Initial assessment with a dermatologist or plastic surgeon to evaluate scar type, location, and treatment options.",
-              "Patient Expectations: Realistic expectations regarding scar improvement and potential limitations of treatment.",
-              "Multiple Treatments: Some scars may require multiple sessions or combination treatments for optimal results.",
+            name: "Hydra facial",
+            img: HydraFacial,
+            head: {
+              heading: "What is HydraFacial?",
+              des: [
+                "HydraFacial is a non-invasive facial treatment that combines cleansing, exfoliation, extraction, hydration, and antioxidant protection.",
+                "It uses a patented device and specialized serums to cleanse and rejuvenate the skin, addressing various skin concerns.",
+                "HydraFacial treatments are suitable for all skin types and offer immediate results with no downtime.",
+              ],
+            },
+            procedure: [
+              "Cleansing and Exfoliation: The skin is cleansed and exfoliated to remove dead skin cells and impurities.",
+              "Acid Peel: A gentle peel solution is applied to loosen debris and prepare the skin for extraction.",
+              "Extraction: Automated suction is used to remove debris from pores, reducing congestion and improving skin clarity.",
+              "Hydration: Antioxidant-rich serums are infused into the skin to nourish and hydrate, promoting a healthy glow.",
+              "Protection: The skin is protected with serums containing peptides and hyaluronic acid to enhance skin elasticity and firmness.",
+            ],
+            purpose: [
+              "Deep Cleansing: Cleanses and exfoliates the skin, removing debris and impurities for a clearer complexion.",
+              "Hydration Boost: Hydrates the skin with nourishing serums to improve moisture levels and skin texture.",
+              "Enhance Skin Tone: Improves skin tone and vibrancy, reducing the appearance of fine lines, wrinkles, and hyperpigmentation.",
+              "Immediate Results: Provides instant results with no downtime, making it ideal for quick skin rejuvenation.",
             ],
           },
-        ],
-        purpose: [
-          "Improve Scar Appearance: Minimize scar visibility and enhance skin texture for improved aesthetics.",
-          "Boost Confidence: Address psychological impact by improving the appearance of visible scars.",
-          "Personalized Treatment: Tailor treatments to individual scar characteristics and patient preferences.",
-          "Functional Improvement: Enhance skin flexibility and reduce discomfort associated with scar tissue.",
+          {
+            name: "Microneedling of the face",
+            img: Microneedling,
+            head: {
+              heading: "What is Microneedling?",
+              des: [
+                "Microneedling, also known as collagen induction therapy, is a minimally invasive cosmetic procedure.",
+                "It involves using fine needles to create tiny punctures in the skin's surface.",
+                "These micro-injuries stimulate the skin's natural healing process, promoting collagen and elastin production.",
+              ],
+            },
+            procedure: [
+              "Preparation: The skin is cleansed and numbing cream may be applied to minimize discomfort.",
+              "Microneedling Device: A device with fine needles is passed over the skin, creating controlled micro-injuries.",
+              "Serum Application: Hyaluronic acid or other serums may be applied to enhance penetration and hydration.",
+              "Post-Treatment Care: Cooling masks or soothing creams may be applied to calm the skin post-procedure.",
+              "Recovery: Mild redness and swelling are common initially, with full recovery typically within a few days to a week.",
+            ],
+            purpose: [
+              "Collagen Production: Stimulates collagen and elastin production, improving skin texture and firmness.",
+              "Scar Reduction: Helps reduce the appearance of acne scars, surgical scars, and stretch marks.",
+              "Wrinkle Reduction: Minimizes fine lines and wrinkles, particularly around the eyes and mouth.",
+              "Enhanced Absorption: Increases absorption of skincare products, maximizing their effectiveness.",
+            ],
+          },
+          {
+            name: "Face PRP",
+            img: FacPRP,
+            head: {
+              heading: "what is Platelet-Rich Plasma (PRP) Facial.?",
+              des: [
+                "A Platelet-Rich Plasma (PRP) facial is a rejuvenating skincare treatment that uses the patient's own blood plasma.",
+                "PRP contains growth factors that promote healing and stimulate collagen production in the skin.",
+                "The procedure involves extracting plasma from the patient's blood, processing it, and then applying it to the face.",
+              ],
+            },
+            procedure: [
+              "Blood Draw: A small amount of blood is drawn from the patient, typically from the arm.",
+              "Centrifugation: The blood is processed in a centrifuge to separate the plasma rich in platelets from other blood components.",
+              "Application: The PRP, now enriched with growth factors, is applied to the face using microneedling or injection techniques.",
+              "Absorption: The growth factors in PRP penetrate the skin, stimulating collagen production and cellular repair.",
+              "Post-Treatment Care: Recommendations for skincare and sun protection to optimize results.",
+            ],
+            purpose: [
+              "Skin Rejuvenation: Improves skin texture, tone, and elasticity for a more youthful appearance.",
+              "Collagen Boost: Stimulates collagen production, reducing fine lines, wrinkles, and acne scars.",
+              "Natural Results: Uses the body's own healing factors for safe and effective rejuvenation.",
+              "Minimal Downtime: Non-surgical procedure with minimal recovery time.",
+            ],
+          },
+          {
+            name: "Mole /Skin tag/wart removal",
+            img: wartRemoval,
+            head: {
+              heading: "what is Mole, Skin Tag, and Wart Removal.?",
+              des: [
+                "Mole, skin tag, and wart removal are common dermatological procedures to eliminate benign growths on the skin.",
+                "These procedures are typically performed by dermatologists or trained healthcare professionals.",
+                "Removal methods vary based on the type, size, and location of the growth.",
+              ],
+            },
+            procedure: [
+              {
+                heading: "Types of Removal Techniques",
+                des: [
+                  "Excision: Surgical removal using a scalpel or surgical scissors for larger moles, skin tags, or warts.",
+                  "Cryotherapy: Freezing the growth with liquid nitrogen to destroy the cells, often used for smaller moles, skin tags, and warts.",
+                  "Electrosurgery: Using an electric current to burn and remove the growth, suitable for various sizes of moles, skin tags, and warts.",
+                  "Laser Removal: Using laser technology to target and remove the growth, often preferred for precise and scar-free removal.",
+                ],
+              },
+              {
+                heading: "Post-Procedure Care",
+                des: [
+                  "Wound Care: Instructions for keeping the treated area clean and protected from infection.",
+                  "Healing Time: Expected recovery period and any activities to avoid during healing.",
+                  "Follow-Up: Schedule follow-up appointments to monitor healing and ensure complete removal.",
+                ],
+              },
+            ],
+            purpose: [
+              "Cosmetic Improvement: Enhances skin appearance by removing unsightly or bothersome growths.",
+              "Medical Concerns: Eliminates potential irritations or discomfort caused by moles, skin tags, or warts.",
+              "Preventive Measures: Reduces the risk of irritation, infection, or changes in appearance.",
+              "Peace of Mind: Provides reassurance and peace of mind regarding benign growths.",
+            ],
+          },
         ],
       },
       {
-        name: "Skin rejuvenation",
-        img: SkinRejuvenation,
-        head: {
-          heading: "What is Skin Rejuvenation?",
-          des: [
-            "Skin rejuvenation refers to treatments and procedures aimed at improving the appearance and health of the skin.",
-            "These treatments address various skin concerns, such as wrinkles, fine lines, age spots, uneven tone, and texture.",
-            "Different methods are used to stimulate collagen production, remove damaged skin layers, and enhance overall skin health.",
-          ],
-        },
-        procedure: [
+        heading: "Lip and Eyebrows:",
+        subTitle: [
           {
-            heading: "Types of Skin Rejuvenation Treatments",
-            des: [
-              "Chemical Peels: Chemical solutions applied to the skin to exfoliate and improve texture, targeting wrinkles and pigmentation.",
-              "Microdermabrasion: Mechanical exfoliation to remove dead skin cells and stimulate cell turnover for smoother skin.",
-              "Laser Resurfacing: Laser treatments to remove damaged skin layers, stimulate collagen production, and reduce wrinkles.",
-              "Microneedling: Fine needles create microscopic injuries to promote collagen and elastin production, improving skin texture.",
-              "Radiofrequency Therapy: Energy waves heat the deeper layers of skin to stimulate collagen and tighten sagging skin.",
+            name: "Chemical Peels",
+            img: ChemicalPeels,
+            head: {
+              heading: "What are Chemical Peels?",
+              des: [
+                "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+                "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+                "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+              ],
+            },
+            procedure: [
+              "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+              "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+              "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+              "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+              "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+            ],
+            purpose: [
+              "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+              "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+              "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+              "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
             ],
           },
           {
-            heading: "Benefits of Skin Rejuvenation",
-            des: [
-              "Improves Skin Texture: Smoothes rough skin texture and reduces the appearance of fine lines and wrinkles.",
-              "Evens Skin Tone: Reduces pigmentation irregularities, such as age spots, sun spots, and melasma.",
-              "Stimulates Collagen Production: Enhances skin elasticity and firmness by boosting collagen and elastin fibers.",
-              "Promotes Skin Health: Enhances overall skin health, including hydration, brightness, and resilience.",
+            name: "Microderma abrasion",
+            img: MicrodermaAbrasion,
+            head: {
+              heading: "What are Chemical Peels?",
+              des: [
+                "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+                "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+                "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+              ],
+            },
+            procedure: [
+              "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+              "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+              "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+              "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+              "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+            ],
+            purpose: [
+              "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+              "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+              "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+              "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
             ],
           },
           {
-            heading: "Considerations",
-            des: [
-              "Consultation: Initial assessment with a dermatologist or skincare specialist to determine the best treatment based on skin type and concerns.",
-              "Treatment Plan: Customized approach tailored to individual needs, combining different treatments for optimal results.",
-              "Maintenance: Follow-up treatments and skincare regimen to maintain results and prolong benefits.",
+            name: "Hydra facial",
+            img: HydraFacial,
+            head: {
+              heading: "What is HydraFacial?",
+              des: [
+                "HydraFacial is a non-invasive facial treatment that combines cleansing, exfoliation, extraction, hydration, and antioxidant protection.",
+                "It uses a patented device and specialized serums to cleanse and rejuvenate the skin, addressing various skin concerns.",
+                "HydraFacial treatments are suitable for all skin types and offer immediate results with no downtime.",
+              ],
+            },
+            procedure: [
+              "Cleansing and Exfoliation: The skin is cleansed and exfoliated to remove dead skin cells and impurities.",
+              "Acid Peel: A gentle peel solution is applied to loosen debris and prepare the skin for extraction.",
+              "Extraction: Automated suction is used to remove debris from pores, reducing congestion and improving skin clarity.",
+              "Hydration: Antioxidant-rich serums are infused into the skin to nourish and hydrate, promoting a healthy glow.",
+              "Protection: The skin is protected with serums containing peptides and hyaluronic acid to enhance skin elasticity and firmness.",
             ],
-          },
-        ],
-        purpose: [
-          "Enhance Skin Appearance: Improves skin texture, tone, and radiance for a more youthful and healthy appearance.",
-          "Reduce Signs of Aging: Minimizes wrinkles, fine lines, and age spots associated with aging and sun damage.",
-          "Boost Self-Confidence: Enhances skin quality and appearance, boosting self-esteem and well-being.",
-          "Personalized Care: Tailored treatments address specific skin concerns and achieve desired aesthetic goals.",
-        ],
-      },
-      {
-        name: "Skin polish",
-        img: SkinPolish,
-        head: {
-          heading: "What is Skin Polishing?",
-          des: [
-            "Skin polishing is a cosmetic treatment designed to exfoliate, hydrate, and rejuvenate the skin.",
-            "It involves the use of gentle exfoliants and nourishing ingredients to remove dead skin cells, unclog pores, and improve skin texture.",
-            "Skin polishing treatments can be performed in a spa or dermatologist's office, offering immediate benefits for smoother, brighter skin.",
-          ],
-        },
-        procedure: [
-          "Cleansing: The skin is cleansed thoroughly to remove dirt, oil, and makeup residues.",
-          "Exfoliation: Gentle exfoliants or scrubs are applied to the skin to remove dead skin cells and unclog pores.",
-          "Massage: A relaxing massage may be performed to improve circulation and lymphatic drainage.",
-          "Mask Application: Nourishing masks or serums enriched with vitamins and antioxidants are applied to hydrate and rejuvenate the skin.",
-          "Moisturizing: Moisturizers or sunscreens are applied to protect and hydrate the skin after treatment.",
-        ],
-        purpose: [
-          "Exfoliate and Renew: Removes dead skin cells and impurities, revealing smoother and more radiant skin.",
-          "Improve Skin Texture: Softens rough skin texture and reduces the appearance of fine lines and wrinkles.",
-          "Enhance Skin Hydration: Hydrates and nourishes the skin, improving moisture levels and overall skin health.",
-          "Brighten Complexion: Evens out skin tone and promotes a brighter, more youthful complexion.",
-        ],
-      },
-      {
-        name: "Hydra facial",
-        img: HydraFacial,
-        head: {
-          heading: "What is HydraFacial?",
-          des: [
-            "HydraFacial is a non-invasive facial treatment that combines cleansing, exfoliation, extraction, hydration, and antioxidant protection.",
-            "It uses a patented device and specialized serums to cleanse and rejuvenate the skin, addressing various skin concerns.",
-            "HydraFacial treatments are suitable for all skin types and offer immediate results with no downtime.",
-          ],
-        },
-        procedure: [
-          "Cleansing and Exfoliation: The skin is cleansed and exfoliated to remove dead skin cells and impurities.",
-          "Acid Peel: A gentle peel solution is applied to loosen debris and prepare the skin for extraction.",
-          "Extraction: Automated suction is used to remove debris from pores, reducing congestion and improving skin clarity.",
-          "Hydration: Antioxidant-rich serums are infused into the skin to nourish and hydrate, promoting a healthy glow.",
-          "Protection: The skin is protected with serums containing peptides and hyaluronic acid to enhance skin elasticity and firmness.",
-        ],
-        purpose: [
-          "Deep Cleansing: Cleanses and exfoliates the skin, removing debris and impurities for a clearer complexion.",
-          "Hydration Boost: Hydrates the skin with nourishing serums to improve moisture levels and skin texture.",
-          "Enhance Skin Tone: Improves skin tone and vibrancy, reducing the appearance of fine lines, wrinkles, and hyperpigmentation.",
-          "Immediate Results: Provides instant results with no downtime, making it ideal for quick skin rejuvenation.",
-        ],
-      },
-      {
-        name: "Medifacial",
-        img: Medifacial,
-        head: {
-          heading: "What is a Medifacial?",
-          des: [
-            "A Medifacial is a medical-grade facial treatment that combines advanced skincare techniques and products.",
-            "It is designed to address specific skin concerns using clinically-proven ingredients and procedures.",
-            "Medifacials are typically performed under the supervision of a dermatologist or trained skincare professional.",
-          ],
-        },
-        procedure: [
-          "Consultation: Initial assessment to evaluate skin type, concerns, and determine the most suitable treatment plan.",
-          "Cleansing: Thorough cleansing of the skin to remove makeup, dirt, and oil.",
-          "Exfoliation: Gentle exfoliation to remove dead skin cells and prepare the skin for treatment.",
-          "Treatment Application: Application of medical-grade serums, peels, or masks tailored to address specific skin issues.",
-          "Massage: Relaxing massage techniques may be used to enhance circulation and product absorption.",
-          "Protection: Application of SPF or protective creams to safeguard the skin post-treatment.",
-        ],
-        purpose: [
-          "Targeted Skin Improvement: Addresses specific skin concerns such as acne, hyperpigmentation, fine lines, or dehydration.",
-          "Enhance Skin Health: Improves skin texture, tone, and overall appearance using clinically-backed ingredients.",
-          "Customized Approach: Tailored treatments based on individual skin needs and desired outcomes.",
-          "Professional Supervision: Ensures treatments are performed safely and effectively under medical guidance.",
-        ],
-      },
-      {
-        name: "Microneedling of face",
-        img: Microneedling,
-        head: {
-          heading: "What is Microneedling?",
-          des: [
-            "Microneedling, also known as collagen induction therapy, is a minimally invasive cosmetic procedure.",
-            "It involves using fine needles to create tiny punctures in the skin's surface.",
-            "These micro-injuries stimulate the skin's natural healing process, promoting collagen and elastin production.",
-          ],
-        },
-        procedure: [
-          "Preparation: The skin is cleansed and numbing cream may be applied to minimize discomfort.",
-          "Microneedling Device: A device with fine needles is passed over the skin, creating controlled micro-injuries.",
-          "Serum Application: Hyaluronic acid or other serums may be applied to enhance penetration and hydration.",
-          "Post-Treatment Care: Cooling masks or soothing creams may be applied to calm the skin post-procedure.",
-          "Recovery: Mild redness and swelling are common initially, with full recovery typically within a few days to a week.",
-        ],
-        purpose: [
-          "Collagen Production: Stimulates collagen and elastin production, improving skin texture and firmness.",
-          "Scar Reduction: Helps reduce the appearance of acne scars, surgical scars, and stretch marks.",
-          "Wrinkle Reduction: Minimizes fine lines and wrinkles, particularly around the eyes and mouth.",
-          "Enhanced Absorption: Increases absorption of skincare products, maximizing their effectiveness.",
-        ],
-      },
-      {
-        name: "Mole /Skin tag/wart removal",
-        img: wartRemoval,
-        head: {
-          heading: "what is Mole, Skin Tag, and Wart Removal.?",
-          des: [
-            "Mole, skin tag, and wart removal are common dermatological procedures to eliminate benign growths on the skin.",
-            "These procedures are typically performed by dermatologists or trained healthcare professionals.",
-            "Removal methods vary based on the type, size, and location of the growth.",
-          ],
-        },
-        procedure: [
-          {
-            heading: "Types of Removal Techniques",
-            des: [
-              "Excision: Surgical removal using a scalpel or surgical scissors for larger moles, skin tags, or warts.",
-              "Cryotherapy: Freezing the growth with liquid nitrogen to destroy the cells, often used for smaller moles, skin tags, and warts.",
-              "Electrosurgery: Using an electric current to burn and remove the growth, suitable for various sizes of moles, skin tags, and warts.",
-              "Laser Removal: Using laser technology to target and remove the growth, often preferred for precise and scar-free removal.",
+            purpose: [
+              "Deep Cleansing: Cleanses and exfoliates the skin, removing debris and impurities for a clearer complexion.",
+              "Hydration Boost: Hydrates the skin with nourishing serums to improve moisture levels and skin texture.",
+              "Enhance Skin Tone: Improves skin tone and vibrancy, reducing the appearance of fine lines, wrinkles, and hyperpigmentation.",
+              "Immediate Results: Provides instant results with no downtime, making it ideal for quick skin rejuvenation.",
             ],
           },
           {
-            heading: "Post-Procedure Care",
-            des: [
-              "Wound Care: Instructions for keeping the treated area clean and protected from infection.",
-              "Healing Time: Expected recovery period and any activities to avoid during healing.",
-              "Follow-Up: Schedule follow-up appointments to monitor healing and ensure complete removal.",
+            name: "Microneedling of the face",
+            img: Microneedling,
+            head: {
+              heading: "What is Microneedling?",
+              des: [
+                "Microneedling, also known as collagen induction therapy, is a minimally invasive cosmetic procedure.",
+                "It involves using fine needles to create tiny punctures in the skin's surface.",
+                "These micro-injuries stimulate the skin's natural healing process, promoting collagen and elastin production.",
+              ],
+            },
+            procedure: [
+              "Preparation: The skin is cleansed and numbing cream may be applied to minimize discomfort.",
+              "Microneedling Device: A device with fine needles is passed over the skin, creating controlled micro-injuries.",
+              "Serum Application: Hyaluronic acid or other serums may be applied to enhance penetration and hydration.",
+              "Post-Treatment Care: Cooling masks or soothing creams may be applied to calm the skin post-procedure.",
+              "Recovery: Mild redness and swelling are common initially, with full recovery typically within a few days to a week.",
             ],
-          },
-        ],
-        purpose: [
-          "Cosmetic Improvement: Enhances skin appearance by removing unsightly or bothersome growths.",
-          "Medical Concerns: Eliminates potential irritations or discomfort caused by moles, skin tags, or warts.",
-          "Preventive Measures: Reduces the risk of irritation, infection, or changes in appearance.",
-          "Peace of Mind: Provides reassurance and peace of mind regarding benign growths.",
-        ],
-      },
-      {
-        name: "Face PRP",
-        img: FacPRP,
-        head: {
-          heading: "what is Platelet-Rich Plasma (PRP) Facial.?",
-          des: [
-            "A Platelet-Rich Plasma (PRP) facial is a rejuvenating skincare treatment that uses the patient's own blood plasma.",
-            "PRP contains growth factors that promote healing and stimulate collagen production in the skin.",
-            "The procedure involves extracting plasma from the patient's blood, processing it, and then applying it to the face.",
-          ],
-        },
-        procedure: [
-          "Blood Draw: A small amount of blood is drawn from the patient, typically from the arm.",
-          "Centrifugation: The blood is processed in a centrifuge to separate the plasma rich in platelets from other blood components.",
-          "Application: The PRP, now enriched with growth factors, is applied to the face using microneedling or injection techniques.",
-          "Absorption: The growth factors in PRP penetrate the skin, stimulating collagen production and cellular repair.",
-          "Post-Treatment Care: Recommendations for skincare and sun protection to optimize results.",
-        ],
-        purpose: [
-          "Skin Rejuvenation: Improves skin texture, tone, and elasticity for a more youthful appearance.",
-          "Collagen Boost: Stimulates collagen production, reducing fine lines, wrinkles, and acne scars.",
-          "Natural Results: Uses the body's own healing factors for safe and effective rejuvenation.",
-          "Minimal Downtime: Non-surgical procedure with minimal recovery time.",
-        ],
-      },
-      {
-        name: "Hair PRP",
-        img: HairPRP,
-        head: {
-          heading: "what is Platelet-Rich Plasma (PRP) Treatment for Hair ?",
-          des: [
-            "Platelet-Rich Plasma (PRP) treatment for hair is a non-surgical procedure that utilizes the patient's own blood plasma.",
-            "PRP contains growth factors that promote hair growth and improve hair density.",
-            "The procedure involves extracting PRP from the patient's blood and injecting it into the scalp.",
-          ],
-        },
-        procedure: [
-          "Blood Draw: A small amount of blood is drawn from the patient, usually from the arm.",
-          "Centrifugation: The blood is processed in a centrifuge to separate the plasma rich in platelets from other blood components.",
-          "Injection: The PRP, enriched with growth factors, is injected into the scalp at the level of the hair follicles.",
-          "Stimulation: Growth factors in PRP stimulate hair follicles, promote hair growth, and prolong the growth phase of hair.",
-          "Post-Treatment Care: Recommendations for scalp care and follow-up treatments to maintain results.",
-        ],
-        purpose: [
-          "Hair Regrowth: Stimulates dormant hair follicles to promote new hair growth.",
-          "Hair Thickening: Increases hair thickness and density for fuller-looking hair.",
-          "Natural Approach: Utilizes the body's own healing factors to enhance hair growth.",
-          "Minimal Downtime: Non-invasive procedure with minimal recovery time.",
-        ],
-      },
-      {
-        name: "Lip neutralisation/ lightening (dark/smoker lips)",
-        img: LipNeutralisation,
-        head: {
-          heading:
-            "what is Lip Neutralisation/Lightening (Dark/Smoker's Lips)?",
-          des: [
-            "Lip neutralisation or lightening is a cosmetic procedure aimed at reducing the darkness or pigmentation of the lips.",
-            "It is commonly sought by individuals with naturally dark lips or those affected by lip pigmentation due to smoking, sun exposure, or genetics.",
-            "Various techniques and treatments can be used to achieve lighter and more even-toned lips.",
-          ],
-        },
-        procedure: [
-          {
-            heading: "Topical Treatments",
-            des: [
-              "Topical Creams: Prescription or over-the-counter creams containing ingredients like hydroquinone or kojic acid to lighten lip pigmentation.",
-              "Chemical Peels: Mild chemical peels applied to the lips to exfoliate and lighten darkened skin.",
+            purpose: [
+              "Collagen Production: Stimulates collagen and elastin production, improving skin texture and firmness.",
+              "Scar Reduction: Helps reduce the appearance of acne scars, surgical scars, and stretch marks.",
+              "Wrinkle Reduction: Minimizes fine lines and wrinkles, particularly around the eyes and mouth.",
+              "Enhanced Absorption: Increases absorption of skincare products, maximizing their effectiveness.",
             ],
           },
           {
-            heading: "Professional Treatments",
-            des: [
-              "Laser Therapy: Laser treatments target excess pigmentation in the lips, promoting lighter and more uniform skin tone.",
-              "Cryotherapy: Freezing techniques used to remove darkened tissue and stimulate lighter skin regeneration.",
-              "Microneedling: Microscopic needles create tiny channels in the lips, enhancing absorption of lightening agents and stimulating collagen production.",
+            name: "Face PRP",
+            img: FacPRP,
+            head: {
+              heading: "what is Platelet-Rich Plasma (PRP) Facial.?",
+              des: [
+                "A Platelet-Rich Plasma (PRP) facial is a rejuvenating skincare treatment that uses the patient's own blood plasma.",
+                "PRP contains growth factors that promote healing and stimulate collagen production in the skin.",
+                "The procedure involves extracting plasma from the patient's blood, processing it, and then applying it to the face.",
+              ],
+            },
+            procedure: [
+              "Blood Draw: A small amount of blood is drawn from the patient, typically from the arm.",
+              "Centrifugation: The blood is processed in a centrifuge to separate the plasma rich in platelets from other blood components.",
+              "Application: The PRP, now enriched with growth factors, is applied to the face using microneedling or injection techniques.",
+              "Absorption: The growth factors in PRP penetrate the skin, stimulating collagen production and cellular repair.",
+              "Post-Treatment Care: Recommendations for skincare and sun protection to optimize results.",
+            ],
+            purpose: [
+              "Skin Rejuvenation: Improves skin texture, tone, and elasticity for a more youthful appearance.",
+              "Collagen Boost: Stimulates collagen production, reducing fine lines, wrinkles, and acne scars.",
+              "Natural Results: Uses the body's own healing factors for safe and effective rejuvenation.",
+              "Minimal Downtime: Non-surgical procedure with minimal recovery time.",
             ],
           },
           {
-            heading: "Home Remedies",
-            des: [
-              "Natural Oils: Application of natural oils like almond oil or coconut oil known for their moisturizing and lightening properties.",
-              "Lip Scrubs: Exfoliation with sugar or coffee-based lip scrubs to remove dead skin cells and reveal lighter lips.",
+            name: "Mole /Skin tag/wart removal",
+            img: wartRemoval,
+            head: {
+              heading: "what is Mole, Skin Tag, and Wart Removal.?",
+              des: [
+                "Mole, skin tag, and wart removal are common dermatological procedures to eliminate benign growths on the skin.",
+                "These procedures are typically performed by dermatologists or trained healthcare professionals.",
+                "Removal methods vary based on the type, size, and location of the growth.",
+              ],
+            },
+            procedure: [
+              {
+                heading: "Types of Removal Techniques",
+                des: [
+                  "Excision: Surgical removal using a scalpel or surgical scissors for larger moles, skin tags, or warts.",
+                  "Cryotherapy: Freezing the growth with liquid nitrogen to destroy the cells, often used for smaller moles, skin tags, and warts.",
+                  "Electrosurgery: Using an electric current to burn and remove the growth, suitable for various sizes of moles, skin tags, and warts.",
+                  "Laser Removal: Using laser technology to target and remove the growth, often preferred for precise and scar-free removal.",
+                ],
+              },
+              {
+                heading: "Post-Procedure Care",
+                des: [
+                  "Wound Care: Instructions for keeping the treated area clean and protected from infection.",
+                  "Healing Time: Expected recovery period and any activities to avoid during healing.",
+                  "Follow-Up: Schedule follow-up appointments to monitor healing and ensure complete removal.",
+                ],
+              },
+            ],
+            purpose: [
+              "Cosmetic Improvement: Enhances skin appearance by removing unsightly or bothersome growths.",
+              "Medical Concerns: Eliminates potential irritations or discomfort caused by moles, skin tags, or warts.",
+              "Preventive Measures: Reduces the risk of irritation, infection, or changes in appearance.",
+              "Peace of Mind: Provides reassurance and peace of mind regarding benign growths.",
             ],
           },
-        ],
-        purpose: [
-          "Cosmetic Enhancement: Improves the appearance of the lips by reducing dark pigmentation and achieving a more even tone.",
-          "Enhanced Confidence: Boosts self-esteem by providing a more aesthetically pleasing lip appearance.",
-          "Personalized Approach: Tailored treatments based on the severity of pigmentation and individual preferences.",
-          "Safe and Effective: Utilizes both professional and home-based methods to achieve desired results with minimal risk.",
-        ],
-      },
-      {
-        name: "Lip colour",
-        img: LipColour,
-        head: {
-          heading: "what is Lip Coloring ?",
-          des: [
-            "Lip coloring procedures involve enhancing or altering the natural color of the lips for aesthetic purposes.",
-            "These procedures can range from temporary enhancements to permanent changes, depending on the technique used.",
-            "Various methods exist to achieve desired lip colors, catering to different preferences and outcomes.",
-          ],
-        },
-        procedure: [
-          {
-            heading: "Temporary Lip Coloring",
-            des: [
-              "Lipstick: Application of cosmetic lipsticks in various shades to change lip color temporarily.",
-              "Lip Gloss: Use of lip glosses that add shine and color to the lips without permanent alteration.",
-            ],
-          },
-          {
-            heading: "Semi-Permanent Lip Coloring",
-            des: [
-              "Lip Stains: Application of lip stains that provide longer-lasting color compared to traditional lipsticks.",
-              "Lip Tints: Tinting techniques that semi-permanently dye the lips for a natural-looking color.",
-            ],
-          },
-          {
-            heading: "Permanent Lip Coloring",
-            des: [
-              "Lip Tattooing: Cosmetic tattooing (micropigmentation) to permanently implant pigment into the lips.",
-              "Lip Implants: Surgical procedures to implant silicone or other materials for permanent lip enhancement.",
-            ],
-          },
-        ],
-        purpose: [
-          "Enhanced Aesthetics: Improves lip appearance by adding color and definition.",
-          "Personal Expression: Allows individuals to express personal style and preferences.",
-          "Long-lasting Results: Provides temporary to permanent solutions depending on the chosen method.",
-          "Customization: Tailors lip color to complement facial features and skin tone.",
-        ],
-      },
-      {
-        name: "Microblading of eyebrows",
-        img: Microblading,
-        head: {
-          heading: "what is Microblading of Eyebrows?",
-          des: [
-            "Microblading is a semi-permanent cosmetic procedure used to enhance or reshape eyebrows.",
-            "It involves implanting pigment into the skin using fine, hair-like strokes to create natural-looking eyebrows.",
-            "The procedure is performed by trained professionals using specialized tools and techniques.",
-          ],
-        },
-        procedure: [
-          "Consultation: Discuss eyebrow shape, color preferences, and expected outcomes with a microblading specialist.",
-          "Mapping: Outline the desired eyebrow shape and map out the placement of hair strokes.",
-          "Pigment Selection: Choose a pigment that matches the natural eyebrow color and complements the client's skin tone.",
-          "Microblading: Using a hand tool with microblades, create hair-like strokes by depositing pigment into the skin's surface.",
-          "Aftercare: Provide instructions for post-treatment care to ensure proper healing and pigment retention.",
-        ],
-        purpose: [
-          "Natural-Looking Brows: Enhance sparse or over-plucked eyebrows with natural-looking hair strokes.",
-          "Enhanced Shape and Definition: Correct asymmetry or reshape eyebrows for a more defined appearance.",
-          "Long-Lasting Results: Enjoy semi-permanent results that can last up to 1-3 years with proper care and maintenance.",
-          "Time-Saving: Reduce daily makeup routines by waking up with defined eyebrows.",
         ],
       },
     ],
+
+    // subTitle: [
+    //   {
+    //     name: "Chemical Peels",
+    //     img: ChemicalPeels,
+    //     head: {
+    //       heading: "What are Chemical Peels?",
+    //       des: [
+    //         "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+    //         "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+    //         "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+    //       "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+    //       "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+    //       "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+    //       "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+    //     ],
+    //     purpose: [
+    //       "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+    //       "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+    //       "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+    //       "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Microderma abrasion",
+    //     img: MicrodermaAbrasion,
+    //     head: {
+    //       heading: "What are Chemical Peels?",
+    //       des: [
+    //         "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+    //         "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+    //         "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+    //       "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+    //       "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+    //       "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+    //       "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+    //     ],
+    //     purpose: [
+    //       "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+    //       "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+    //       "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+    //       "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Hydra facial",
+    //     img: HydraFacial,
+    //     head: {
+    //       heading: "What is HydraFacial?",
+    //       des: [
+    //         "HydraFacial is a non-invasive facial treatment that combines cleansing, exfoliation, extraction, hydration, and antioxidant protection.",
+    //         "It uses a patented device and specialized serums to cleanse and rejuvenate the skin, addressing various skin concerns.",
+    //         "HydraFacial treatments are suitable for all skin types and offer immediate results with no downtime.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       "Cleansing and Exfoliation: The skin is cleansed and exfoliated to remove dead skin cells and impurities.",
+    //       "Acid Peel: A gentle peel solution is applied to loosen debris and prepare the skin for extraction.",
+    //       "Extraction: Automated suction is used to remove debris from pores, reducing congestion and improving skin clarity.",
+    //       "Hydration: Antioxidant-rich serums are infused into the skin to nourish and hydrate, promoting a healthy glow.",
+    //       "Protection: The skin is protected with serums containing peptides and hyaluronic acid to enhance skin elasticity and firmness.",
+    //     ],
+    //     purpose: [
+    //       "Deep Cleansing: Cleanses and exfoliates the skin, removing debris and impurities for a clearer complexion.",
+    //       "Hydration Boost: Hydrates the skin with nourishing serums to improve moisture levels and skin texture.",
+    //       "Enhance Skin Tone: Improves skin tone and vibrancy, reducing the appearance of fine lines, wrinkles, and hyperpigmentation.",
+    //       "Immediate Results: Provides instant results with no downtime, making it ideal for quick skin rejuvenation.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Microneedling of the face",
+    //     img: Microneedling,
+    //     head: {
+    //       heading: "What is Microneedling?",
+    //       des: [
+    //         "Microneedling, also known as collagen induction therapy, is a minimally invasive cosmetic procedure.",
+    //         "It involves using fine needles to create tiny punctures in the skin's surface.",
+    //         "These micro-injuries stimulate the skin's natural healing process, promoting collagen and elastin production.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       "Preparation: The skin is cleansed and numbing cream may be applied to minimize discomfort.",
+    //       "Microneedling Device: A device with fine needles is passed over the skin, creating controlled micro-injuries.",
+    //       "Serum Application: Hyaluronic acid or other serums may be applied to enhance penetration and hydration.",
+    //       "Post-Treatment Care: Cooling masks or soothing creams may be applied to calm the skin post-procedure.",
+    //       "Recovery: Mild redness and swelling are common initially, with full recovery typically within a few days to a week.",
+    //     ],
+    //     purpose: [
+    //       "Collagen Production: Stimulates collagen and elastin production, improving skin texture and firmness.",
+    //       "Scar Reduction: Helps reduce the appearance of acne scars, surgical scars, and stretch marks.",
+    //       "Wrinkle Reduction: Minimizes fine lines and wrinkles, particularly around the eyes and mouth.",
+    //       "Enhanced Absorption: Increases absorption of skincare products, maximizing their effectiveness.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Face PRP",
+    //     img: FacPRP,
+    //     head: {
+    //       heading: "what is Platelet-Rich Plasma (PRP) Facial.?",
+    //       des: [
+    //         "A Platelet-Rich Plasma (PRP) facial is a rejuvenating skincare treatment that uses the patient's own blood plasma.",
+    //         "PRP contains growth factors that promote healing and stimulate collagen production in the skin.",
+    //         "The procedure involves extracting plasma from the patient's blood, processing it, and then applying it to the face.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       "Blood Draw: A small amount of blood is drawn from the patient, typically from the arm.",
+    //       "Centrifugation: The blood is processed in a centrifuge to separate the plasma rich in platelets from other blood components.",
+    //       "Application: The PRP, now enriched with growth factors, is applied to the face using microneedling or injection techniques.",
+    //       "Absorption: The growth factors in PRP penetrate the skin, stimulating collagen production and cellular repair.",
+    //       "Post-Treatment Care: Recommendations for skincare and sun protection to optimize results.",
+    //     ],
+    //     purpose: [
+    //       "Skin Rejuvenation: Improves skin texture, tone, and elasticity for a more youthful appearance.",
+    //       "Collagen Boost: Stimulates collagen production, reducing fine lines, wrinkles, and acne scars.",
+    //       "Natural Results: Uses the body's own healing factors for safe and effective rejuvenation.",
+    //       "Minimal Downtime: Non-surgical procedure with minimal recovery time.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Mole /Skin tag/wart removal",
+    //     img: wartRemoval,
+    //     head: {
+    //       heading: "what is Mole, Skin Tag, and Wart Removal.?",
+    //       des: [
+    //         "Mole, skin tag, and wart removal are common dermatological procedures to eliminate benign growths on the skin.",
+    //         "These procedures are typically performed by dermatologists or trained healthcare professionals.",
+    //         "Removal methods vary based on the type, size, and location of the growth.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       {
+    //         heading: "Types of Removal Techniques",
+    //         des: [
+    //           "Excision: Surgical removal using a scalpel or surgical scissors for larger moles, skin tags, or warts.",
+    //           "Cryotherapy: Freezing the growth with liquid nitrogen to destroy the cells, often used for smaller moles, skin tags, and warts.",
+    //           "Electrosurgery: Using an electric current to burn and remove the growth, suitable for various sizes of moles, skin tags, and warts.",
+    //           "Laser Removal: Using laser technology to target and remove the growth, often preferred for precise and scar-free removal.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Post-Procedure Care",
+    //         des: [
+    //           "Wound Care: Instructions for keeping the treated area clean and protected from infection.",
+    //           "Healing Time: Expected recovery period and any activities to avoid during healing.",
+    //           "Follow-Up: Schedule follow-up appointments to monitor healing and ensure complete removal.",
+    //         ],
+    //       },
+    //     ],
+    //     purpose: [
+    //       "Cosmetic Improvement: Enhances skin appearance by removing unsightly or bothersome growths.",
+    //       "Medical Concerns: Eliminates potential irritations or discomfort caused by moles, skin tags, or warts.",
+    //       "Preventive Measures: Reduces the risk of irritation, infection, or changes in appearance.",
+    //       "Peace of Mind: Provides reassurance and peace of mind regarding benign growths.",
+    //     ],
+    //   },
+
+    //   {
+    //     name: "Scar removal",
+    //     img: ScarRemoval,
+    //     head: {
+    //       heading: "What is Scar Removal?",
+    //       des: [
+    //         "Scar removal refers to various treatments aimed at reducing the appearance of scars on the skin.",
+    //         "Scars can result from injuries, surgeries, acne, or other skin conditions and may vary in size, shape, and texture.",
+    //         "Different methods are used to improve scar appearance, depending on the type and severity of the scar.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       {
+    //         heading: "Types of Scar Removal Treatments",
+    //         des: [
+    //           "Topical Treatments: Creams, gels, or ointments containing ingredients like silicone or corticosteroids to improve scar appearance.",
+    //           "Laser Therapy: Laser treatments target scar tissue to reduce redness, flatten raised scars, and improve skin texture.",
+    //           "Microdermabrasion: Exfoliation technique to remove the outer layer of skin, promoting new skin growth and reducing scar visibility.",
+    //           "Surgical Excision: Surgical removal of scar tissue followed by closure to minimize scar visibility.",
+    //           "Injectable Treatments: Fillers or collagen-stimulating injections to raise depressed scars or improve skin texture.",
+    //           "Chemical Peels: Chemical solutions applied to the skin to remove damaged outer layers and improve scar appearance.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Recovery and Results",
+    //         des: [
+    //           "Varies by Treatment: Recovery time depends on the type of treatment, ranging from minimal downtime for topical treatments to longer recovery for surgical procedures.",
+    //           "Expected Results: Improvements in scar appearance, such as reduced size, smoother texture, and less noticeable coloration.",
+    //           "Follow-Up Care: Post-treatment care instructions include sun protection, moisturizing, and avoiding activities that could irritate healing skin.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Considerations",
+    //         des: [
+    //           "Consultation: Initial assessment with a dermatologist or plastic surgeon to evaluate scar type, location, and treatment options.",
+    //           "Patient Expectations: Realistic expectations regarding scar improvement and potential limitations of treatment.",
+    //           "Multiple Treatments: Some scars may require multiple sessions or combination treatments for optimal results.",
+    //         ],
+    //       },
+    //     ],
+    //     purpose: [
+    //       "Improve Scar Appearance: Minimize scar visibility and enhance skin texture for improved aesthetics.",
+    //       "Boost Confidence: Address psychological impact by improving the appearance of visible scars.",
+    //       "Personalized Treatment: Tailor treatments to individual scar characteristics and patient preferences.",
+    //       "Functional Improvement: Enhance skin flexibility and reduce discomfort associated with scar tissue.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Skin rejuvenation",
+    //     img: SkinRejuvenation,
+    //     head: {
+    //       heading: "What is Skin Rejuvenation?",
+    //       des: [
+    //         "Skin rejuvenation refers to treatments and procedures aimed at improving the appearance and health of the skin.",
+    //         "These treatments address various skin concerns, such as wrinkles, fine lines, age spots, uneven tone, and texture.",
+    //         "Different methods are used to stimulate collagen production, remove damaged skin layers, and enhance overall skin health.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       {
+    //         heading: "Types of Skin Rejuvenation Treatments",
+    //         des: [
+    //           "Chemical Peels: Chemical solutions applied to the skin to exfoliate and improve texture, targeting wrinkles and pigmentation.",
+    //           "Microdermabrasion: Mechanical exfoliation to remove dead skin cells and stimulate cell turnover for smoother skin.",
+    //           "Laser Resurfacing: Laser treatments to remove damaged skin layers, stimulate collagen production, and reduce wrinkles.",
+    //           "Microneedling: Fine needles create microscopic injuries to promote collagen and elastin production, improving skin texture.",
+    //           "Radiofrequency Therapy: Energy waves heat the deeper layers of skin to stimulate collagen and tighten sagging skin.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Benefits of Skin Rejuvenation",
+    //         des: [
+    //           "Improves Skin Texture: Smoothes rough skin texture and reduces the appearance of fine lines and wrinkles.",
+    //           "Evens Skin Tone: Reduces pigmentation irregularities, such as age spots, sun spots, and melasma.",
+    //           "Stimulates Collagen Production: Enhances skin elasticity and firmness by boosting collagen and elastin fibers.",
+    //           "Promotes Skin Health: Enhances overall skin health, including hydration, brightness, and resilience.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Considerations",
+    //         des: [
+    //           "Consultation: Initial assessment with a dermatologist or skincare specialist to determine the best treatment based on skin type and concerns.",
+    //           "Treatment Plan: Customized approach tailored to individual needs, combining different treatments for optimal results.",
+    //           "Maintenance: Follow-up treatments and skincare regimen to maintain results and prolong benefits.",
+    //         ],
+    //       },
+    //     ],
+    //     purpose: [
+    //       "Enhance Skin Appearance: Improves skin texture, tone, and radiance for a more youthful and healthy appearance.",
+    //       "Reduce Signs of Aging: Minimizes wrinkles, fine lines, and age spots associated with aging and sun damage.",
+    //       "Boost Self-Confidence: Enhances skin quality and appearance, boosting self-esteem and well-being.",
+    //       "Personalized Care: Tailored treatments address specific skin concerns and achieve desired aesthetic goals.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Skin polish",
+    //     img: SkinPolish,
+    //     head: {
+    //       heading: "What is Skin Polishing?",
+    //       des: [
+    //         "Skin polishing is a cosmetic treatment designed to exfoliate, hydrate, and rejuvenate the skin.",
+    //         "It involves the use of gentle exfoliants and nourishing ingredients to remove dead skin cells, unclog pores, and improve skin texture.",
+    //         "Skin polishing treatments can be performed in a spa or dermatologist's office, offering immediate benefits for smoother, brighter skin.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       "Cleansing: The skin is cleansed thoroughly to remove dirt, oil, and makeup residues.",
+    //       "Exfoliation: Gentle exfoliants or scrubs are applied to the skin to remove dead skin cells and unclog pores.",
+    //       "Massage: A relaxing massage may be performed to improve circulation and lymphatic drainage.",
+    //       "Mask Application: Nourishing masks or serums enriched with vitamins and antioxidants are applied to hydrate and rejuvenate the skin.",
+    //       "Moisturizing: Moisturizers or sunscreens are applied to protect and hydrate the skin after treatment.",
+    //     ],
+    //     purpose: [
+    //       "Exfoliate and Renew: Removes dead skin cells and impurities, revealing smoother and more radiant skin.",
+    //       "Improve Skin Texture: Softens rough skin texture and reduces the appearance of fine lines and wrinkles.",
+    //       "Enhance Skin Hydration: Hydrates and nourishes the skin, improving moisture levels and overall skin health.",
+    //       "Brighten Complexion: Evens out skin tone and promotes a brighter, more youthful complexion.",
+    //     ],
+    //   },
+
+    //   {
+    //     name: "Medifacial",
+    //     img: Medifacial,
+    //     head: {
+    //       heading: "What is a Medifacial?",
+    //       des: [
+    //         "A Medifacial is a medical-grade facial treatment that combines advanced skincare techniques and products.",
+    //         "It is designed to address specific skin concerns using clinically-proven ingredients and procedures.",
+    //         "Medifacials are typically performed under the supervision of a dermatologist or trained skincare professional.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       "Consultation: Initial assessment to evaluate skin type, concerns, and determine the most suitable treatment plan.",
+    //       "Cleansing: Thorough cleansing of the skin to remove makeup, dirt, and oil.",
+    //       "Exfoliation: Gentle exfoliation to remove dead skin cells and prepare the skin for treatment.",
+    //       "Treatment Application: Application of medical-grade serums, peels, or masks tailored to address specific skin issues.",
+    //       "Massage: Relaxing massage techniques may be used to enhance circulation and product absorption.",
+    //       "Protection: Application of SPF or protective creams to safeguard the skin post-treatment.",
+    //     ],
+    //     purpose: [
+    //       "Targeted Skin Improvement: Addresses specific skin concerns such as acne, hyperpigmentation, fine lines, or dehydration.",
+    //       "Enhance Skin Health: Improves skin texture, tone, and overall appearance using clinically-backed ingredients.",
+    //       "Customized Approach: Tailored treatments based on individual skin needs and desired outcomes.",
+    //       "Professional Supervision: Ensures treatments are performed safely and effectively under medical guidance.",
+    //     ],
+    //   },
+
+    //   {
+    //     name: "Mole /Skin tag/wart removal",
+    //     img: wartRemoval,
+    //     head: {
+    //       heading: "what is Mole, Skin Tag, and Wart Removal.?",
+    //       des: [
+    //         "Mole, skin tag, and wart removal are common dermatological procedures to eliminate benign growths on the skin.",
+    //         "These procedures are typically performed by dermatologists or trained healthcare professionals.",
+    //         "Removal methods vary based on the type, size, and location of the growth.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       {
+    //         heading: "Types of Removal Techniques",
+    //         des: [
+    //           "Excision: Surgical removal using a scalpel or surgical scissors for larger moles, skin tags, or warts.",
+    //           "Cryotherapy: Freezing the growth with liquid nitrogen to destroy the cells, often used for smaller moles, skin tags, and warts.",
+    //           "Electrosurgery: Using an electric current to burn and remove the growth, suitable for various sizes of moles, skin tags, and warts.",
+    //           "Laser Removal: Using laser technology to target and remove the growth, often preferred for precise and scar-free removal.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Post-Procedure Care",
+    //         des: [
+    //           "Wound Care: Instructions for keeping the treated area clean and protected from infection.",
+    //           "Healing Time: Expected recovery period and any activities to avoid during healing.",
+    //           "Follow-Up: Schedule follow-up appointments to monitor healing and ensure complete removal.",
+    //         ],
+    //       },
+    //     ],
+    //     purpose: [
+    //       "Cosmetic Improvement: Enhances skin appearance by removing unsightly or bothersome growths.",
+    //       "Medical Concerns: Eliminates potential irritations or discomfort caused by moles, skin tags, or warts.",
+    //       "Preventive Measures: Reduces the risk of irritation, infection, or changes in appearance.",
+    //       "Peace of Mind: Provides reassurance and peace of mind regarding benign growths.",
+    //     ],
+    //   },
+
+    //   {
+    //     name: "Hair PRP",
+    //     img: HairPRP,
+    //     head: {
+    //       heading: "what is Platelet-Rich Plasma (PRP) Treatment for Hair ?",
+    //       des: [
+    //         "Platelet-Rich Plasma (PRP) treatment for hair is a non-surgical procedure that utilizes the patient's own blood plasma.",
+    //         "PRP contains growth factors that promote hair growth and improve hair density.",
+    //         "The procedure involves extracting PRP from the patient's blood and injecting it into the scalp.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       "Blood Draw: A small amount of blood is drawn from the patient, usually from the arm.",
+    //       "Centrifugation: The blood is processed in a centrifuge to separate the plasma rich in platelets from other blood components.",
+    //       "Injection: The PRP, enriched with growth factors, is injected into the scalp at the level of the hair follicles.",
+    //       "Stimulation: Growth factors in PRP stimulate hair follicles, promote hair growth, and prolong the growth phase of hair.",
+    //       "Post-Treatment Care: Recommendations for scalp care and follow-up treatments to maintain results.",
+    //     ],
+    //     purpose: [
+    //       "Hair Regrowth: Stimulates dormant hair follicles to promote new hair growth.",
+    //       "Hair Thickening: Increases hair thickness and density for fuller-looking hair.",
+    //       "Natural Approach: Utilizes the body's own healing factors to enhance hair growth.",
+    //       "Minimal Downtime: Non-invasive procedure with minimal recovery time.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Lip neutralisation/ lightening (dark/smoker lips)",
+    //     img: LipNeutralisation,
+    //     head: {
+    //       heading:
+    //         "what is Lip Neutralisation/Lightening (Dark/Smoker's Lips)?",
+    //       des: [
+    //         "Lip neutralisation or lightening is a cosmetic procedure aimed at reducing the darkness or pigmentation of the lips.",
+    //         "It is commonly sought by individuals with naturally dark lips or those affected by lip pigmentation due to smoking, sun exposure, or genetics.",
+    //         "Various techniques and treatments can be used to achieve lighter and more even-toned lips.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       {
+    //         heading: "Topical Treatments",
+    //         des: [
+    //           "Topical Creams: Prescription or over-the-counter creams containing ingredients like hydroquinone or kojic acid to lighten lip pigmentation.",
+    //           "Chemical Peels: Mild chemical peels applied to the lips to exfoliate and lighten darkened skin.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Professional Treatments",
+    //         des: [
+    //           "Laser Therapy: Laser treatments target excess pigmentation in the lips, promoting lighter and more uniform skin tone.",
+    //           "Cryotherapy: Freezing techniques used to remove darkened tissue and stimulate lighter skin regeneration.",
+    //           "Microneedling: Microscopic needles create tiny channels in the lips, enhancing absorption of lightening agents and stimulating collagen production.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Home Remedies",
+    //         des: [
+    //           "Natural Oils: Application of natural oils like almond oil or coconut oil known for their moisturizing and lightening properties.",
+    //           "Lip Scrubs: Exfoliation with sugar or coffee-based lip scrubs to remove dead skin cells and reveal lighter lips.",
+    //         ],
+    //       },
+    //     ],
+    //     purpose: [
+    //       "Cosmetic Enhancement: Improves the appearance of the lips by reducing dark pigmentation and achieving a more even tone.",
+    //       "Enhanced Confidence: Boosts self-esteem by providing a more aesthetically pleasing lip appearance.",
+    //       "Personalized Approach: Tailored treatments based on the severity of pigmentation and individual preferences.",
+    //       "Safe and Effective: Utilizes both professional and home-based methods to achieve desired results with minimal risk.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Lip colour",
+    //     img: LipColour,
+    //     head: {
+    //       heading: "what is Lip Coloring ?",
+    //       des: [
+    //         "Lip coloring procedures involve enhancing or altering the natural color of the lips for aesthetic purposes.",
+    //         "These procedures can range from temporary enhancements to permanent changes, depending on the technique used.",
+    //         "Various methods exist to achieve desired lip colors, catering to different preferences and outcomes.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       {
+    //         heading: "Temporary Lip Coloring",
+    //         des: [
+    //           "Lipstick: Application of cosmetic lipsticks in various shades to change lip color temporarily.",
+    //           "Lip Gloss: Use of lip glosses that add shine and color to the lips without permanent alteration.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Semi-Permanent Lip Coloring",
+    //         des: [
+    //           "Lip Stains: Application of lip stains that provide longer-lasting color compared to traditional lipsticks.",
+    //           "Lip Tints: Tinting techniques that semi-permanently dye the lips for a natural-looking color.",
+    //         ],
+    //       },
+    //       {
+    //         heading: "Permanent Lip Coloring",
+    //         des: [
+    //           "Lip Tattooing: Cosmetic tattooing (micropigmentation) to permanently implant pigment into the lips.",
+    //           "Lip Implants: Surgical procedures to implant silicone or other materials for permanent lip enhancement.",
+    //         ],
+    //       },
+    //     ],
+    //     purpose: [
+    //       "Enhanced Aesthetics: Improves lip appearance by adding color and definition.",
+    //       "Personal Expression: Allows individuals to express personal style and preferences.",
+    //       "Long-lasting Results: Provides temporary to permanent solutions depending on the chosen method.",
+    //       "Customization: Tailors lip color to complement facial features and skin tone.",
+    //     ],
+    //   },
+    //   {
+    //     name: "Microblading of eyebrows",
+    //     img: Microblading,
+    //     head: {
+    //       heading: "what is Microblading of Eyebrows?",
+    //       des: [
+    //         "Microblading is a semi-permanent cosmetic procedure used to enhance or reshape eyebrows.",
+    //         "It involves implanting pigment into the skin using fine, hair-like strokes to create natural-looking eyebrows.",
+    //         "The procedure is performed by trained professionals using specialized tools and techniques.",
+    //       ],
+    //     },
+    //     procedure: [
+    //       "Consultation: Discuss eyebrow shape, color preferences, and expected outcomes with a microblading specialist.",
+    //       "Mapping: Outline the desired eyebrow shape and map out the placement of hair strokes.",
+    //       "Pigment Selection: Choose a pigment that matches the natural eyebrow color and complements the client's skin tone.",
+    //       "Microblading: Using a hand tool with microblades, create hair-like strokes by depositing pigment into the skin's surface.",
+    //       "Aftercare: Provide instructions for post-treatment care to ensure proper healing and pigment retention.",
+    //     ],
+    //     purpose: [
+    //       "Natural-Looking Brows: Enhance sparse or over-plucked eyebrows with natural-looking hair strokes.",
+    //       "Enhanced Shape and Definition: Correct asymmetry or reshape eyebrows for a more defined appearance.",
+    //       "Long-Lasting Results: Enjoy semi-permanent results that can last up to 1-3 years with proper care and maintenance.",
+    //       "Time-Saving: Reduce daily makeup routines by waking up with defined eyebrows.",
+    //     ],
+    //   },
+    // ],
   },
 ];
