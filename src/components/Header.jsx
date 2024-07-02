@@ -431,7 +431,7 @@ const Navbar = () => {
                                                 return (
                                                     <>
                                                         <li key={id}
-                                                            onClick={() => context.handleServiceDeatil(item, setUp)}>{item?.title}</li>
+                                                            onClick={() => context.handleServiceDeatil(item, null)}>{item?.title}</li>
                                                     </>
                                                 )
                                             })
@@ -514,7 +514,7 @@ const Navbar = () => {
 }
 
 const Header = () => {
-    const { t } = useTranslation(); 
+    const { t } = useTranslation();
 
     return (
         <>

@@ -9,23 +9,31 @@ export const AppProvider = ({ children }) => {
     const location = useLocation()
     const navigator = useNavigate()
     const [serviceMainHead, setMainServiceHead] = useState(servicesDoc[0])
-    const [servicePerDetail, setServicePerDeatil] = useState(servicesDoc[0].subTitle[0])
+    const [servicePerDetail, setServicePerDeatil] = useState(null)
     const [doctor, setDoctor] = useState(Doctors[0])
 
     const handleServiceDeatil = (main, product) => {
         if (location.pathname !== 'service') {
             navigator('service')
         }
+        if (product?.name === servicePerDetail?.name) {
+            setServicePerDeatil(null)
+        }
         if (product === null) {
             if (main === serviceMainHead) {
-                setMainServiceHead(null)
+                setServicePerDeatil(null)
             }
             else {
                 setMainServiceHead(main)
             }
         }
         else if (main === null) {
-            setServicePerDeatil(product)
+            if (product === servicePerDetail) {
+                setServicePerDeatil(null)
+            }
+            else {
+                setServicePerDeatil(product)
+            }
         }
         else {
             setMainServiceHead(main)

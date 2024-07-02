@@ -1,22 +1,22 @@
 import { FaBusinessTime } from "react-icons/fa";
 import { FaSuitcaseMedical, FaUserDoctor } from "react-icons/fa6";
 import { TbToolsOff } from "react-icons/tb";
-import demoImage from "../../images/services/icon-implant.webp";
+import demoImage from "../../images/service-one/Screenshot (49).png";
 import serviceOne from "../../images/icon-wisdom.webp";
 import serviceTwo from "../../images/icon-implant.webp";
 import serviceFour from "../../images/icon-sedation.webp";
 import serviceThree from "../../images/icon-ortho.webp";
-import ToothFilling from "../../images/services/Tooth-Filling-treatment-750x750.webp";
+import ToothFilling from "../../images/service-one/Screenshot (44).png";
 import RootCanals from "../../images/services/best-root-canal-treatment-clinic.webp";
 import Braces from "../../images/services/Braces.webp";
 import Aligners from "../../images/services/Invisible-Aligners.webp";
-import bridges from "../../images/services/Dental-Bridge-And-Crown.webp";
-import Dentures from "../../images/services/MDL_Dentures-1-750x750.webp";
-import disease from "../../images/services/Periodontal-Diseases-Flap.webp";
+import bridges from "../../images/service-one/Screenshot (45).png";
+import Dentures from "../../images/service-one/Screenshot (46).png";
+import disease from "../../images/service-one/Screenshot (47).png";
 import Extraction from "../../images/services/Wisdom-Tooth-Extraction.webp";
-import dentistry from "../../images/services/cosmetic-dentistry-2.webp";
+import dentistry from "../../images/service-one/Screenshot (48).png";
 import Child from "../../images/services/kids-dental.webp";
-import XRay from "../../images/services/iStock_77097345_MEDIUM-dental-Xray-300x237.jpg";
+import XRay from "../../images/service-one/Screenshot (51).png";
 import Sinus from "../../images/services/Sinüs-Lifting-1024x683.jpg";
 import BoneGrafting from "../../images/services/CF68D70F-6B79-4172-91F6-1EB8C11FB4D0-1.jpeg";
 import Zygomatic from "../../images/services/shutterstock_1710200197-min-1024x779.jpg.optimal.jpg";
@@ -58,7 +58,7 @@ import serviceMainTwo from "../../images/service-one/bigstock-Teeth-and-dental-i
 import serviceMainThree from "../../images/service-one/All-Blog-Cover-4-1080x675.png";
 import serviceMainFour from "../../images/service-one/Why-Choose-a-Certified-Cosmetic-Surgeon-For-Cosmetic-Surgery-Procedures-IAAPS-011.jpg";
 import seserviceMainFive from "../../images/service-one/glowing_skin_898.jpg";
-import DentalVeneers from "../../images/services/dental-laminates-2107.jpg";
+import DentalVeneers from "../../images/service-one/Screenshot (50).png";
 import ToothJewellery from "../../images/services/images (2).jfif";
 import DentalImplants from "../../images/services/388058c6-6104-449e-8653-0129952eae67.png";
 import ChronicDental from "../../images/services/head-jaw-pain-tooth-against-blue-backdrop-mouth-problem-tooth-pain-jaw-tooth-d-illustration-150656204 (1).webp";
@@ -566,56 +566,38 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Teeth whitening",
-        img: demoImage,
+        name: "Dental X- Ray",
+        img: XRay,
         mainDes: [
-          "Involves bleaching the teeth to lighten discoloration and stains, enhancing the overall appearance of the smile.",
+          "Diagnostic imaging technique used to capture detailed images of teeth, gums, and jawbones to assess oral health and detect dental issues such as cavities, infections, and bone loss.",
         ],
         head: {
-          heading: "What is teeth whitening?",
+          heading: "What are Dental X-Rays?",
           des: [
-            "Teeth whitening is a cosmetic dental procedure that aims to lighten the color of teeth and remove stains and discoloration.",
-            "Some of the most common methods for whitening teeth include bleaching with hydrogen peroxide or carbamide peroxide and using abrasive materials to remove surface stains. It is important to note that teeth whitening is not permanent and may require touch-ups or maintenance over time. It is also important to consult with a dental professional before undergoing any teeth whitening treatment.",
+            "Dental X-rays are diagnostic imaging tools used by dentists to visualize the structures inside and around the teeth.",
+            "They provide detailed images of the teeth, gums, jawbone, and surrounding tissues that are not visible during a regular dental examination.",
+            "Dental X-rays help dentists diagnose dental conditions such as cavities, infections, bone loss, and abnormalities in tooth and jaw positioning.",
           ],
-        },
-        need: {
-          heading: "Who needs teeth whitening?",
-          des: [
-            "Smoking, excess consumption of coffee, strong tea, red wine, and products containing strong dyes all cause the enamel to darken. Unwanted pigmentation accumulates and changes the color of teeth, even those that are perfectly healthy. Bleaching aids in dealing with this issue.",
-            "A desire for white teeth.",
-            "Mild to moderate fluorosis.",
-            "Age-related changes.",
-            "Certain medical treatments can also cause tooth staining.",
-          ],
-          procedure: [
-            "First, we will remove the film that has formed on your enamel as a result of the food you eat or other substances.",
-            "Following this, the bleaching procedure begins. The entire procedure takes between 30-90 minutes, depending on the severity of the stains on the teeth.",
-            "We will cover the gums before applying the bleaching agent to the teeth. Some bleaching agents necessitate the use of laser lights, and if your teeth are severely stained, we may advise you to continue the process at home for a few days.",
-          ],
-          post: {
-            heading: "Post care after teeth whitening:",
-            des: [
-              "Avoid drinking strongly colored beverages after your whitening treatment.",
-              "Don’t eat foods that stain.",
-              "It is advised to stop smoking and/or chewing not only for health reasons, but also to keep your teeth pearly white.",
-              "Avoid coloured dental hygiene products.",
-            ],
-          },
         },
         procedure: [
-          "Examination: The dentist examines your teeth and gums to determine if you are a candidate for teeth whitening.",
-          "Cleaning: If necessary, a dental cleaning may be performed to remove surface stains and plaque before whitening.",
-          "Whitening Treatment: In-office treatments involve applying a bleaching agent directly to the teeth, which is activated by a special light or laser.",
-          "At-Home Kits: Dentist-prescribed kits typically use custom-fitted trays filled with a whitening gel that you wear for a specified period.",
-          "Follow-Up: After treatment, the dentist may provide instructions for maintaining results and scheduling follow-up visits.",
+          "Preparation: The patient is covered with a lead apron to protect the body from radiation exposure, and a thyroid collar may be used to protect the thyroid gland.",
+          "Positioning: The patient is positioned correctly, and a dental X-ray sensor or film is placed in the mouth.",
+          "Taking the X-Ray: The dentist or dental assistant positions the X-ray machine and takes the X-ray. The patient needs to stay still for a few seconds during the exposure.",
+          "Developing the X-Ray: Digital X-rays appear instantly on a computer screen, while traditional film X-rays are developed in a darkroom or with an automatic processor.",
+          "Review and Diagnosis: The dentist reviews the X-rays to diagnose any issues such as cavities, bone loss, or other dental conditions.",
         ],
         purpose: [
-          "Remove Stains and Discoloration: Whitening treatments effectively lift stains caused by coffee, tea, wine, tobacco, and natural aging.",
-          "Enhance Smile Appearance: Brighter teeth can improve the overall appearance of your smile and boost self-confidence.",
-          "Customizable Options: Dentists can tailor treatments to your needs, offering both in-office procedures and take-home kits for convenience.",
-          "Safe and Controlled Application: Professional whitening ensures that the procedure is performed safely, minimizing potential risks to gums and tooth enamel.",
+          "Detect Cavities: X-rays help in identifying cavities that are not visible during a regular dental examination.",
+          "Monitor Bone Health: They are used to assess the health of the bone supporting the teeth.",
+          "Evaluate Tooth Development: For children, X-rays are essential to monitor the development of teeth and to check for any abnormalities.",
+          "Plan Treatments: X-rays are critical for planning dental treatments such as braces, implants, and extractions.",
+          "Identify Infections or Disease: X-rays can reveal infections, cysts, tumors, and other diseases affecting the teeth and jawbones.",
+          "Diagnosis: Detects dental problems such as cavities, infections, gum disease, and impacted teeth.",
+          "Treatment Planning: Provides dentists with detailed information to plan treatments like fillings, root canals, and orthodontic care.",
+          "Preventive Care: Allows early detection of dental issues, preventing complications and preserving oral health.",
         ],
       },
+
       {
         name: "Cosmetic dentistry",
         img: dentistry,
@@ -670,42 +652,61 @@ export const servicesDoc = [
         ],
       },
       {
+        name: "Teeth whitening",
+        img: demoImage,
+        mainDes: [
+          "Involves bleaching the teeth to lighten discoloration and stains, enhancing the overall appearance of the smile.",
+        ],
+        head: {
+          heading: "What is teeth whitening?",
+          des: [
+            "Teeth whitening is a cosmetic dental procedure that aims to lighten the color of teeth and remove stains and discoloration.",
+            "Some of the most common methods for whitening teeth include bleaching with hydrogen peroxide or carbamide peroxide and using abrasive materials to remove surface stains. It is important to note that teeth whitening is not permanent and may require touch-ups or maintenance over time. It is also important to consult with a dental professional before undergoing any teeth whitening treatment.",
+          ],
+        },
+        need: {
+          heading: "Who needs teeth whitening?",
+          des: [
+            "Smoking, excess consumption of coffee, strong tea, red wine, and products containing strong dyes all cause the enamel to darken. Unwanted pigmentation accumulates and changes the color of teeth, even those that are perfectly healthy. Bleaching aids in dealing with this issue.",
+            "A desire for white teeth.",
+            "Mild to moderate fluorosis.",
+            "Age-related changes.",
+            "Certain medical treatments can also cause tooth staining.",
+          ],
+          procedure: [
+            "First, we will remove the film that has formed on your enamel as a result of the food you eat or other substances.",
+            "Following this, the bleaching procedure begins. The entire procedure takes between 30-90 minutes, depending on the severity of the stains on the teeth.",
+            "We will cover the gums before applying the bleaching agent to the teeth. Some bleaching agents necessitate the use of laser lights, and if your teeth are severely stained, we may advise you to continue the process at home for a few days.",
+          ],
+          post: {
+            heading: "Post care after teeth whitening:",
+            des: [
+              "Avoid drinking strongly colored beverages after your whitening treatment.",
+              "Don’t eat foods that stain.",
+              "It is advised to stop smoking and/or chewing not only for health reasons, but also to keep your teeth pearly white.",
+              "Avoid coloured dental hygiene products.",
+            ],
+          },
+        },
+        procedure: [
+          "Examination: The dentist examines your teeth and gums to determine if you are a candidate for teeth whitening.",
+          "Cleaning: If necessary, a dental cleaning may be performed to remove surface stains and plaque before whitening.",
+          "Whitening Treatment: In-office treatments involve applying a bleaching agent directly to the teeth, which is activated by a special light or laser.",
+          "At-Home Kits: Dentist-prescribed kits typically use custom-fitted trays filled with a whitening gel that you wear for a specified period.",
+          "Follow-Up: After treatment, the dentist may provide instructions for maintaining results and scheduling follow-up visits.",
+        ],
+        purpose: [
+          "Remove Stains and Discoloration: Whitening treatments effectively lift stains caused by coffee, tea, wine, tobacco, and natural aging.",
+          "Enhance Smile Appearance: Brighter teeth can improve the overall appearance of your smile and boost self-confidence.",
+          "Customizable Options: Dentists can tailor treatments to your needs, offering both in-office procedures and take-home kits for convenience.",
+          "Safe and Controlled Application: Professional whitening ensures that the procedure is performed safely, minimizing potential risks to gums and tooth enamel.",
+        ],
+      },
+      {
         name: "Tooth Jewellery",
         img: ToothJewellery,
         mainDes: [
           "Decorative gems or ornaments bonded to the surface of teeth for cosmetic enhancement, often using safe dental adhesive methods.",
-        ],
-      },
-      {
-        name: "Dental X- Ray",
-        img: XRay,
-        mainDes: [
-          "Diagnostic imaging technique used to capture detailed images of teeth, gums, and jawbones to assess oral health and detect dental issues such as cavities, infections, and bone loss.",
-        ],
-        head: {
-          heading: "What are Dental X-Rays?",
-          des: [
-            "Dental X-rays are diagnostic imaging tools used by dentists to visualize the structures inside and around the teeth.",
-            "They provide detailed images of the teeth, gums, jawbone, and surrounding tissues that are not visible during a regular dental examination.",
-            "Dental X-rays help dentists diagnose dental conditions such as cavities, infections, bone loss, and abnormalities in tooth and jaw positioning.",
-          ],
-        },
-        procedure: [
-          "Preparation: The patient is covered with a lead apron to protect the body from radiation exposure, and a thyroid collar may be used to protect the thyroid gland.",
-          "Positioning: The patient is positioned correctly, and a dental X-ray sensor or film is placed in the mouth.",
-          "Taking the X-Ray: The dentist or dental assistant positions the X-ray machine and takes the X-ray. The patient needs to stay still for a few seconds during the exposure.",
-          "Developing the X-Ray: Digital X-rays appear instantly on a computer screen, while traditional film X-rays are developed in a darkroom or with an automatic processor.",
-          "Review and Diagnosis: The dentist reviews the X-rays to diagnose any issues such as cavities, bone loss, or other dental conditions.",
-        ],
-        purpose: [
-          "Detect Cavities: X-rays help in identifying cavities that are not visible during a regular dental examination.",
-          "Monitor Bone Health: They are used to assess the health of the bone supporting the teeth.",
-          "Evaluate Tooth Development: For children, X-rays are essential to monitor the development of teeth and to check for any abnormalities.",
-          "Plan Treatments: X-rays are critical for planning dental treatments such as braces, implants, and extractions.",
-          "Identify Infections or Disease: X-rays can reveal infections, cysts, tumors, and other diseases affecting the teeth and jawbones.",
-          "Diagnosis: Detects dental problems such as cavities, infections, gum disease, and impacted teeth.",
-          "Treatment Planning: Provides dentists with detailed information to plan treatments like fillings, root canals, and orthodontic care.",
-          "Preventive Care: Allows early detection of dental issues, preventing complications and preserving oral health.",
         ],
       },
     ],
@@ -1901,7 +1902,7 @@ export const servicesDoc = [
     ],
     subHead: [
       {
-        heading: "Skin Rejuvenation and Resurfacing:",
+        name: "Skin Rejuvenation and Resurfacing:",
         subTitle: [
           {
             name: "Chemical Peels",
@@ -2068,168 +2069,308 @@ export const servicesDoc = [
         ],
       },
       {
-        heading: "Lip and Eyebrows:",
+        name: "Lip and Eyebrows:",
         subTitle: [
           {
-            name: "Chemical Peels",
-            img: ChemicalPeels,
+            name: "Lip colour",
+            img: LipColour,
             head: {
-              heading: "What are Chemical Peels?",
+              heading: "what is Lip Coloring ?",
               des: [
-                "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
-                "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
-                "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+                "Lip coloring procedures involve enhancing or altering the natural color of the lips for aesthetic purposes.",
+                "These procedures can range from temporary enhancements to permanent changes, depending on the technique used.",
+                "Various methods exist to achieve desired lip colors, catering to different preferences and outcomes.",
               ],
             },
             procedure: [
-              "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
-              "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
-              "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
-              "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
-              "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+              {
+                heading: "Temporary Lip Coloring",
+                des: [
+                  "Lipstick: Application of cosmetic lipsticks in various shades to change lip color temporarily.",
+                  "Lip Gloss: Use of lip glosses that add shine and color to the lips without permanent alteration.",
+                ],
+              },
+              {
+                heading: "Semi-Permanent Lip Coloring",
+                des: [
+                  "Lip Stains: Application of lip stains that provide longer-lasting color compared to traditional lipsticks.",
+                  "Lip Tints: Tinting techniques that semi-permanently dye the lips for a natural-looking color.",
+                ],
+              },
+              {
+                heading: "Permanent Lip Coloring",
+                des: [
+                  "Lip Tattooing: Cosmetic tattooing (micropigmentation) to permanently implant pigment into the lips.",
+                  "Lip Implants: Surgical procedures to implant silicone or other materials for permanent lip enhancement.",
+                ],
+              },
             ],
             purpose: [
-              "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
-              "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
-              "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
-              "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+              "Enhanced Aesthetics: Improves lip appearance by adding color and definition.",
+              "Personal Expression: Allows individuals to express personal style and preferences.",
+              "Long-lasting Results: Provides temporary to permanent solutions depending on the chosen method.",
+              "Customization: Tailors lip color to complement facial features and skin tone.",
             ],
           },
           {
-            name: "Microderma abrasion",
-            img: MicrodermaAbrasion,
+            name: "Lip neutralisation/ lightening (dark/smoker lips)",
+            img: LipNeutralisation,
             head: {
-              heading: "What are Chemical Peels?",
+              heading:
+                "what is Lip Neutralisation/Lightening (Dark/Smoker's Lips)?",
               des: [
-                "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
-                "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
-                "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+                "Lip neutralisation or lightening is a cosmetic procedure aimed at reducing the darkness or pigmentation of the lips.",
+                "It is commonly sought by individuals with naturally dark lips or those affected by lip pigmentation due to smoking, sun exposure, or genetics.",
+                "Various techniques and treatments can be used to achieve lighter and more even-toned lips.",
               ],
             },
             procedure: [
-              "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
-              "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
-              "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
-              "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
-              "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+              {
+                heading: "Topical Treatments",
+                des: [
+                  "Topical Creams: Prescription or over-the-counter creams containing ingredients like hydroquinone or kojic acid to lighten lip pigmentation.",
+                  "Chemical Peels: Mild chemical peels applied to the lips to exfoliate and lighten darkened skin.",
+                ],
+              },
+              {
+                heading: "Professional Treatments",
+                des: [
+                  "Laser Therapy: Laser treatments target excess pigmentation in the lips, promoting lighter and more uniform skin tone.",
+                  "Cryotherapy: Freezing techniques used to remove darkened tissue and stimulate lighter skin regeneration.",
+                  "Microneedling: Microscopic needles create tiny channels in the lips, enhancing absorption of lightening agents and stimulating collagen production.",
+                ],
+              },
+              {
+                heading: "Home Remedies",
+                des: [
+                  "Natural Oils: Application of natural oils like almond oil or coconut oil known for their moisturizing and lightening properties.",
+                  "Lip Scrubs: Exfoliation with sugar or coffee-based lip scrubs to remove dead skin cells and reveal lighter lips.",
+                ],
+              },
             ],
             purpose: [
-              "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
-              "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
-              "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
-              "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+              "Cosmetic Enhancement: Improves the appearance of the lips by reducing dark pigmentation and achieving a more even tone.",
+              "Enhanced Confidence: Boosts self-esteem by providing a more aesthetically pleasing lip appearance.",
+              "Personalized Approach: Tailored treatments based on the severity of pigmentation and individual preferences.",
+              "Safe and Effective: Utilizes both professional and home-based methods to achieve desired results with minimal risk.",
             ],
           },
           {
-            name: "Hydra facial",
-            img: HydraFacial,
+            name: "Microblading of eyebrows",
+            img: Microblading,
             head: {
-              heading: "What is HydraFacial?",
+              heading: "what is Microblading of Eyebrows?",
               des: [
-                "HydraFacial is a non-invasive facial treatment that combines cleansing, exfoliation, extraction, hydration, and antioxidant protection.",
-                "It uses a patented device and specialized serums to cleanse and rejuvenate the skin, addressing various skin concerns.",
-                "HydraFacial treatments are suitable for all skin types and offer immediate results with no downtime.",
+                "Microblading is a semi-permanent cosmetic procedure used to enhance or reshape eyebrows.",
+                "It involves implanting pigment into the skin using fine, hair-like strokes to create natural-looking eyebrows.",
+                "The procedure is performed by trained professionals using specialized tools and techniques.",
               ],
             },
             procedure: [
-              "Cleansing and Exfoliation: The skin is cleansed and exfoliated to remove dead skin cells and impurities.",
-              "Acid Peel: A gentle peel solution is applied to loosen debris and prepare the skin for extraction.",
-              "Extraction: Automated suction is used to remove debris from pores, reducing congestion and improving skin clarity.",
-              "Hydration: Antioxidant-rich serums are infused into the skin to nourish and hydrate, promoting a healthy glow.",
-              "Protection: The skin is protected with serums containing peptides and hyaluronic acid to enhance skin elasticity and firmness.",
+              "Consultation: Discuss eyebrow shape, color preferences, and expected outcomes with a microblading specialist.",
+              "Mapping: Outline the desired eyebrow shape and map out the placement of hair strokes.",
+              "Pigment Selection: Choose a pigment that matches the natural eyebrow color and complements the client's skin tone.",
+              "Microblading: Using a hand tool with microblades, create hair-like strokes by depositing pigment into the skin's surface.",
+              "Aftercare: Provide instructions for post-treatment care to ensure proper healing and pigment retention.",
             ],
             purpose: [
-              "Deep Cleansing: Cleanses and exfoliates the skin, removing debris and impurities for a clearer complexion.",
-              "Hydration Boost: Hydrates the skin with nourishing serums to improve moisture levels and skin texture.",
-              "Enhance Skin Tone: Improves skin tone and vibrancy, reducing the appearance of fine lines, wrinkles, and hyperpigmentation.",
-              "Immediate Results: Provides instant results with no downtime, making it ideal for quick skin rejuvenation.",
+              "Natural-Looking Brows: Enhance sparse or over-plucked eyebrows with natural-looking hair strokes.",
+              "Enhanced Shape and Definition: Correct asymmetry or reshape eyebrows for a more defined appearance.",
+              "Long-Lasting Results: Enjoy semi-permanent results that can last up to 1-3 years with proper care and maintenance.",
+              "Time-Saving: Reduce daily makeup routines by waking up with defined eyebrows.",
             ],
           },
+          // {
+          //   name: "Chemical Peels",
+          //   img: ChemicalPeels,
+          //   head: {
+          //     heading: "What are Chemical Peels?",
+          //     des: [
+          //       "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+          //       "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+          //       "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+          //     "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+          //     "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+          //     "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+          //     "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+          //   ],
+          //   purpose: [
+          //     "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+          //     "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+          //     "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+          //     "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+          //   ],
+          // },
+          // {
+          //   name: "Microderma abrasion",
+          //   img: MicrodermaAbrasion,
+          //   head: {
+          //     heading: "What are Chemical Peels?",
+          //     des: [
+          //       "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+          //       "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+          //       "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+          //     "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+          //     "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+          //     "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+          //     "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+          //   ],
+          //   purpose: [
+          //     "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+          //     "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+          //     "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+          //     "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+          //   ],
+          // },
+          // {
+          //   name: "Hydra facial",
+          //   img: HydraFacial,
+          //   head: {
+          //     heading: "What is HydraFacial?",
+          //     des: [
+          //       "HydraFacial is a non-invasive facial treatment that combines cleansing, exfoliation, extraction, hydration, and antioxidant protection.",
+          //       "It uses a patented device and specialized serums to cleanse and rejuvenate the skin, addressing various skin concerns.",
+          //       "HydraFacial treatments are suitable for all skin types and offer immediate results with no downtime.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     "Cleansing and Exfoliation: The skin is cleansed and exfoliated to remove dead skin cells and impurities.",
+          //     "Acid Peel: A gentle peel solution is applied to loosen debris and prepare the skin for extraction.",
+          //     "Extraction: Automated suction is used to remove debris from pores, reducing congestion and improving skin clarity.",
+          //     "Hydration: Antioxidant-rich serums are infused into the skin to nourish and hydrate, promoting a healthy glow.",
+          //     "Protection: The skin is protected with serums containing peptides and hyaluronic acid to enhance skin elasticity and firmness.",
+          //   ],
+          //   purpose: [
+          //     "Deep Cleansing: Cleanses and exfoliates the skin, removing debris and impurities for a clearer complexion.",
+          //     "Hydration Boost: Hydrates the skin with nourishing serums to improve moisture levels and skin texture.",
+          //     "Enhance Skin Tone: Improves skin tone and vibrancy, reducing the appearance of fine lines, wrinkles, and hyperpigmentation.",
+          //     "Immediate Results: Provides instant results with no downtime, making it ideal for quick skin rejuvenation.",
+          //   ],
+          // },
+          // {
+          //   name: "Microneedling of the face",
+          //   img: Microneedling,
+          //   head: {
+          //     heading: "What is Microneedling?",
+          //     des: [
+          //       "Microneedling, also known as collagen induction therapy, is a minimally invasive cosmetic procedure.",
+          //       "It involves using fine needles to create tiny punctures in the skin's surface.",
+          //       "These micro-injuries stimulate the skin's natural healing process, promoting collagen and elastin production.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     "Preparation: The skin is cleansed and numbing cream may be applied to minimize discomfort.",
+          //     "Microneedling Device: A device with fine needles is passed over the skin, creating controlled micro-injuries.",
+          //     "Serum Application: Hyaluronic acid or other serums may be applied to enhance penetration and hydration.",
+          //     "Post-Treatment Care: Cooling masks or soothing creams may be applied to calm the skin post-procedure.",
+          //     "Recovery: Mild redness and swelling are common initially, with full recovery typically within a few days to a week.",
+          //   ],
+          //   purpose: [
+          //     "Collagen Production: Stimulates collagen and elastin production, improving skin texture and firmness.",
+          //     "Scar Reduction: Helps reduce the appearance of acne scars, surgical scars, and stretch marks.",
+          //     "Wrinkle Reduction: Minimizes fine lines and wrinkles, particularly around the eyes and mouth.",
+          //     "Enhanced Absorption: Increases absorption of skincare products, maximizing their effectiveness.",
+          //   ],
+          // },
+          // {
+          //   name: "Face PRP",
+          //   img: FacPRP,
+          //   head: {
+          //     heading: "what is Platelet-Rich Plasma (PRP) Facial.?",
+          //     des: [
+          //       "A Platelet-Rich Plasma (PRP) facial is a rejuvenating skincare treatment that uses the patient's own blood plasma.",
+          //       "PRP contains growth factors that promote healing and stimulate collagen production in the skin.",
+          //       "The procedure involves extracting plasma from the patient's blood, processing it, and then applying it to the face.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     "Blood Draw: A small amount of blood is drawn from the patient, typically from the arm.",
+          //     "Centrifugation: The blood is processed in a centrifuge to separate the plasma rich in platelets from other blood components.",
+          //     "Application: The PRP, now enriched with growth factors, is applied to the face using microneedling or injection techniques.",
+          //     "Absorption: The growth factors in PRP penetrate the skin, stimulating collagen production and cellular repair.",
+          //     "Post-Treatment Care: Recommendations for skincare and sun protection to optimize results.",
+          //   ],
+          //   purpose: [
+          //     "Skin Rejuvenation: Improves skin texture, tone, and elasticity for a more youthful appearance.",
+          //     "Collagen Boost: Stimulates collagen production, reducing fine lines, wrinkles, and acne scars.",
+          //     "Natural Results: Uses the body's own healing factors for safe and effective rejuvenation.",
+          //     "Minimal Downtime: Non-surgical procedure with minimal recovery time.",
+          //   ],
+          // },
+          // {
+          //   name: "Mole /Skin tag/wart removal",
+          //   img: wartRemoval,
+          //   head: {
+          //     heading: "what is Mole, Skin Tag, and Wart Removal.?",
+          //     des: [
+          //       "Mole, skin tag, and wart removal are common dermatological procedures to eliminate benign growths on the skin.",
+          //       "These procedures are typically performed by dermatologists or trained healthcare professionals.",
+          //       "Removal methods vary based on the type, size, and location of the growth.",
+          //     ],
+          //   },
+          //   procedure: [
+          //     {
+          //       heading: "Types of Removal Techniques",
+          //       des: [
+          //         "Excision: Surgical removal using a scalpel or surgical scissors for larger moles, skin tags, or warts.",
+          //         "Cryotherapy: Freezing the growth with liquid nitrogen to destroy the cells, often used for smaller moles, skin tags, and warts.",
+          //         "Electrosurgery: Using an electric current to burn and remove the growth, suitable for various sizes of moles, skin tags, and warts.",
+          //         "Laser Removal: Using laser technology to target and remove the growth, often preferred for precise and scar-free removal.",
+          //       ],
+          //     },
+          //     {
+          //       heading: "Post-Procedure Care",
+          //       des: [
+          //         "Wound Care: Instructions for keeping the treated area clean and protected from infection.",
+          //         "Healing Time: Expected recovery period and any activities to avoid during healing.",
+          //         "Follow-Up: Schedule follow-up appointments to monitor healing and ensure complete removal.",
+          //       ],
+          //     },
+          //   ],
+          //   purpose: [
+          //     "Cosmetic Improvement: Enhances skin appearance by removing unsightly or bothersome growths.",
+          //     "Medical Concerns: Eliminates potential irritations or discomfort caused by moles, skin tags, or warts.",
+          //     "Preventive Measures: Reduces the risk of irritation, infection, or changes in appearance.",
+          //     "Peace of Mind: Provides reassurance and peace of mind regarding benign growths.",
+          //   ],
+          // },
+        ],
+      },
+      {
+        name: "Hair:",
+        subTitle: [
           {
-            name: "Microneedling of the face",
-            img: Microneedling,
+            name: "Platelet-Rich Plasma (PRP) injections for Hair Growth.",
+            img: HairPRP,
             head: {
-              heading: "What is Microneedling?",
+              heading:
+                "what is Platelet-Rich Plasma (PRP) Treatment for Hair ?",
               des: [
-                "Microneedling, also known as collagen induction therapy, is a minimally invasive cosmetic procedure.",
-                "It involves using fine needles to create tiny punctures in the skin's surface.",
-                "These micro-injuries stimulate the skin's natural healing process, promoting collagen and elastin production.",
+                "Platelet-Rich Plasma (PRP) treatment for hair is a non-surgical procedure that utilizes the patient's own blood plasma.",
+                "PRP contains growth factors that promote hair growth and improve hair density.",
+                "The procedure involves extracting PRP from the patient's blood and injecting it into the scalp.",
               ],
             },
             procedure: [
-              "Preparation: The skin is cleansed and numbing cream may be applied to minimize discomfort.",
-              "Microneedling Device: A device with fine needles is passed over the skin, creating controlled micro-injuries.",
-              "Serum Application: Hyaluronic acid or other serums may be applied to enhance penetration and hydration.",
-              "Post-Treatment Care: Cooling masks or soothing creams may be applied to calm the skin post-procedure.",
-              "Recovery: Mild redness and swelling are common initially, with full recovery typically within a few days to a week.",
-            ],
-            purpose: [
-              "Collagen Production: Stimulates collagen and elastin production, improving skin texture and firmness.",
-              "Scar Reduction: Helps reduce the appearance of acne scars, surgical scars, and stretch marks.",
-              "Wrinkle Reduction: Minimizes fine lines and wrinkles, particularly around the eyes and mouth.",
-              "Enhanced Absorption: Increases absorption of skincare products, maximizing their effectiveness.",
-            ],
-          },
-          {
-            name: "Face PRP",
-            img: FacPRP,
-            head: {
-              heading: "what is Platelet-Rich Plasma (PRP) Facial.?",
-              des: [
-                "A Platelet-Rich Plasma (PRP) facial is a rejuvenating skincare treatment that uses the patient's own blood plasma.",
-                "PRP contains growth factors that promote healing and stimulate collagen production in the skin.",
-                "The procedure involves extracting plasma from the patient's blood, processing it, and then applying it to the face.",
-              ],
-            },
-            procedure: [
-              "Blood Draw: A small amount of blood is drawn from the patient, typically from the arm.",
+              "Blood Draw: A small amount of blood is drawn from the patient, usually from the arm.",
               "Centrifugation: The blood is processed in a centrifuge to separate the plasma rich in platelets from other blood components.",
-              "Application: The PRP, now enriched with growth factors, is applied to the face using microneedling or injection techniques.",
-              "Absorption: The growth factors in PRP penetrate the skin, stimulating collagen production and cellular repair.",
-              "Post-Treatment Care: Recommendations for skincare and sun protection to optimize results.",
+              "Injection: The PRP, enriched with growth factors, is injected into the scalp at the level of the hair follicles.",
+              "Stimulation: Growth factors in PRP stimulate hair follicles, promote hair growth, and prolong the growth phase of hair.",
+              "Post-Treatment Care: Recommendations for scalp care and follow-up treatments to maintain results.",
             ],
             purpose: [
-              "Skin Rejuvenation: Improves skin texture, tone, and elasticity for a more youthful appearance.",
-              "Collagen Boost: Stimulates collagen production, reducing fine lines, wrinkles, and acne scars.",
-              "Natural Results: Uses the body's own healing factors for safe and effective rejuvenation.",
-              "Minimal Downtime: Non-surgical procedure with minimal recovery time.",
-            ],
-          },
-          {
-            name: "Mole /Skin tag/wart removal",
-            img: wartRemoval,
-            head: {
-              heading: "what is Mole, Skin Tag, and Wart Removal.?",
-              des: [
-                "Mole, skin tag, and wart removal are common dermatological procedures to eliminate benign growths on the skin.",
-                "These procedures are typically performed by dermatologists or trained healthcare professionals.",
-                "Removal methods vary based on the type, size, and location of the growth.",
-              ],
-            },
-            procedure: [
-              {
-                heading: "Types of Removal Techniques",
-                des: [
-                  "Excision: Surgical removal using a scalpel or surgical scissors for larger moles, skin tags, or warts.",
-                  "Cryotherapy: Freezing the growth with liquid nitrogen to destroy the cells, often used for smaller moles, skin tags, and warts.",
-                  "Electrosurgery: Using an electric current to burn and remove the growth, suitable for various sizes of moles, skin tags, and warts.",
-                  "Laser Removal: Using laser technology to target and remove the growth, often preferred for precise and scar-free removal.",
-                ],
-              },
-              {
-                heading: "Post-Procedure Care",
-                des: [
-                  "Wound Care: Instructions for keeping the treated area clean and protected from infection.",
-                  "Healing Time: Expected recovery period and any activities to avoid during healing.",
-                  "Follow-Up: Schedule follow-up appointments to monitor healing and ensure complete removal.",
-                ],
-              },
-            ],
-            purpose: [
-              "Cosmetic Improvement: Enhances skin appearance by removing unsightly or bothersome growths.",
-              "Medical Concerns: Eliminates potential irritations or discomfort caused by moles, skin tags, or warts.",
-              "Preventive Measures: Reduces the risk of irritation, infection, or changes in appearance.",
-              "Peace of Mind: Provides reassurance and peace of mind regarding benign growths.",
+              "Hair Regrowth: Stimulates dormant hair follicles to promote new hair growth.",
+              "Hair Thickening: Increases hair thickness and density for fuller-looking hair.",
+              "Natural Approach: Utilizes the body's own healing factors to enhance hair growth.",
+              "Minimal Downtime: Non-invasive procedure with minimal recovery time.",
             ],
           },
         ],
@@ -2608,115 +2749,6 @@ export const servicesDoc = [
     //       "Hair Thickening: Increases hair thickness and density for fuller-looking hair.",
     //       "Natural Approach: Utilizes the body's own healing factors to enhance hair growth.",
     //       "Minimal Downtime: Non-invasive procedure with minimal recovery time.",
-    //     ],
-    //   },
-    //   {
-    //     name: "Lip neutralisation/ lightening (dark/smoker lips)",
-    //     img: LipNeutralisation,
-    //     head: {
-    //       heading:
-    //         "what is Lip Neutralisation/Lightening (Dark/Smoker's Lips)?",
-    //       des: [
-    //         "Lip neutralisation or lightening is a cosmetic procedure aimed at reducing the darkness or pigmentation of the lips.",
-    //         "It is commonly sought by individuals with naturally dark lips or those affected by lip pigmentation due to smoking, sun exposure, or genetics.",
-    //         "Various techniques and treatments can be used to achieve lighter and more even-toned lips.",
-    //       ],
-    //     },
-    //     procedure: [
-    //       {
-    //         heading: "Topical Treatments",
-    //         des: [
-    //           "Topical Creams: Prescription or over-the-counter creams containing ingredients like hydroquinone or kojic acid to lighten lip pigmentation.",
-    //           "Chemical Peels: Mild chemical peels applied to the lips to exfoliate and lighten darkened skin.",
-    //         ],
-    //       },
-    //       {
-    //         heading: "Professional Treatments",
-    //         des: [
-    //           "Laser Therapy: Laser treatments target excess pigmentation in the lips, promoting lighter and more uniform skin tone.",
-    //           "Cryotherapy: Freezing techniques used to remove darkened tissue and stimulate lighter skin regeneration.",
-    //           "Microneedling: Microscopic needles create tiny channels in the lips, enhancing absorption of lightening agents and stimulating collagen production.",
-    //         ],
-    //       },
-    //       {
-    //         heading: "Home Remedies",
-    //         des: [
-    //           "Natural Oils: Application of natural oils like almond oil or coconut oil known for their moisturizing and lightening properties.",
-    //           "Lip Scrubs: Exfoliation with sugar or coffee-based lip scrubs to remove dead skin cells and reveal lighter lips.",
-    //         ],
-    //       },
-    //     ],
-    //     purpose: [
-    //       "Cosmetic Enhancement: Improves the appearance of the lips by reducing dark pigmentation and achieving a more even tone.",
-    //       "Enhanced Confidence: Boosts self-esteem by providing a more aesthetically pleasing lip appearance.",
-    //       "Personalized Approach: Tailored treatments based on the severity of pigmentation and individual preferences.",
-    //       "Safe and Effective: Utilizes both professional and home-based methods to achieve desired results with minimal risk.",
-    //     ],
-    //   },
-    //   {
-    //     name: "Lip colour",
-    //     img: LipColour,
-    //     head: {
-    //       heading: "what is Lip Coloring ?",
-    //       des: [
-    //         "Lip coloring procedures involve enhancing or altering the natural color of the lips for aesthetic purposes.",
-    //         "These procedures can range from temporary enhancements to permanent changes, depending on the technique used.",
-    //         "Various methods exist to achieve desired lip colors, catering to different preferences and outcomes.",
-    //       ],
-    //     },
-    //     procedure: [
-    //       {
-    //         heading: "Temporary Lip Coloring",
-    //         des: [
-    //           "Lipstick: Application of cosmetic lipsticks in various shades to change lip color temporarily.",
-    //           "Lip Gloss: Use of lip glosses that add shine and color to the lips without permanent alteration.",
-    //         ],
-    //       },
-    //       {
-    //         heading: "Semi-Permanent Lip Coloring",
-    //         des: [
-    //           "Lip Stains: Application of lip stains that provide longer-lasting color compared to traditional lipsticks.",
-    //           "Lip Tints: Tinting techniques that semi-permanently dye the lips for a natural-looking color.",
-    //         ],
-    //       },
-    //       {
-    //         heading: "Permanent Lip Coloring",
-    //         des: [
-    //           "Lip Tattooing: Cosmetic tattooing (micropigmentation) to permanently implant pigment into the lips.",
-    //           "Lip Implants: Surgical procedures to implant silicone or other materials for permanent lip enhancement.",
-    //         ],
-    //       },
-    //     ],
-    //     purpose: [
-    //       "Enhanced Aesthetics: Improves lip appearance by adding color and definition.",
-    //       "Personal Expression: Allows individuals to express personal style and preferences.",
-    //       "Long-lasting Results: Provides temporary to permanent solutions depending on the chosen method.",
-    //       "Customization: Tailors lip color to complement facial features and skin tone.",
-    //     ],
-    //   },
-    //   {
-    //     name: "Microblading of eyebrows",
-    //     img: Microblading,
-    //     head: {
-    //       heading: "what is Microblading of Eyebrows?",
-    //       des: [
-    //         "Microblading is a semi-permanent cosmetic procedure used to enhance or reshape eyebrows.",
-    //         "It involves implanting pigment into the skin using fine, hair-like strokes to create natural-looking eyebrows.",
-    //         "The procedure is performed by trained professionals using specialized tools and techniques.",
-    //       ],
-    //     },
-    //     procedure: [
-    //       "Consultation: Discuss eyebrow shape, color preferences, and expected outcomes with a microblading specialist.",
-    //       "Mapping: Outline the desired eyebrow shape and map out the placement of hair strokes.",
-    //       "Pigment Selection: Choose a pigment that matches the natural eyebrow color and complements the client's skin tone.",
-    //       "Microblading: Using a hand tool with microblades, create hair-like strokes by depositing pigment into the skin's surface.",
-    //       "Aftercare: Provide instructions for post-treatment care to ensure proper healing and pigment retention.",
-    //     ],
-    //     purpose: [
-    //       "Natural-Looking Brows: Enhance sparse or over-plucked eyebrows with natural-looking hair strokes.",
-    //       "Enhanced Shape and Definition: Correct asymmetry or reshape eyebrows for a more defined appearance.",
-    //       "Long-Lasting Results: Enjoy semi-permanent results that can last up to 1-3 years with proper care and maintenance.",
-    //       "Time-Saving: Reduce daily makeup routines by waking up with defined eyebrows.",
     //     ],
     //   },
     // ],

@@ -22,14 +22,15 @@
 }
 .service_page_details {
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
+  /* width: 90vw; */
   margin-top: -7rem;
   display: flex;
   gap: 3rem;
 }
 .service_page_list {
-  flex-basis: 25rem;
-  min-width: 22rem;
+  /* flex-basis: 1; */
+  width: 30%;
   background: linear-gradient(
     -90deg,
     var(--secondary-color),
@@ -72,16 +73,18 @@
 .service_page_list_sub_title.four.drop_down {
   height: 664px;
 }
-.service_page_list_sub_title_name {
-  column-count: 2;
+.service_page_list_sub_title_name.two_coloum {
   column-gap: 2rem;
 }
 .service_page_list_sub_title_name_box {
   padding: 8px 1rem;
   font-size: 16px;
   list-style: disc;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: capitalize;
+  text-indent: -22px;
+  padding-left: 23px;
+  break-inside: avoid;
 }
 .service_page_list_sub_title_name_box.active {
   background-color: var(--main-color);
@@ -93,15 +96,18 @@
 .service_page_des {
   padding-top: 9rem;
   margin-right: 2rem;
-  flex-grow: 1;
-  flex-shrink: 1;
+  /* flex-basis: 2; */
+  width: 70%;
 }
 .service_page_des_content_details {
-  display: flex;
+  /* display: flex; */
   /* align-items: center; */
-  flex-direction: column;
-  gap: 3rem;
+  /* flex-direction: column; */
+  /* gap: 3rem; */
   /* justify-content: space-around; */
+}
+.service_page_des_content {
+  display: block;
 }
 .first_col {
   flex: 1;
@@ -156,7 +162,7 @@
   padding: 8px;
   text-transform: capitalize;
   /* text-align: center; */
-  font-size: 18px;
+  font-size: 20px;
   background-color: var(--white-color);
   color: var(--black-color);
   font-weight: 700;
@@ -227,22 +233,25 @@
   font-weight: 700;
 }
 .service_page_list_sub_title_two {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  gap: 1rem;
   margin-bottom: 3rem;
+  display: block;
 }
 .service_page_list_sub_title_two_img img {
   width: 100%;
   transition: all 0.3s ease;
-  height: 332px;
+  height: 220px;
+  filter: brightness(0.8);
   object-fit: cover;
 }
+.service_page_list_sub_title_two_img img:hover {
+  filter: brightness(1);
+}
 .service_page_list_sub_title_two_img img.active {
-  filter: brightness(0.5);
+  filter: brightness(0.3);
 }
 .service_page_list_sub_title_two_des_box {
   max-width: 22rem;
+  text-align: center;
 }
 
 .service_page_list_sub_title_two_box {
@@ -251,19 +260,22 @@
   border: 1px solid rgb(230, 230, 230);
   transition: all 0.5s ease;
   overflow: hidden;
-  height: 380px;
+  cursor: pointer;
+  height: 260px;
   position: relative;
 }
 .service_page_list_sub_title_two_name {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
+  text-align: center;
   padding: 5px 1rem;
 }
 .service_page_list_sub_title_two_box_content {
   transform: translateY(0);
   background-color: var(--white-color);
   /* overflow: hidden; */
-  max-height: 332px;
+  max-height: 225px;
+  width: 100%;
   /* overflow-y: scroll; */
   transition: all 0.3s ease;
 }
@@ -273,4 +285,61 @@
 }
 .service_page_list_sub_title_two_des {
   padding: 5px 1rem;
+}
+.service_page_des_content_details_des_sub_details.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.service_page_des_all_service_content_sub_head_name {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.service_page_list_sub_title_two .contral-btn {
+  position: absolute;
+  margin: auto;
+  top: 35%;
+  width: 100%;
+  z-index: 7;
+}
+.service_page_list_sub_title_two .contral-btn .next,
+.service_page_list_sub_title_two .contral-btn .prev {
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: var(--white-color);
+  width: 2.8rem;
+  height: 2.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+  opacity: 0.6;
+  border: 1px solid var(--white-color);
+  font-weight: 100;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.service_page_list_sub_title_two .contral-btn .next:hover,
+.service_page_list_sub_title_two .contral-btn .prev:hover {
+  opacity: 0.8;
+  background-color: var(--main-color);
+}
+.service_page_list_sub_title_two .contral-btn .next {
+  right: -2%;
+  position: absolute;
+}
+.service_page_list_sub_title_two .contral-btn .prev {
+  left: -2%;
+  position: absolute;
+}
+.service_page_des_content_details_des_sub_details {
+  display: flex;
+  justify-content: space-between;
+}
+.service_page_des_content_details_des_sub_details_two .box {
+  list-style: disc;
+  text-indent: -22px;
+  padding-left: 25px;
 }
