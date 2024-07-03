@@ -11,11 +11,18 @@ export const AppProvider = ({ children }) => {
     const [serviceMainHead, setMainServiceHead] = useState(servicesDoc[0])
     const [servicePerDetail, setServicePerDeatil] = useState(null)
     const [doctor, setDoctor] = useState(Doctors[0])
+    const [slider, setSlider] = useState(null)
+    const [navbar, setNavbar] = useState(null)
 
-    const handleServiceDeatil = (main, product) => {
+    const handleServiceDeatil = (main, product, i) => {
         if (location.pathname !== 'service') {
             navigator('service')
         }
+        // if (i !== null || i !== undefined) {
+        //     setSlider(i)
+        // }
+        setSlider(i)
+        setNavbar(2)
         if (product?.name === servicePerDetail?.name) {
             setServicePerDeatil(null)
         }
@@ -46,17 +53,35 @@ export const AppProvider = ({ children }) => {
             navigator('meet')
         }
         setDoctor(item)
+        setNavbar(3)
     }
 
+    const handleClickNavbar = (id) => {
+        if (id === 2 || id === 3) {
+            setNavbar(navbar)
+        }
+        else {
+            if (id === 1) {
+                navigator("/")
+            }
+            else {
+                navigator("contact")
+            }
+            setNavbar(id)
+        }
+    }
 
     const contextValue = {
         servicePerDetail,
         serviceMainHead,
         handleServiceDeatil,
         doctor,
-        handleClickDoctor
-
+        handleClickDoctor,
+        slider,
+        navbar,
+        handleClickNavbar
     }
+
     console.log(serviceMainHead)
     return (
         <AppContext.Provider value={contextValue}>

@@ -65,6 +65,8 @@ import ChronicDental from "../../images/services/head-jaw-pain-tooth-against-blu
 import WrinkleTreatment from "../../images/services/Wrinkles-Treatment-1024x652.jpg";
 import BrowLift from "../../images/services/DENVER-EYELID-LIFTS-AND-BROW-LIFTS-1024x683-1.jpeg";
 import Rhinoplasty from "../../images/services/rhinoplasty-nose-surgery-rhinoplasty-surgeon-bhopal.jpg";
+import ChronicFacial from "../../images/service-one/facial-pain-causes.png";
+import Blepharoplasty from "../../images/service-one/width_800 (1).webp";
 
 export const servicesDoc = [
   {
@@ -944,6 +946,10 @@ export const servicesDoc = [
           {
             name: "Chronic dental pain",
             img: ChronicDental,
+            mainDes: [
+              "Chronic dental pain is a persistent, long-lasting discomfort in the teeth or gums, often caused by conditions like tooth decay, gum disease, or nerve damage. ",
+              "It requires professional diagnosis and treatment to alleviate the pain and address the underlying issue.",
+            ],
           },
           {
             name: "Oral diseases",
@@ -1147,18 +1153,17 @@ export const servicesDoc = [
           "Maxillofacial trauma refers to any injury to the face or jaws.",
           "This type of trauma can be caused by: motor vehicle accidents, falls, sports injuries, interpersonal violence, and work-related accidents.",
         ],
-        mainDesTwo: [
-          {
-            heading: "Patients may exhibit symptoms such as:",
-            des: [
-              "Facial lacerations",
-              "Intra-oral lacerations",
-              "Avulsed (knocked out) teeth",
-              "Fractured facial bones (cheek, nose or eye socket)",
-              "Fractured jaws (upper and lower jaw)",
-            ],
-          },
-        ],
+        mainDesTwo: {
+          heading: "Patients may exhibit symptoms such as:",
+          des: [
+            "Facial lacerations",
+            "Intra-oral lacerations",
+            "Avulsed (knocked out) teeth",
+            "Fractured facial bones (cheek, nose or eye socket)",
+            "Fractured jaws (upper and lower jaw)",
+          ],
+        },
+
         img: FacialTrauma,
         head: {
           heading: "What is Facial Trauma?",
@@ -1253,51 +1258,6 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Corrective Jaw Surgery",
-        subName: "(Reconstructing the Jaw to correct an Abnormal Bite)",
-        img: CorrectiveJaw,
-        head: {
-          heading: "What is Corrective Jaw Surgery?",
-          des: [
-            "Corrective jaw surgery, also known as orthognathic surgery, is a surgical procedure performed to correct jaw abnormalities and improve facial balance.",
-            "It is often recommended to address issues such as misaligned jaws, excessive overbite or underbite, facial asymmetry, and difficulty chewing, speaking, or breathing.",
-            "The surgery may involve repositioning the upper jaw (maxilla), lower jaw (mandible), or both to achieve optimal alignment and function.",
-          ],
-        },
-        procedure: [
-          {
-            heading: "Assessment and Planning",
-            des: [
-              "Consultation: Comprehensive evaluation by an oral and maxillofacial surgeon to assess jaw alignment and determine surgical needs.",
-              "Orthodontic Preparation: Pre-surgical orthodontic treatment to align teeth and optimize bite alignment before surgery.",
-            ],
-          },
-          {
-            heading: "Surgical Procedure",
-            des: [
-              "Incisions: Surgical cuts are made inside the mouth (intraoral) or externally along the jawline (extraoral) to access the jaw bones.",
-              "Bone Repositioning: The surgeon adjusts the position of the jaw bones to correct alignment and bite.",
-              "Stabilization: Plates, screws, or wires may be used to stabilize the newly positioned jaw bones.",
-              "Soft Tissue Adjustment: Repositioning of facial soft tissues to enhance facial aesthetics and function.",
-            ],
-          },
-          {
-            heading: "Recovery and Post-Surgical Care",
-            des: [
-              "Hospital Stay: Recovery typically begins with a short hospital stay for monitoring and pain management.",
-              "Post-Operative Instructions: Detailed guidelines for managing swelling, pain, diet, oral hygiene, and activity restrictions.",
-              "Follow-Up Visits: Regular follow-up appointments to monitor healing progress, adjust orthodontic appliances, and assess long-term outcomes.",
-            ],
-          },
-        ],
-        purpose: [
-          "Correct Jaw Alignment: Surgery aims to achieve proper alignment of the jaws, improving bite function and facial balance.",
-          "Enhance Facial Aesthetics: Addressing facial asymmetry and proportions for improved facial harmony and aesthetics.",
-          "Improve Oral Function: Enhancing chewing, speaking, and breathing capabilities.",
-          "Address Functional Issues: Correcting issues such as difficulty biting, chewing, or swallowing due to jaw misalignment.",
-        ],
-      },
-      {
         name: "Oral Cancer",
         subName: "(Can develop in any part of the Mouth)",
         img: OralCancer,
@@ -1350,6 +1310,10 @@ export const servicesDoc = [
       {
         name: "Cysts & Tumors",
         subName: "(May present in any part of the Face, Jaw & Mouth)",
+        mainDes: [
+          "Cysts & Tumors of the Face, Jaw & Mouth may also involve  salivary glands, sinuses, and other structures in the head and neck region.",
+          "To Note: Any painless swelling on the face that gradually increases in size needs to be evaluated.",
+        ],
         img: PathologyTumour,
         head: {
           heading: "What is Head and Neck Pathology/Tumor?",
@@ -1394,8 +1358,69 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Facial nerve concerns (neuralgia)",
+        name: "Corrective Jaw Surgery",
+        subName: "(Reconstructing the Jaw to correct an Abnormal Bite)",
+        mainDes: [
+          "Corrective jaw surgery, also known as Orthognathic Surgery, is a surgical procedure performed to correct jaw abnormalities and improve facial balance.",
+          "The surgery may involve repositioning the upper jaw (maxilla), lower jaw (mandible), or both to achieve optimal alignment and function.",
+          "To Note: This surgery is done when braces alone cannot correct the malalignment of the teeth or when the jaw bones need correction.",
+        ],
+        img: CorrectiveJaw,
+        head: {
+          heading: "What is Corrective Jaw Surgery?",
+          des: [
+            "Corrective jaw surgery, also known as orthognathic surgery, is a surgical procedure performed to correct jaw abnormalities and improve facial balance.",
+            "It is often recommended to address issues such as misaligned jaws, excessive overbite or underbite, facial asymmetry, and difficulty chewing, speaking, or breathing.",
+            "The surgery may involve repositioning the upper jaw (maxilla), lower jaw (mandible), or both to achieve optimal alignment and function.",
+          ],
+        },
+        procedure: [
+          {
+            heading: "Assessment and Planning",
+            des: [
+              "Consultation: Comprehensive evaluation by an oral and maxillofacial surgeon to assess jaw alignment and determine surgical needs.",
+              "Orthodontic Preparation: Pre-surgical orthodontic treatment to align teeth and optimize bite alignment before surgery.",
+            ],
+          },
+          {
+            heading: "Surgical Procedure",
+            des: [
+              "Incisions: Surgical cuts are made inside the mouth (intraoral) or externally along the jawline (extraoral) to access the jaw bones.",
+              "Bone Repositioning: The surgeon adjusts the position of the jaw bones to correct alignment and bite.",
+              "Stabilization: Plates, screws, or wires may be used to stabilize the newly positioned jaw bones.",
+              "Soft Tissue Adjustment: Repositioning of facial soft tissues to enhance facial aesthetics and function.",
+            ],
+          },
+          {
+            heading: "Recovery and Post-Surgical Care",
+            des: [
+              "Hospital Stay: Recovery typically begins with a short hospital stay for monitoring and pain management.",
+              "Post-Operative Instructions: Detailed guidelines for managing swelling, pain, diet, oral hygiene, and activity restrictions.",
+              "Follow-Up Visits: Regular follow-up appointments to monitor healing progress, adjust orthodontic appliances, and assess long-term outcomes.",
+            ],
+          },
+        ],
+        purpose: [
+          "Correct Jaw Alignment: Surgery aims to achieve proper alignment of the jaws, improving bite function and facial balance.",
+          "Enhance Facial Aesthetics: Addressing facial asymmetry and proportions for improved facial harmony and aesthetics.",
+          "Improve Oral Function: Enhancing chewing, speaking, and breathing capabilities.",
+          "Address Functional Issues: Correcting issues such as difficulty biting, chewing, or swallowing due to jaw misalignment.",
+        ],
+      },
+      {
+        name: "Chronic Facial Pain.",
+        img: ChronicFacial,
+        mainDes: [
+          "Chronic facial pain is a prolonged pain experienced in the face, often linked to conditions such as temporomandibular joint disorders (TMJ), trigeminal neuralgia, or chronic sinusitis. It typically requires comprehensive medical evaluation and treatment to manage the symptoms effectively.",
+        ],
+      },
+      {
+        name: "Facial Nerve Problems.",
         img: FacialNerve,
+        mainDes: [
+          "Facial nerve problems, such as Bell's palsy or trigeminal neuralgia, can cause weakness, paralysis, or severe pain in the face.",
+          "These conditions often require a combination of medical treatments, physical therapy, and sometimes surgery to alleviate symptoms and improve facial function.",
+        ],
         head: {
           heading: "What are Facial Nerve Concerns (Facial Neuralgia)?",
           des: [
@@ -1640,6 +1665,10 @@ export const servicesDoc = [
       {
         name: "Botox",
         img: Botox,
+        mainDes: [
+          "Cosmetic treatment that temporarily reduce/ eliminate facial wrinkles and fine lines.",
+          "Botox injections also have medical applications.",
+        ],
         head: {
           heading: "What is Botox?",
           des: [
@@ -1665,6 +1694,9 @@ export const servicesDoc = [
       {
         name: "Dermal fillers",
         img: DermalFillers,
+        mainDes: [
+          "Help diminish facial lines and restores volume and fullness of the face.",
+        ],
         head: {
           heading: "What are Dermal Fillers?",
           des: [
@@ -1690,60 +1722,66 @@ export const servicesDoc = [
       {
         name: "Wrinkle Treatment",
         img: WrinkleTreatment,
-      },
-      {
-        name: "Chemical Peels",
-        img: ChemicalPeels,
-        head: {
-          heading: "What are Chemical Peels?",
-          des: [
-            "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
-            "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
-            "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
-          ],
-        },
-        procedure: [
-          "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
-          "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
-          "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
-          "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
-          "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
-        ],
-        purpose: [
-          "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
-          "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
-          "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
-          "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+        mainDes: [
+          "Wrinkle treatment encompasses a variety of methods aimed at reducing the appearance of wrinkles and fine lines on the skin. ",
         ],
       },
-      {
-        name: "Microderma abrasion",
-        img: MicrodermaAbrasion,
-        head: {
-          heading: "What are Chemical Peels?",
-          des: [
-            "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
-            "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
-            "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
-          ],
-        },
-        procedure: [
-          "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
-          "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
-          "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
-          "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
-          "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
-        ],
-        purpose: [
-          "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
-          "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
-          "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
-          "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
-        ],
-      },
+      // {
+      //   name: "Chemical Peels",
+      //   img: ChemicalPeels,
+      //   head: {
+      //     heading: "What are Chemical Peels?",
+      //     des: [
+      //       "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+      //       "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+      //       "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+      //     ],
+      //   },
+      //   procedure: [
+      //     "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+      //     "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+      //     "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+      //     "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+      //     "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+      //   ],
+      //   purpose: [
+      //     "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+      //     "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+      //     "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+      //     "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+      //   ],
+      // },
+      // {
+      //   name: "Microderma abrasion",
+      //   img: MicrodermaAbrasion,
+      //   head: {
+      //     heading: "What are Chemical Peels?",
+      //     des: [
+      //       "Chemical peels are cosmetic treatments that involve applying a chemical solution to the skin to exfoliate and improve its texture.",
+      //       "They are used to treat wrinkles, acne scars, uneven skin tone, and sun-damaged skin by removing damaged outer layers.",
+      //       "Chemical peels vary in strength and can be tailored to different skin types and concerns.",
+      //     ],
+      //   },
+      //   procedure: [
+      //     "Consultation: Initial evaluation to assess skin type, concerns, and determine the most suitable peel strength and type.",
+      //     "Preparation: Skin is cleansed thoroughly to remove oils and makeup before the chemical solution is applied.",
+      //     "Application: The chemical solution is applied to the skin and left on for a specific period, depending on the peel's depth.",
+      //     "Neutralization: Some peels may require neutralization to stop the chemical reaction and remove the solution.",
+      //     "Recovery: Post-peel care instructions include moisturizing, avoiding sun exposure, and using sunscreen.",
+      //   ],
+      //   purpose: [
+      //     "Improve Skin Texture: Smooths rough skin texture and reduces fine lines, wrinkles, and acne scars.",
+      //     "Enhance Skin Tone: Evens out skin tone and diminishes pigmentation irregularities, such as sun spots or melasma.",
+      //     "Stimulate Collagen Production: Promotes collagen growth for firmer, more youthful-looking skin over time.",
+      //     "Customized Treatments: Tailored peels address specific concerns, from superficial peels for mild exfoliation to deep peels for significant skin rejuvenation.",
+      //   ],
+      // },
       {
         name: "Scar Revision/ Correction",
         img: ScarRemoval,
+        mainDes: [
+          "Minimizes the appearance of scars, improving skin texture and appearance.",
+        ],
         head: {
           heading: "What is Scar Removal?",
           des: [
@@ -1791,6 +1829,10 @@ export const servicesDoc = [
       {
         name: "Dimploplasty (making a dimple on the cheek)",
         img: Dimploplasty,
+        mainDes: [
+          "A cosmetic procedure aimed at creating dimples on the cheeks.",
+          "The procedure is typically elective and involves minimal risk with the goal of enhancing facial aesthetics.",
+        ],
         head: {
           heading: "What is Dimpleplasty (Cheek Dimple Surgery)?",
           des: [
@@ -1835,7 +1877,12 @@ export const servicesDoc = [
         ],
       },
       {
-        name: "Lobuloplasty (repair of ear lobe tear)",
+        name: "Lobuloplasty",
+        subName: "(repair of ear lobe tear) Blepharoplasty (eyelid surgery)",
+        mainDes: [
+          "Correcting torn or stretched earlobes.",
+          "Earlobe tears can result from trauma, heavy earrings, or prolonged wear, causing a split or elongation of the earlobe.",
+        ],
         img: Lobuloplasty,
         head: {
           heading: "What is Lobuloplasty (Repair of Ear Lobe Tear)?",
@@ -1881,12 +1928,24 @@ export const servicesDoc = [
         ],
       },
       {
+        name: "Blepharoplasty (eyelid surgery)",
+        img: Blepharoplasty,
+        mainDes: [
+          "Blepharoplasty (eyelid surgery)",
+          "Anti-Aging Treatment, by removing excess skin from the upper eyelids",
+        ],
+      },
+      {
         name: "Brow lift (forehead lift)",
         img: BrowLift,
+        mainDes: [
+          "The procedure involves raising the soft tissue and skin of the forehead and brow.",
+        ],
       },
       {
         name: "Rhinoplasty (nose surgery)",
         img: Rhinoplasty,
+        mainDes: ["Change the shape of the nose."],
       },
     ],
   },
@@ -1907,6 +1966,9 @@ export const servicesDoc = [
           {
             name: "Chemical Peels",
             img: ChemicalPeels,
+            mainDes: [
+              "Various acid peels are used to remove damaged outer skin layers",
+            ],
             head: {
               heading: "What are Chemical Peels?",
               des: [
@@ -1932,6 +1994,9 @@ export const servicesDoc = [
           {
             name: "Microderma abrasion",
             img: MicrodermaAbrasion,
+            mainDes: [
+              "Gently sand the skin, and remove the thicker, uneven outer layer",
+            ],
             head: {
               heading: "What are Chemical Peels?",
               des: [
@@ -1957,6 +2022,9 @@ export const servicesDoc = [
           {
             name: "Hydra facial",
             img: HydraFacial,
+            mainDes: [
+              "Medical-grade hydradermabrasion device Gentle exfoliation and relaxing resurfacing of the skin.",
+            ],
             head: {
               heading: "What is HydraFacial?",
               des: [
@@ -1981,6 +2049,9 @@ export const servicesDoc = [
           },
           {
             name: "Microneedling of the face",
+            mainDes: [
+              "Fine needles create tiny punctures in the skin's surface, which stimulate the skin's natural healing.",
+            ],
             img: Microneedling,
             head: {
               heading: "What is Microneedling?",
@@ -2007,6 +2078,10 @@ export const servicesDoc = [
           {
             name: "Face PRP",
             img: FacPRP,
+            mainDes: [
+              "Rejuvenating skincare treatment that uses the patient's own blood plasma.",
+              "PRP contains growth factors that promote healing and stimulate collagen production in the skin.",
+            ],
             head: {
               heading: "what is Platelet-Rich Plasma (PRP) Facial.?",
               des: [
@@ -2032,6 +2107,9 @@ export const servicesDoc = [
           {
             name: "Mole /Skin tag/wart removal",
             img: wartRemoval,
+            mainDes: [
+              "Removal methods vary based on the type, size, and location of the growth.",
+            ],
             head: {
               heading: "what is Mole, Skin Tag, and Wart Removal.?",
               des: [
@@ -2072,49 +2150,9 @@ export const servicesDoc = [
         name: "Lip and Eyebrows:",
         subTitle: [
           {
-            name: "Lip colour",
-            img: LipColour,
-            head: {
-              heading: "what is Lip Coloring ?",
-              des: [
-                "Lip coloring procedures involve enhancing or altering the natural color of the lips for aesthetic purposes.",
-                "These procedures can range from temporary enhancements to permanent changes, depending on the technique used.",
-                "Various methods exist to achieve desired lip colors, catering to different preferences and outcomes.",
-              ],
-            },
-            procedure: [
-              {
-                heading: "Temporary Lip Coloring",
-                des: [
-                  "Lipstick: Application of cosmetic lipsticks in various shades to change lip color temporarily.",
-                  "Lip Gloss: Use of lip glosses that add shine and color to the lips without permanent alteration.",
-                ],
-              },
-              {
-                heading: "Semi-Permanent Lip Coloring",
-                des: [
-                  "Lip Stains: Application of lip stains that provide longer-lasting color compared to traditional lipsticks.",
-                  "Lip Tints: Tinting techniques that semi-permanently dye the lips for a natural-looking color.",
-                ],
-              },
-              {
-                heading: "Permanent Lip Coloring",
-                des: [
-                  "Lip Tattooing: Cosmetic tattooing (micropigmentation) to permanently implant pigment into the lips.",
-                  "Lip Implants: Surgical procedures to implant silicone or other materials for permanent lip enhancement.",
-                ],
-              },
-            ],
-            purpose: [
-              "Enhanced Aesthetics: Improves lip appearance by adding color and definition.",
-              "Personal Expression: Allows individuals to express personal style and preferences.",
-              "Long-lasting Results: Provides temporary to permanent solutions depending on the chosen method.",
-              "Customization: Tailors lip color to complement facial features and skin tone.",
-            ],
-          },
-          {
             name: "Lip neutralisation/ lightening (dark/smoker lips)",
             img: LipNeutralisation,
+            mainDes: ["Reduces the darkness/ pigmentation of the lips."],
             head: {
               heading:
                 "what is Lip Neutralisation/Lightening (Dark/Smoker's Lips)?",
@@ -2156,8 +2194,55 @@ export const servicesDoc = [
             ],
           },
           {
+            name: "Lip colour",
+            img: LipColour,
+            mainDes: [
+              "Lip colour treatments aim to enhance or restore the natural colour and appearance of the lips.",
+            ],
+            head: {
+              heading: "what is Lip Coloring ?",
+              des: [
+                "Lip coloring procedures involve enhancing or altering the natural color of the lips for aesthetic purposes.",
+                "These procedures can range from temporary enhancements to permanent changes, depending on the technique used.",
+                "Various methods exist to achieve desired lip colors, catering to different preferences and outcomes.",
+              ],
+            },
+            procedure: [
+              {
+                heading: "Temporary Lip Coloring",
+                des: [
+                  "Lipstick: Application of cosmetic lipsticks in various shades to change lip color temporarily.",
+                  "Lip Gloss: Use of lip glosses that add shine and color to the lips without permanent alteration.",
+                ],
+              },
+              {
+                heading: "Semi-Permanent Lip Coloring",
+                des: [
+                  "Lip Stains: Application of lip stains that provide longer-lasting color compared to traditional lipsticks.",
+                  "Lip Tints: Tinting techniques that semi-permanently dye the lips for a natural-looking color.",
+                ],
+              },
+              {
+                heading: "Permanent Lip Coloring",
+                des: [
+                  "Lip Tattooing: Cosmetic tattooing (micropigmentation) to permanently implant pigment into the lips.",
+                  "Lip Implants: Surgical procedures to implant silicone or other materials for permanent lip enhancement.",
+                ],
+              },
+            ],
+            purpose: [
+              "Enhanced Aesthetics: Improves lip appearance by adding color and definition.",
+              "Personal Expression: Allows individuals to express personal style and preferences.",
+              "Long-lasting Results: Provides temporary to permanent solutions depending on the chosen method.",
+              "Customization: Tailors lip color to complement facial features and skin tone.",
+            ],
+          },
+          {
             name: "Microblading of eyebrows",
             img: Microblading,
+            mainDes: [
+              "A semi-permanent cosmetic procedure to enhance/reshape eyebrows.",
+            ],
             head: {
               heading: "what is Microblading of Eyebrows?",
               des: [
@@ -2350,6 +2435,10 @@ export const servicesDoc = [
           {
             name: "Platelet-Rich Plasma (PRP) injections for Hair Growth.",
             img: HairPRP,
+            mainDes: [
+              "The patient's own blood plasma is injected.",
+              "PRP contains growth factors that promote hair growth and improves hair density.",
+            ],
             head: {
               heading:
                 "what is Platelet-Rich Plasma (PRP) Treatment for Hair ?",

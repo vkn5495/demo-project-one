@@ -85,11 +85,11 @@ const FooterTwo = () => {
                                         <div className={`FooterTwo_des ${id === 1 ? "two" : ""}`}>
                                             {
                                                 item?.sub_head?.map((prodt, i) => {
-                                                    const setUp = () => i === 1 ? prodt?.subHead[0]?.subTitle[0] : prodt?.subTitle[0]
+                                                    // const setUp = () => i === 1 ? prodt?.subHead[0]?.subTitle[0] : prodt?.subTitle[0]
                                                     return (
                                                         <div key={i} className="FooterTwo_des_box"
                                                             onClick={id === 0 ? () => context.handleClickDoctor(prodt) :
-                                                                id === 1 ? () => context.handleServiceDeatil(prodt, setUp) :
+                                                                (id === 1 || id === 4) ? () => context.handleServiceDeatil(prodt, null) :
                                                                     prodt?.link ? () => handleClick(prodt?.link) : null
                                                             }>
                                                             <span>{prodt?.icon}</span>

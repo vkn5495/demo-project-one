@@ -332,7 +332,7 @@ const ServiceSectionThree = (props) => {
                     return (
                       <div className="service_details_des_box"
                         key={idx}
-                        onClick={() => context.handleServiceDeatil(null, product)}>
+                        onClick={() => context.handleServiceDeatil(product, null)}>
                         <img src={product?.mainImg} className='product_img' alt="" />
                         <div className="service_details_des_box_name">{product?.title}</div>
                       </div>

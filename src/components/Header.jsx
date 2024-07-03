@@ -348,6 +348,7 @@ const Navbar = () => {
     const stickyDivRef = useRef(null);
     const [stickyHeader, setStickyHeader] = useState(false)
     const navigator = useNavigate()
+    const location = useLocation()
 
     useEffect(() => {
         const handleScroll = () => {
@@ -373,16 +374,35 @@ const Navbar = () => {
         const selectedLanguage = e.target.value;
         i18n.changeLanguage(selectedLanguage)
     }
-    const [click, setClick] = useState(null)
-    const handleSetClick = (id) => {
-        setClick(id)
-        if (id === 1) {
-            navigator("/")
-        }
-        if (id === 3) {
-            navigator("contact")
-        }
-    }
+    // const [click, setClick] = useState(null)
+    // const handleSetClick = (id) => {
+    //     setClick(id)
+    //     if (id === 1) {
+    //         navigator("/")
+    //     }
+    //     if (id === 3) {
+    //         navigator("contact")
+    //     }
+    // }
+
+    // useEffect(() => {
+    //     function jasj() {
+    //         if (location.pathname === '/') {
+    //             setClick(1)
+    //         }
+    //         else if (location.pathname === 'service') {
+    //             setClick(2)
+    //         }
+    //         else if (location.pathname === 'meet') {
+    //             setClick(3)
+    //         }
+    //         else {
+    //             setClick(4)
+    //         }
+    //     }
+    //     jasj()
+    // }, [])
+
     return (
         <div className={`navabar ${stickyHeader ? "active" : ""}`} ref={stickyDivRef}>
             <div className={`nav-links container ${stickyHeader ? "p-0" : "margin_bottom"}`}>
@@ -408,20 +428,19 @@ const Navbar = () => {
                 </ul> */}
                 <nav className="nav main-menu">
                     <ul className={`navigation ${stickyHeader ? "item_gap" : ""}`} id="navbar">
-                        <Link to={"/"}>
-                            <li
-                                className={`${click === 1 ? "current" : ""} dropdown`}>
-                                <span onClick={() => handleSetClick(1)}
-                                    style={{
-                                        color: '#fff',
-                                        textDecoration: 'none'
-                                    }}>{i18n.t("Home")}</span>
-                            </li>
-                        </Link>
                         <li
-                            className={`${click === 2 ? "current" : ""} dropdown mega-menu`}
+                            className={`${stickyHeader ? "sticky" : ""} ${context.navbar === 1 ? "current" : ""} 
+                                dropdown`}>
+                            <span onClick={() => context.handleClickNavbar(1)}
+                                style={{
+                                    color: '#fff',
+                                    textDecoration: 'none'
+                                }}>{i18n.t("Home")}</span>
+                        </li>
+                        <li
+                            className={`${stickyHeader ? "sticky" : ""} ${context.navbar === 2 ? "current" : ""} dropdown mega-menu`}
                             id="mega-menu">
-                            <span onClick={() => setClick(2)}>{i18n.t("Service")}</span>
+                            <span onClick={() => context.handleClickNavbar(2)}>{i18n.t("Service")}</span>
                             <div className="mega-menu">
                                 <div className="mega-menu-bar row">
                                     <ul>
@@ -442,8 +461,8 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li
-                            className={`${click === 3 ? "current" : ""} dropdown`}>
-                            <span onClick={() => setClick(2)}>{i18n.t("MeetUs")}</span>
+                            className={`${stickyHeader ? "sticky" : ""} ${context.navbar === 3 ? "current" : ""} dropdown`}>
+                            <span onClick={() => context.handleClickNavbar(3)}>{i18n.t("MeetUs")}</span>
                             <div className="mega-menu">
                                 <div className="mega-menu-bar row">
                                     <ul>
@@ -460,8 +479,8 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li
-                            className={`${click === 3 ? "current" : ""} dropdown`}>
-                            <span onClick={() => handleSetClick(3)}>{i18n.t("ContactUs")}</span>
+                            className={`${stickyHeader ? "sticky" : ""} ${context.navbar === 4 ? "current" : ""} dropdown`}>
+                            <span onClick={() => context.handleClickNavbar(4)}>{i18n.t("ContactUs")}</span>
                             {/* <div className="mega-menu">
                                 <div className="mega-menu-bar row">
                                     <ul>

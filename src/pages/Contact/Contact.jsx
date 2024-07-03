@@ -70,7 +70,7 @@ const Contact = () => {
             </div>
             <div className="productDeatils_map">
               <div style={{ borderRadius: '4px' }}>
-                <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '600px', width: '100%', borderRadius: '4px', overflow: 'hidden' }}>
+                <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '600px', width: '100%', borderRadius: '4px', overflow: 'hidden', zIndex: "1" }}>
                   <TileLayer
                     style={{
                       borderRadius: '4px'

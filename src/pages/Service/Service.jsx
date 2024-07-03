@@ -202,9 +202,9 @@ const SubTitleCom = ({ subTitle, main }) => {
                                     return (
                                         <li className={`service_page_list_sub_title_name_box 
                                 `}
-                                            onClick={() => context.handleServiceDeatil(null, u)} key={i}>
+                                            onClick={() => context.handleServiceDeatil(null, u, i)} key={i}>
                                             {/* <a href={`#${u?.img}`}>{u?.name}</a> */}
-                                            {u?.name}{u?.subName}
+                                            {u?.name} {u?.subName}
                                         </li>
                                     )
                                 })
@@ -216,7 +216,7 @@ const SubTitleCom = ({ subTitle, main }) => {
                                     return (
                                         <li className={`service_page_list_sub_title_name_box 
                                 `}
-                                            onClick={() => context.handleServiceDeatil(null, u)} key={i}>
+                                            onClick={() => context.handleServiceDeatil(null, u, i)} key={i}>
                                             {/* <a href={`#${u?.img}`}>{u?.name}</a> */}
                                             {u?.name}{u?.subName}
                                         </li>
@@ -232,7 +232,7 @@ const SubTitleCom = ({ subTitle, main }) => {
                                     return (
                                         <li className={`service_page_list_sub_title_name_box 
                                 `}
-                                            onClick={() => context.handleServiceDeatil(null, u)} key={i}>
+                                            onClick={() => context.handleServiceDeatil(null, u, i)} key={i}>
                                             {/* <a href={`#${u?.img}`}>{u?.name}</a> */}
                                             {u?.name}{u?.subName}
                                         </li>
@@ -249,15 +249,15 @@ const SubTitleCom = ({ subTitle, main }) => {
 
 const SubTitleComTwo = ({ subTitle }) => {
     const context = useContext(AppContext)
-    // let sliderRef1 = useRef(null);
+    let sliderRef1 = useRef(null);
 
-    // useEffect(() => {
-    //     const findIndextwo = context.serviceMainHead?.subHead ? context.serviceMainHead?.subHead?.subTitle : context.serviceMainHead?.subTitle
-    //     const index = findIndextwo.findIndex(child => child.name === context.servicePerDetail?.name);
-    //     if (index !== -1 && sliderRef1.current) {
-    //         sliderRef1.current.slickGoTo(index);
-    //     }
-    // }, []);
+    useEffect(() => {
+        // const findIndextwo = context.serviceMainHead?.subHead ? context.serviceMainHead?.subHead?.subTitle : context.serviceMainHead?.subTitle
+        // const index = findIndextwo.findIndex(child => child.name === context.servicePerDetail?.name);
+        if (sliderRef1.current) {
+            sliderRef1.current.slickGoTo(context.slider);
+        }
+    }, []);
 
     var settings = {
         dots: false,
@@ -270,8 +270,10 @@ const SubTitleComTwo = ({ subTitle }) => {
         // className: "center",
         // centerMode: true,
     };
-    // console.log(sliderRef1)
-    console.log(subTitle.length)
+    console.log(sliderRef1)
+    console.log(context.slider)
+    // console.log(subTitle.length)
+
     return (
         <div className="service_page_list_sub_title_two">
             <>
@@ -279,13 +281,15 @@ const SubTitleComTwo = ({ subTitle }) => {
                     subTitle?.length > 1 ?
                         <>
                             {
-                                <Slider {...settings} >
+                                <Slider {...settings}
+                                    ref={slider => sliderRef1 = slider}
+                                >
                                     {
                                         subTitle?.map((u, i) => {
                                             return (
                                                 <div className={`service_page_list_sub_title_two_box 
                                      ${context.servicePerDetail?.name === u?.name ? "active" : ""}`}
-                                                    onClick={() => context.handleServiceDeatil(null, u)} key={i}>
+                                                    onClick={() => context.handleServiceDeatil(null, u, i)} key={i}>
                                                     <div className="service_page_list_sub_title_two_img">
                                                         <img src={u?.img}
                                                             className={`${context.servicePerDetail?.name === u?.name ? "active" : ""}`} alt="" />
@@ -304,6 +308,7 @@ const SubTitleComTwo = ({ subTitle }) => {
                                                                 })
                                                             }
                                                         </div>
+                                                        <ComOne item={u?.mainDesTwo} />
                                                     </div>
                                                 </div>
                                             )
